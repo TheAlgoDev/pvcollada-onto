@@ -68,19 +68,22 @@ if (-not $staged) {
     exit 0
 }
 
-git commit -m "feat: add complete project structure
+$msg = @'
+feat: add complete project structure
 
-- ontology/pvcollada_onto.ttl  OWL 2 DL, 1367 triples, MDS-Onto aligned
-- ontology/README.md           full class/property/enumeration reference
-- sparql/                      Oxigraph Docker Compose endpoint
-- mcp/                         Python MCP server (4 SPARQL-backed tools)
-- shapes/pvcollada_shape.ttl   SHACL NodeShapes for all key classes
-- queries/cq01-cq10            10 SPARQL competency queries
-- widoco-sections/             custom abstract/intro/description/references
-- .github/workflows/           WIDOCO CI with OOPS + WebVOWL + auto-commit
-- docs/.nojekyll + index.html  static Pages placeholder, no Jekyll
-- w3id/                        content-negotiation redirect config
-- README.md                    FAIR-O style with WebVOWL + provenance links"
+ontology/pvcollada_onto.ttl  OWL 2 DL, 1367 triples, MDS-Onto aligned
+ontology/README.md           full class/property/enumeration reference
+sparql/                      Oxigraph Docker Compose endpoint
+mcp/                         Python MCP server, 4 SPARQL-backed tools
+shapes/pvcollada_shape.ttl   SHACL NodeShapes for all key classes
+queries/cq01-cq10            10 SPARQL competency queries
+widoco-sections/             custom abstract, intro, description, references
+.github/workflows/           WIDOCO CI with OOPS, WebVOWL, auto-commit
+docs/.nojekyll               static Pages placeholder, no Jekyll
+w3id/                        content-negotiation redirect config
+README.md                    FAIR-O style with WebVOWL and provenance links
+'@
+git commit -m $msg
 
 # ── Push ─────────────────────────────────────────────────────────────────────
 
