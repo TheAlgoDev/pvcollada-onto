@@ -60,7 +60,12 @@ jobs:
         run: |
           sudo rm -rf docs
           mkdir -p docs
-          cp -R /tmp/widoco-output/. docs/
+          # WIDOCO writes output into a doc/ subdirectory inside -outFolder
+          if [ -d /tmp/widoco-output/doc ]; then
+            cp -R /tmp/widoco-output/doc/. docs/
+          else
+            cp -R /tmp/widoco-output/. docs/
+          fi
           if [ -f docs/index-en.html ]; then
             cp docs/index-en.html docs/index.html
           fi
