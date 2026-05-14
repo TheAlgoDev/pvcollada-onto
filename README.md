@@ -1,10 +1,10 @@
 # PV-Collada Ontology (`pvcollada_onto.ttl`)
 
 <p align="center">
-  <a href="https://thealgodev.github.io/pvcollada-onto/webvowl/index.html">
+  <a href="https://w3id.org/pvcollada/webvowl">
     <img src="https://img.shields.io/badge/Visualize-WebVOWL-blue?style=flat-square" alt="WebVOWL" />
   </a>
-  <a href="https://thealgodev.github.io/pvcollada-onto/">
+  <a href="https://w3id.org/pvcollada">
     <img src="https://img.shields.io/badge/Docs-WIDOCO-green?style=flat-square" alt="WIDOCO Docs" />
   </a>
   <a href="https://creativecommons.org/licenses/by-sa/4.0/">
@@ -32,11 +32,13 @@ The PV-Collada Ontology is an OWL 2 vocabulary designed to formalize the represe
 
 | Resource | Link |
 |---|---|
-| **Interactive graph (WebVOWL)** | [View ontology diagram](https://thealgodev.github.io/pvcollada-onto/webvowl/index.html) |
-| **Full HTML documentation** | [WIDOCO docs](https://thealgodev.github.io/pvcollada-onto/) |
-| **Provenance** | [provenance-en.html](https://thealgodev.github.io/pvcollada-onto/provenance/provenance-en.html) |
-| **OOPS! evaluation** | [oopsEval.html](https://thealgodev.github.io/pvcollada-onto/OOPSevaluation/oopsEval.html) |
-| **Persistent IRI** | [https://w3id.org/pvcollada](https://w3id.org/pvcollada) |
+| **Interactive graph (WebVOWL)** | [https://w3id.org/pvcollada/webvowl](https://w3id.org/pvcollada/webvowl) |
+| **Full HTML documentation** | [https://w3id.org/pvcollada](https://w3id.org/pvcollada) |
+| **Provenance** | [https://w3id.org/pvcollada/provenance](https://w3id.org/pvcollada/provenance) |
+| **OOPS! evaluation** | [https://w3id.org/pvcollada/oops](https://w3id.org/pvcollada/oops) |
+| **Raw Turtle** | [pvcollada_onto.ttl](ontology/pvcollada_onto.ttl) |
+
+> All `https://w3id.org/pvcollada/` IRIs are content-negotiated: RDF clients receive the Turtle file directly; browsers are redirected to the documentation.
 
 ## Repository Structure
 
@@ -73,7 +75,7 @@ The ontology covers three interlocking layers:
 | **Circuit topology** | `String`, `InverterInstance`, `CircuitPosition` | Wiring relationships between components |
 | **Physical layout** | `FixedTiltRack`, `TrackerRack`, `ModuleLayout` | 3-D geometry and georeferenced placement |
 
-`ModuleLayout` is the cross-domain bridge that links a `CircuitPosition` (circuit layer) to a `Rack` (physical layer).
+`ModuleLayout` is the cross-domain bridge that links a `CircuitPosition` (circuit layer) to a `Rack` (physical layer). Each class IRI is dereferenceable — e.g. [https://w3id.org/pvcollada/Module](https://w3id.org/pvcollada/Module) resolves to the class definition in the documentation.
 
 ## MDS-Onto Alignment
 
@@ -109,7 +111,6 @@ The ontology covers three interlocking layers:
 ```bash
 cd sparql
 docker compose up -d
-# Load the ontology
 curl -X POST http://localhost:7878/store \
   -H "Content-Type: text/turtle" \
   --data-binary @../ontology/pvcollada_onto.ttl
