@@ -38,7 +38,7 @@ from mcp.server.fastmcp import FastMCP
 OXIGRAPH_URL = os.getenv("OXIGRAPH_URL", "http://localhost:7878")
 SPARQL_ENDPOINT = f"{OXIGRAPH_URL}/query"
 
-PVC = "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/"
+PVC = "https://w3id.org/pvcollada/"
 MDS = "https://cwrusdle.bitbucket.io/mds/"
 
 PREFIXES = f"""
@@ -148,7 +148,7 @@ def get_class_hierarchy(class_iri: str) -> str:
 
     Args:
         class_iri: Full IRI or pvc:-prefixed short form, e.g.
-                   "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+                   "https://w3id.org/pvcollada/Module"
                    or "pvc:Module"
     """
     # Expand pvc: shorthand

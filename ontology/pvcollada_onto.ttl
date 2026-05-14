@@ -7,7 +7,7 @@
 #    OWL 2 Web Ontology Language (W3C, Second Edition)
 #    MDS-Onto FindTheDocs conventions  https://cwrusdle.bitbucket.io/
 #
-#  Namespace:  pvc:  <https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/>
+#  Namespace:  pvc:  <https://w3id.org/pvcollada/>
 #  Domain:     mds:builtenv
 #  Sub-domain: pvcollada
 #
@@ -27,8 +27,8 @@
 #      tCoefVoc / numCells / numCellsSeries / numStrings / manufacturer
 ###############################################################################
 
-@prefix :    <https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/> .
-@prefix pvc: <https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/> .
+@prefix :    <https://w3id.org/pvcollada/> .
+@prefix pvc: <https://w3id.org/pvcollada/> .
 @prefix mds: <https://cwrusdle.bitbucket.io/mds/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -46,9 +46,9 @@
 #  O N T O L O G Y   H E A D E R
 ###############################################################################
 
-<https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/>
+<https://w3id.org/pvcollada/>
     a owl:Ontology ;
-    owl:versionIRI <https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/0.1.0> ;
+    owl:versionIRI <https://w3id.org/pvcollada/0.1.0> ;
     owl:imports <https://cwrusdle.bitbucket.io/mds/> ;
     rdfs:label "PV-Collada Ontology"@en ;
     skos:definition

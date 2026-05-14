@@ -1,7 +1,7 @@
 # CQ03 — For each inverter type, what is the MPPT voltage window per channel?
 # Returns inverter model, MPPT unit IRI, Vmpp_min, Vmpp_max, max input current.
 
-PREFIX pvc:  <https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/>
+PREFIX pvc:  <https://w3id.org/pvcollada/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT ?inverter ?invLabel ?mppt ?vMppMin ?vMppMax ?maxInputCurrent

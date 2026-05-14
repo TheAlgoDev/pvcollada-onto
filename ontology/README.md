@@ -12,7 +12,7 @@ and formally aligned with [MDS-Onto](https://cwrusdle.bitbucket.io/mds/)
 
 | Item | Value |
 |------|-------|
-| Ontology IRI | `https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/` |
+| Ontology IRI | `https://w3id.org/pvcollada/` |
 | Persistent IRI | `https://w3id.org/pvcollada` (pending merge of w3id PR #6066) |
 | Prefix | `pvc:` |
 | OWL profile | OWL 2 DL |
@@ -197,7 +197,7 @@ print(len(g), "triples")          # 1367
 **Local SPARQL endpoint** — see `../sparql/README.md` for Oxigraph Docker
 Compose setup. Once running at `localhost:7878`:
 ```sparql
-PREFIX pvc: <https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/>
+PREFIX pvc: <https://w3id.org/pvcollada/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT ?class ?label WHERE {

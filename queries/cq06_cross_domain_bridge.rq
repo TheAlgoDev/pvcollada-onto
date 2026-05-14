@@ -1,7 +1,7 @@
 # CQ06 — Which modules occupy which rack slots? (Cross-domain bridge: circuit ↔ physical)
 # ModuleLayout links a circuit ModuleArray position to a physical Rack row/column.
 
-PREFIX pvc:  <https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/>
+PREFIX pvc:  <https://w3id.org/pvcollada/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT ?layout ?modType ?rack ?rackLabel ?row ?col

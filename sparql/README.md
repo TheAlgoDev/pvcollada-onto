@@ -31,7 +31,7 @@ docker compose restart loader
 Or manually:
 
 ```bash
-curl -X POST http://localhost:7878/store?graph=https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ \
+curl -X POST http://localhost:7878/store?graph=https://w3id.org/pvcollada/ \
   -H "Content-Type: text/turtle" \
   --data-binary @../ontology/pvcollada_onto.ttl
 ```
@@ -46,7 +46,7 @@ docker compose down -v       # also wipe data (forces full reload on next start)
 ## Example query
 
 ```sparql
-PREFIX pvc: <https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/>
+PREFIX pvc: <https://w3id.org/pvcollada/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT ?class ?label WHERE {

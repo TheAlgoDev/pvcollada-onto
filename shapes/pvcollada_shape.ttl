@@ -1,5 +1,5 @@
 @prefix sh:    <http://www.w3.org/ns/shacl#> .
-@prefix pvc:   <https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/> .
+@prefix pvc:   <https://w3id.org/pvcollada/> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
@@ -74,7 +74,7 @@ pvc:ModuleShape
         sh:message "vMpp must be less than vOc." ;
         sh:prefixes pvc: ;
         sh:select """
-            PREFIX pvc: <https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/>
+            PREFIX pvc: <https://w3id.org/pvcollada/>
             SELECT $this WHERE {
                 $this pvc:vMpp ?vmpp ;
                       pvc:vOc  ?voc .
@@ -184,7 +184,7 @@ pvc:MPPTUnitShape
     sh:sparql [
         sh:message "vMppMax must be greater than vMppMin." ;
         sh:select """
-            PREFIX pvc: <https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/>
+            PREFIX pvc: <https://w3id.org/pvcollada/>
             SELECT $this WHERE {
                 $this pvc:vMppMin ?vmin ;
                       pvc:vMppMax ?vmax .

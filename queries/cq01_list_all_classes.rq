@@ -3,7 +3,7 @@
 
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX pvc:  <https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/>
+PREFIX pvc:  <https://w3id.org/pvcollada/>
 
 SELECT ?class ?label ?comment
 WHERE {

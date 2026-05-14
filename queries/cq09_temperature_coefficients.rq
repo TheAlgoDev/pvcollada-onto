@@ -1,7 +1,7 @@
 # CQ09 — What temperature coefficients are defined for each module type?
 # Returns tCoefPower (%/°C), tCoefVoc (V/°C), tCoefIsc (A/°C).
 
-PREFIX pvc:  <https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/>
+PREFIX pvc:  <https://w3id.org/pvcollada/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT ?module ?label ?tCoefPower ?tCoefVoc ?tCoefIsc
