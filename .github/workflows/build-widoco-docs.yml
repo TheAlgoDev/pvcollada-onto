@@ -84,12 +84,20 @@ jobs:
             fi
           done
 
+      # ── Pull latest so auto-commit can push cleanly ───────────────────────
+      - name: Pull latest main before committing docs
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull origin main --rebase
+
       # ── Commit docs back to repo ──────────────────────────────────────────
       - name: Commit generated documentation
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "docs: auto-rebuild WIDOCO documentation [skip ci]"
           file_pattern: "docs/**"
+          push_options: "--force-with-lease"
 
       # ── Upload Pages artifact ─────────────────────────────────────────────
       - name: Upload Pages artifact
