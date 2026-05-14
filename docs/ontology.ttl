@@ -1,19 +1,19 @@
-@prefix : <https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/> .
+@prefix : <https://w3id.org/pvcollada/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/> .
+@base <https://w3id.org/pvcollada/> .
 
-<https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/> rdf:type owl:Ontology ;
-                                                         owl:versionIRI <https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/0.1.0> ;
-                                                         owl:imports <https://cwrusdle.bitbucket.io/mds/> ;
-                                                         <http://www.ontologyrepository.com/CommonCoreOntologies/ont00001754> "https://github.com/ucf-photovoltaics/pv-ontology"^^xsd:anyURI ;
-                                                         rdfs:label "PV-Collada Ontology"@en ;
-                                                         rdfs:seeAlso <http://www.example.com/pvcollada> ;
-                                                         <http://www.w3.org/2004/02/skos/core#definition> "OWL 2 ontology derived from the PV-Collada 2.0 XSD schema. Provides vocabulary for PV system circuit topology, physical layout geometry, and component product data, within the MDS-Onto builtenv domain."@en ;
-                                                         <http://www.w3.org/2004/02/skos/core#scopeNote> "Covers three interlocking layers: (1) a product library of typed PV components (modules, inverters, cables, etc.); (2) a circuit topology describing how those components are wired together; and (3) a physical 3-D layout associating circuit positions with geometric rack instances. ModuleLayout is the cross-domain bridge between layers 2 and 3."@en .
+<https://w3id.org/pvcollada/> rdf:type owl:Ontology ;
+                               owl:versionIRI <https://w3id.org/pvcollada/0.1.0> ;
+                               owl:imports <https://cwrusdle.bitbucket.io/mds/> ;
+                               <http://www.ontologyrepository.com/CommonCoreOntologies/ont00001754> "https://github.com/ucf-photovoltaics/pv-ontology"^^xsd:anyURI ;
+                               rdfs:label "PV-Collada Ontology"@en ;
+                               rdfs:seeAlso <http://www.example.com/pvcollada> ;
+                               <http://www.w3.org/2004/02/skos/core#definition> "OWL 2 ontology derived from the PV-Collada 2.0 XSD schema. Provides vocabulary for PV system circuit topology, physical layout geometry, and component product data, within the MDS-Onto builtenv domain."@en ;
+                               <http://www.w3.org/2004/02/skos/core#scopeNote> "Covers three interlocking layers: (1) a product library of typed PV components (modules, inverters, cables, etc.); (2) a circuit topology describing how those components are wired together; and (3) a physical 3-D layout associating circuit positions with geometric rack instances. ModuleLayout is the cross-domain bridge between layers 2 and 3."@en .
 
 #################################################################
 #    Annotation properties
@@ -63,7 +63,7 @@
 #    Object Properties
 #################################################################
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasCableToNeighbor
+###  https://w3id.org/pvcollada/hasCableToNeighbor
 :hasCableToNeighbor rdf:type owl:ObjectProperty ;
                     rdfs:domain :OptimizerInstance ;
                     rdfs:range :CableTo ;
@@ -71,14 +71,14 @@
                     <http://www.w3.org/2004/02/skos/core#definition> "Associates an optimizer instance with the cable that daisy-chains it to an adjacent optimizer."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasCableToParent
+###  https://w3id.org/pvcollada/hasCableToParent
 :hasCableToParent rdf:type owl:ObjectProperty ;
                   rdfs:range :CableTo ;
                   rdfs:label "has cable to parent"@en ;
                   <http://www.w3.org/2004/02/skos/core#definition> "Associates a circuit instance with the cable that connects it to its electrical parent node."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasCellArchitecture
+###  https://w3id.org/pvcollada/hasCellArchitecture
 :hasCellArchitecture rdf:type owl:ObjectProperty ;
                      rdfs:domain :Module ;
                      rdfs:range :CellArchitecture ;
@@ -86,7 +86,7 @@
                      <http://www.w3.org/2004/02/skos/core#definition> "Specifies the cell junction or contact architecture used in a module."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasCellMaterial
+###  https://w3id.org/pvcollada/hasCellMaterial
 :hasCellMaterial rdf:type owl:ObjectProperty ;
                  rdfs:domain :Module ;
                  rdfs:range :CellMaterial ;
@@ -94,7 +94,7 @@
                  <http://www.w3.org/2004/02/skos/core#definition> "Specifies the semiconductor absorber material of the cells in a module."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasConductorMaterial
+###  https://w3id.org/pvcollada/hasConductorMaterial
 :hasConductorMaterial rdf:type owl:ObjectProperty ;
                       rdfs:domain :Cable ;
                       rdfs:range :ConductorMaterial ;
@@ -102,7 +102,7 @@
                       <http://www.w3.org/2004/02/skos/core#definition> "Specifies the conductor material of a cable product."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasDCCombinerInput
+###  https://w3id.org/pvcollada/hasDCCombinerInput
 :hasDCCombinerInput rdf:type owl:ObjectProperty ;
                     rdfs:domain :MPPTInput ;
                     rdfs:range :DCCombinerInstance ;
@@ -110,7 +110,7 @@
                     <http://www.w3.org/2004/02/skos/core#definition> "Associates an MPPT input with a DC combiner that aggregates strings."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasDriveType
+###  https://w3id.org/pvcollada/hasDriveType
 :hasDriveType rdf:type owl:ObjectProperty ;
               rdfs:domain :Table ;
               rdfs:range :DriveType ;
@@ -118,7 +118,7 @@
               <http://www.w3.org/2004/02/skos/core#definition> "Associates a single-axis tracker table with its drive coupling type."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasEfficiencyStandardType
+###  https://w3id.org/pvcollada/hasEfficiencyStandardType
 :hasEfficiencyStandardType rdf:type owl:ObjectProperty ;
                            rdfs:domain :Inverter ;
                            rdfs:range :EfficiencyStandardType ;
@@ -126,7 +126,7 @@
                            <http://www.w3.org/2004/02/skos/core#definition> "Specifies the rating standard (CEC or EU) used to compute the efficiency_standard_value."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasGapType
+###  https://w3id.org/pvcollada/hasGapType
 :hasGapType rdf:type owl:ObjectProperty ;
             rdfs:domain :Gap ;
             rdfs:range :GapType ;
@@ -134,7 +134,7 @@
             <http://www.w3.org/2004/02/skos/core#definition> "Associates a gap with its function (motor or joint)."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasInverterType
+###  https://w3id.org/pvcollada/hasInverterType
 :hasInverterType rdf:type owl:ObjectProperty ;
                  rdfs:domain :Inverter ;
                  rdfs:range :InverterType ;
@@ -142,7 +142,7 @@
                  <http://www.w3.org/2004/02/skos/core#definition> "Associates an inverter product with its deployment topology."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasMPPTInput
+###  https://w3id.org/pvcollada/hasMPPTInput
 :hasMPPTInput rdf:type owl:ObjectProperty ;
               rdfs:domain :InverterInstance ;
               rdfs:range :MPPTInput ;
@@ -150,7 +150,7 @@
               <http://www.w3.org/2004/02/skos/core#definition> "Associates a circuit inverter instance with its MPPT channel instances."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasMPPTUnit
+###  https://w3id.org/pvcollada/hasMPPTUnit
 :hasMPPTUnit rdf:type owl:ObjectProperty ;
              rdfs:domain :Inverter ;
              rdfs:range :MPPTUnit ;
@@ -158,7 +158,7 @@
              <http://www.w3.org/2004/02/skos/core#definition> "Associates an inverter product with its MPPT channel specifications."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasModuleArray
+###  https://w3id.org/pvcollada/hasModuleArray
 :hasModuleArray rdf:type owl:ObjectProperty ;
                 rdfs:domain :String ;
                 rdfs:range :ModuleArray ;
@@ -166,7 +166,7 @@
                 <http://www.w3.org/2004/02/skos/core#definition> "Associates a string with its module array (direct-wire configuration)."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasModuleLayout
+###  https://w3id.org/pvcollada/hasModuleLayout
 :hasModuleLayout rdf:type owl:ObjectProperty ;
                  rdfs:domain :ModuleArray ;
                  rdfs:range :ModuleLayout ;
@@ -174,7 +174,7 @@
                  <http://www.w3.org/2004/02/skos/core#definition> "Associates a module array with its constituent ModuleLayout entries, each describing the position of one module in the string and in the rack."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasModuleOrientation
+###  https://w3id.org/pvcollada/hasModuleOrientation
 :hasModuleOrientation rdf:type owl:ObjectProperty ;
                       rdfs:domain :Rack ;
                       rdfs:range :ModuleOrientation ;
@@ -182,7 +182,7 @@
                       <http://www.w3.org/2004/02/skos/core#definition> "Associates a rack with the mounting orientation of its modules."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasModuleType
+###  https://w3id.org/pvcollada/hasModuleType
 :hasModuleType rdf:type owl:ObjectProperty ;
                rdfs:domain :Module ;
                rdfs:range :ModuleType ;
@@ -190,7 +190,7 @@
                <http://www.w3.org/2004/02/skos/core#definition> "Associates a module product with its form-factor type."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasOptimizerArray
+###  https://w3id.org/pvcollada/hasOptimizerArray
 :hasOptimizerArray rdf:type owl:ObjectProperty ;
                    rdfs:domain :String ;
                    rdfs:range :OptimizerArray ;
@@ -198,7 +198,7 @@
                    <http://www.w3.org/2004/02/skos/core#definition> "Associates a string with its optimizer array (optimized configuration)."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasPostInclination
+###  https://w3id.org/pvcollada/hasPostInclination
 :hasPostInclination rdf:type owl:ObjectProperty ;
                     rdfs:domain :Post ;
                     rdfs:range :PostInclination ;
@@ -206,7 +206,7 @@
                     <http://www.w3.org/2004/02/skos/core#definition> "Associates a post with its installation inclination (vertical or perpendicular)."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasPostShape
+###  https://w3id.org/pvcollada/hasPostShape
 :hasPostShape rdf:type owl:ObjectProperty ;
               rdfs:domain :Post ;
               rdfs:range :PostShape ;
@@ -214,7 +214,7 @@
               <http://www.w3.org/2004/02/skos/core#definition> "Associates a post with its cross-section shape."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasPostType
+###  https://w3id.org/pvcollada/hasPostType
 :hasPostType rdf:type owl:ObjectProperty ;
              rdfs:domain :Post ;
              rdfs:range :PostType ;
@@ -222,7 +222,7 @@
              <http://www.w3.org/2004/02/skos/core#definition> "Associates a post with its structural function (rack, tracker, fence)."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasPowerType
+###  https://w3id.org/pvcollada/hasPowerType
 :hasPowerType rdf:type owl:ObjectProperty ;
               rdfs:domain :Cable ;
               rdfs:range :PowerType ;
@@ -230,7 +230,7 @@
               <http://www.w3.org/2004/02/skos/core#definition> "Associates a cable with its power type (AC or DC)."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasRackType
+###  https://w3id.org/pvcollada/hasRackType
 :hasRackType rdf:type owl:ObjectProperty ;
              rdfs:domain :Rack ;
              rdfs:range :RackType ;
@@ -238,7 +238,7 @@
              <http://www.w3.org/2004/02/skos/core#definition> "Associates a rack with its mounting type (fixed_tilt or tracker)."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasString
+###  https://w3id.org/pvcollada/hasString
 :hasString rdf:type owl:ObjectProperty ;
            rdfs:domain :MPPTInput ;
            rdfs:range :String ;
@@ -246,7 +246,7 @@
            <http://www.w3.org/2004/02/skos/core#definition> "Associates an MPPT input with its connected PV strings."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasTableType
+###  https://w3id.org/pvcollada/hasTableType
 :hasTableType rdf:type owl:ObjectProperty ;
               rdfs:domain :Table ;
               rdfs:range :TableType ;
@@ -254,7 +254,7 @@
               <http://www.w3.org/2004/02/skos/core#definition> "Associates a table with its mounting type (fixed or tracker)."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasTorqueTubeShape
+###  https://w3id.org/pvcollada/hasTorqueTubeShape
 :hasTorqueTubeShape rdf:type owl:ObjectProperty ;
                     rdfs:domain :Table ;
                     rdfs:range :TorqueTubeShape ;
@@ -262,7 +262,7 @@
                     <http://www.w3.org/2004/02/skos/core#definition> "Associates a single-axis tracker table with its torque tube cross-section shape."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasTrackerType
+###  https://w3id.org/pvcollada/hasTrackerType
 :hasTrackerType rdf:type owl:ObjectProperty ;
                 rdfs:domain :Table ;
                 rdfs:range :TrackerType ;
@@ -270,7 +270,7 @@
                 <http://www.w3.org/2004/02/skos/core#definition> "Associates a tracker table with its axis configuration."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/referencesACCombinerProduct
+###  https://w3id.org/pvcollada/referencesACCombinerProduct
 :referencesACCombinerProduct rdf:type owl:ObjectProperty ;
                              rdfs:domain :ACCombinerInstance ;
                              rdfs:range :ACCombiner ;
@@ -278,7 +278,7 @@
                              <http://www.w3.org/2004/02/skos/core#definition> "Links a circuit AC combiner instance to its product specification."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/referencesCableProduct
+###  https://w3id.org/pvcollada/referencesCableProduct
 :referencesCableProduct rdf:type owl:ObjectProperty ;
                         rdfs:domain :CableTo ;
                         rdfs:range :Cable ;
@@ -286,7 +286,7 @@
                         <http://www.w3.org/2004/02/skos/core#definition> "Links a CableTo connection to the cable product it uses."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/referencesDCCombinerProduct
+###  https://w3id.org/pvcollada/referencesDCCombinerProduct
 :referencesDCCombinerProduct rdf:type owl:ObjectProperty ;
                              rdfs:domain :DCCombinerInstance ;
                              rdfs:range :DCCombiner ;
@@ -294,7 +294,7 @@
                              <http://www.w3.org/2004/02/skos/core#definition> "Links a circuit DC combiner instance to its product specification."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/referencesInverterProduct
+###  https://w3id.org/pvcollada/referencesInverterProduct
 :referencesInverterProduct rdf:type owl:ObjectProperty ;
                            rdfs:domain :InverterInstance ;
                            rdfs:range :Inverter ;
@@ -302,7 +302,7 @@
                            <http://www.w3.org/2004/02/skos/core#definition> "Links a circuit inverter instance to its product specification."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/referencesModule
+###  https://w3id.org/pvcollada/referencesModule
 :referencesModule rdf:type owl:ObjectProperty ;
                   rdfs:domain :Rack ;
                   rdfs:range :Module ;
@@ -310,7 +310,7 @@
                   <http://www.w3.org/2004/02/skos/core#definition> "Links a rack to the module product specification it holds, via the module_id IDREF in the PV-Collada schema."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/referencesOptimizerProduct
+###  https://w3id.org/pvcollada/referencesOptimizerProduct
 :referencesOptimizerProduct rdf:type owl:ObjectProperty ;
                             rdfs:domain :OptimizerInstance ;
                             rdfs:range :Optimizer ;
@@ -318,7 +318,7 @@
                             <http://www.w3.org/2004/02/skos/core#definition> "Links a circuit optimizer instance to its product specification."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/referencesRack
+###  https://w3id.org/pvcollada/referencesRack
 :referencesRack rdf:type owl:ObjectProperty ;
                 rdfs:domain :ModuleLayout ;
                 rdfs:range :Rack ;
@@ -327,7 +327,7 @@
                 <http://www.w3.org/2004/02/skos/core#scopeNote> "This is the critical join between circuit topology and physical layout."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/referencesTransformerProduct
+###  https://w3id.org/pvcollada/referencesTransformerProduct
 :referencesTransformerProduct rdf:type owl:ObjectProperty ;
                               rdfs:domain :TransformerInstance ;
                               rdfs:range :Transformer ;
@@ -339,7 +339,7 @@
 #    Data properties
 #################################################################
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/azimuth
+###  https://w3id.org/pvcollada/azimuth
 :azimuth rdf:type owl:DatatypeProperty ;
          rdfs:domain :Rack ;
          rdfs:range xsd:float ;
@@ -348,7 +348,7 @@
          <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: °; applies to FixedTiltRack only."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/bifacialFactor
+###  https://w3id.org/pvcollada/bifacialFactor
 :bifacialFactor rdf:type owl:DatatypeProperty ;
                 rdfs:domain :Module ;
                 rdfs:range xsd:float ;
@@ -356,7 +356,7 @@
                 <http://www.w3.org/2004/02/skos/core#definition> "Ratio of rear-side to front-side quantum efficiency for bifacial modules (dimensionless, 0–1)."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/cableLength
+###  https://w3id.org/pvcollada/cableLength
 :cableLength rdf:type owl:DatatypeProperty ;
              rdfs:domain :CableTo ;
              rdfs:range xsd:decimal ;
@@ -365,7 +365,7 @@
              <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: m (assumed SI default; verify against project file)"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/capacityAC
+###  https://w3id.org/pvcollada/capacityAC
 :capacityAC rdf:type owl:DatatypeProperty ;
             rdfs:domain :Inverter ;
             rdfs:range xsd:float ;
@@ -375,7 +375,7 @@
             <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: W"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/capacityDC
+###  https://w3id.org/pvcollada/capacityDC
 :capacityDC rdf:type owl:DatatypeProperty ;
             rdfs:domain :Inverter ;
             rdfs:range xsd:float ;
@@ -385,7 +385,7 @@
             <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: W"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/columnSpacing
+###  https://w3id.org/pvcollada/columnSpacing
 :columnSpacing rdf:type owl:DatatypeProperty ;
                rdfs:domain :Rack ;
                rdfs:range xsd:float ;
@@ -393,7 +393,7 @@
                <http://www.w3.org/2004/02/skos/core#definition> "Spacing between modules in the column direction on a rack."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/company
+###  https://w3id.org/pvcollada/company
 :company rdf:type owl:DatatypeProperty ;
          rdfs:domain :Project ;
          rdfs:range xsd:string ;
@@ -401,7 +401,7 @@
          <http://www.w3.org/2004/02/skos/core#definition> "Name of the company or organisation responsible for the project."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/copperLoss
+###  https://w3id.org/pvcollada/copperLoss
 :copperLoss rdf:type owl:DatatypeProperty ;
             rdfs:domain :Transformer ;
             rdfs:range xsd:float ;
@@ -411,7 +411,7 @@
             <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: Ω"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/country
+###  https://w3id.org/pvcollada/country
 :country rdf:type owl:DatatypeProperty ;
          rdfs:domain :Project ;
          rdfs:range xsd:string ;
@@ -419,7 +419,7 @@
          <http://www.w3.org/2004/02/skos/core#definition> "ISO 3166 alpha-2 or alpha-3 country code for the project location."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/crossSection
+###  https://w3id.org/pvcollada/crossSection
 :crossSection rdf:type owl:DatatypeProperty ;
               rdfs:domain :Cable ;
               rdfs:range xsd:float ;
@@ -428,7 +428,7 @@
               <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: mm²"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/drawing
+###  https://w3id.org/pvcollada/drawing
 :drawing rdf:type owl:DatatypeProperty ;
          rdfs:domain :Project ;
          rdfs:range xsd:string ;
@@ -436,7 +436,7 @@
          <http://www.w3.org/2004/02/skos/core#definition> "Drawing or document reference associated with the project."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/efficiency
+###  https://w3id.org/pvcollada/efficiency
 :efficiency rdf:type owl:DatatypeProperty ;
             rdfs:range xsd:float ;
             rdfs:label "efficiency"@en ;
@@ -444,7 +444,7 @@
             <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: %; range 0–100"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/efficiencyStandardValue
+###  https://w3id.org/pvcollada/efficiencyStandardValue
 :efficiencyStandardValue rdf:type owl:DatatypeProperty ;
                          rdfs:domain :Inverter ;
                          rdfs:range xsd:float ;
@@ -453,7 +453,7 @@
                          <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: %; range 0–100"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/gapWidth
+###  https://w3id.org/pvcollada/gapWidth
 :gapWidth rdf:type owl:DatatypeProperty ;
           rdfs:domain :Gap ;
           rdfs:range xsd:float ;
@@ -461,7 +461,7 @@
           <http://www.w3.org/2004/02/skos/core#definition> "Nominal width of the gap between the two adjacent racks."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/heightAboveGround
+###  https://w3id.org/pvcollada/heightAboveGround
 :heightAboveGround rdf:type owl:DatatypeProperty ;
                    rdfs:domain :Rack ;
                    rdfs:range xsd:float ;
@@ -469,7 +469,7 @@
                    <http://www.w3.org/2004/02/skos/core#definition> "Height of the lower edge of a fixed rack above ground level."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/iMaxDC
+###  https://w3id.org/pvcollada/iMaxDC
 :iMaxDC rdf:type owl:DatatypeProperty ;
         rdfs:domain :Inverter ;
         rdfs:range xsd:float ;
@@ -479,7 +479,7 @@
         <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: A"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/iMpp
+###  https://w3id.org/pvcollada/iMpp
 :iMpp rdf:type owl:DatatypeProperty ;
       rdfs:domain :Module ;
       rdfs:range xsd:float ;
@@ -491,7 +491,7 @@
       <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: A"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/iSc
+###  https://w3id.org/pvcollada/iSc
 :iSc rdf:type owl:DatatypeProperty ;
      rdfs:domain :Module ;
      rdfs:range xsd:float ;
@@ -503,7 +503,7 @@
      <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: A"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/impedance
+###  https://w3id.org/pvcollada/impedance
 :impedance rdf:type owl:DatatypeProperty ;
            rdfs:domain :Cable ;
            rdfs:range xsd:float ;
@@ -512,14 +512,14 @@
            <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: Ω/km"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/inputCount
+###  https://w3id.org/pvcollada/inputCount
 :inputCount rdf:type owl:DatatypeProperty ;
             rdfs:range xsd:positiveInteger ;
             rdfs:label "input count"@en ;
             <http://www.w3.org/2004/02/skos/core#definition> "Number of parallel inputs (strings) that can be connected."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/interconnectionLimit
+###  https://w3id.org/pvcollada/interconnectionLimit
 :interconnectionLimit rdf:type owl:DatatypeProperty ;
                       rdfs:domain :Project ;
                       rdfs:range xsd:float ;
@@ -529,7 +529,7 @@
                       <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: W"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ironLoss
+###  https://w3id.org/pvcollada/ironLoss
 :ironLoss rdf:type owl:DatatypeProperty ;
           rdfs:domain :Transformer ;
           rdfs:range xsd:float ;
@@ -539,7 +539,7 @@
           <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: W"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/jointAngle
+###  https://w3id.org/pvcollada/jointAngle
 :jointAngle rdf:type owl:DatatypeProperty ;
             rdfs:domain :Gap ;
             rdfs:range xsd:float ;
@@ -548,7 +548,7 @@
             <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: °"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/localProjection
+###  https://w3id.org/pvcollada/localProjection
 :localProjection rdf:type owl:DatatypeProperty ;
                  rdfs:domain :Project ;
                  rdfs:range xsd:string ;
@@ -556,7 +556,7 @@
                  <http://www.w3.org/2004/02/skos/core#definition> "EPSG code for the coordinate projection used to relate local (x,y,z) coordinates to geocoordinates (e.g., 'EPSG:3857')."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/manufacturer
+###  https://w3id.org/pvcollada/manufacturer
 :manufacturer rdf:type owl:DatatypeProperty ;
               rdfs:range xsd:string ;
               rdfs:label "manufacturer"@en ;
@@ -564,7 +564,7 @@
               <http://www.w3.org/2004/02/skos/core#definition> "Name of the product manufacturer."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/moduleColumns
+###  https://w3id.org/pvcollada/moduleColumns
 :moduleColumns rdf:type owl:DatatypeProperty ;
                rdfs:domain :Rack ;
                rdfs:range xsd:positiveInteger ;
@@ -572,7 +572,7 @@
                <http://www.w3.org/2004/02/skos/core#definition> "Number of columns of modules on the rack."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/moduleCount
+###  https://w3id.org/pvcollada/moduleCount
 :moduleCount rdf:type owl:DatatypeProperty ;
              rdfs:domain :Project ;
              rdfs:range xsd:positiveInteger ;
@@ -580,7 +580,7 @@
              <http://www.w3.org/2004/02/skos/core#definition> "Total number of PV modules in the system."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/moduleDepth
+###  https://w3id.org/pvcollada/moduleDepth
 :moduleDepth rdf:type owl:DatatypeProperty ;
              rdfs:domain :Module ;
              rdfs:range xsd:float ;
@@ -590,7 +590,7 @@
              <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: mm"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/moduleLength
+###  https://w3id.org/pvcollada/moduleLength
 :moduleLength rdf:type owl:DatatypeProperty ;
               rdfs:domain :Module ;
               rdfs:range xsd:float ;
@@ -600,7 +600,7 @@
               <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: mm"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/moduleRows
+###  https://w3id.org/pvcollada/moduleRows
 :moduleRows rdf:type owl:DatatypeProperty ;
             rdfs:domain :Rack ;
             rdfs:range xsd:positiveInteger ;
@@ -608,7 +608,7 @@
             <http://www.w3.org/2004/02/skos/core#definition> "Number of rows of modules on the rack."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/moduleWidth
+###  https://w3id.org/pvcollada/moduleWidth
 :moduleWidth rdf:type owl:DatatypeProperty ;
              rdfs:domain :Module ;
              rdfs:range xsd:float ;
@@ -618,7 +618,7 @@
              <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: mm"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/mpptCount
+###  https://w3id.org/pvcollada/mpptCount
 :mpptCount rdf:type owl:DatatypeProperty ;
            rdfs:domain :Inverter ;
            rdfs:range xsd:positiveInteger ;
@@ -626,7 +626,7 @@
            <http://www.w3.org/2004/02/skos/core#definition> "Number of MPPT channels on the inverter."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/nightDisconnect
+###  https://w3id.org/pvcollada/nightDisconnect
 :nightDisconnect rdf:type owl:DatatypeProperty ;
                  rdfs:domain :Transformer ;
                  rdfs:range xsd:boolean ;
@@ -634,7 +634,7 @@
                  <http://www.w3.org/2004/02/skos/core#definition> "True if the transformer automatically disconnects from the grid at night."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/nightTare
+###  https://w3id.org/pvcollada/nightTare
 :nightTare rdf:type owl:DatatypeProperty ;
            rdfs:domain :Inverter ;
            rdfs:range xsd:float ;
@@ -644,7 +644,7 @@
            <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: W"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/nomPower
+###  https://w3id.org/pvcollada/nomPower
 :nomPower rdf:type owl:DatatypeProperty ;
           rdfs:domain :Module ;
           rdfs:range xsd:float ;
@@ -655,7 +655,7 @@
           <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: W"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/nomPowerAC
+###  https://w3id.org/pvcollada/nomPowerAC
 :nomPowerAC rdf:type owl:DatatypeProperty ;
             rdfs:domain :Inverter ;
             rdfs:range xsd:float ;
@@ -665,7 +665,7 @@
             <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: W"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/nomPowerDC
+###  https://w3id.org/pvcollada/nomPowerDC
 :nomPowerDC rdf:type owl:DatatypeProperty ;
             rdfs:domain :Inverter ;
             rdfs:range xsd:float ;
@@ -675,7 +675,7 @@
             <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: W"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/numCells
+###  https://w3id.org/pvcollada/numCells
 :numCells rdf:type owl:DatatypeProperty ;
           rdfs:domain :Module ;
           rdfs:range xsd:positiveInteger ;
@@ -684,7 +684,7 @@
           <http://www.w3.org/2004/02/skos/core#definition> "Total number of PV cells in the module."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/numCellsLength
+###  https://w3id.org/pvcollada/numCellsLength
 :numCellsLength rdf:type owl:DatatypeProperty ;
                 rdfs:domain :Module ;
                 rdfs:range xsd:positiveInteger ;
@@ -692,7 +692,7 @@
                 <http://www.w3.org/2004/02/skos/core#definition> "Number of cells arranged along the length dimension."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/numCellsSeries
+###  https://w3id.org/pvcollada/numCellsSeries
 :numCellsSeries rdf:type owl:DatatypeProperty ;
                 rdfs:domain :Module ;
                 rdfs:range xsd:positiveInteger ;
@@ -702,7 +702,7 @@
                 <http://www.w3.org/2004/02/skos/core#definition> "Number of series-connected cells in a single internal string."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/numCellsWidth
+###  https://w3id.org/pvcollada/numCellsWidth
 :numCellsWidth rdf:type owl:DatatypeProperty ;
                rdfs:domain :Module ;
                rdfs:range xsd:positiveInteger ;
@@ -710,7 +710,7 @@
                <http://www.w3.org/2004/02/skos/core#definition> "Number of cells arranged along the width dimension."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/numConductors
+###  https://w3id.org/pvcollada/numConductors
 :numConductors rdf:type owl:DatatypeProperty ;
                rdfs:domain :Cable ;
                rdfs:range xsd:positiveInteger ;
@@ -718,7 +718,7 @@
                <http://www.w3.org/2004/02/skos/core#definition> "Number of electrical conductors in the cable."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/numStrings
+###  https://w3id.org/pvcollada/numStrings
 :numStrings rdf:type owl:DatatypeProperty ;
             rdfs:domain :Module ;
             rdfs:range xsd:positiveInteger ;
@@ -728,7 +728,7 @@
             <http://www.w3.org/2004/02/skos/core#definition> "Number of parallel internal cell strings within the module."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/positionInString
+###  https://w3id.org/pvcollada/positionInString
 :positionInString rdf:type owl:DatatypeProperty ;
                   rdfs:domain :ModuleLayout ;
                   rdfs:range xsd:integer ;
@@ -736,7 +736,7 @@
                   <http://www.w3.org/2004/02/skos/core#definition> "Sequential index of this module within its series string (1-based)."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/postDepth
+###  https://w3id.org/pvcollada/postDepth
 :postDepth rdf:type owl:DatatypeProperty ;
            rdfs:domain :Post ;
            rdfs:range xsd:float ;
@@ -744,7 +744,7 @@
            <http://www.w3.org/2004/02/skos/core#definition> "Nominal depth of the post driven underground."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/postDiameter
+###  https://w3id.org/pvcollada/postDiameter
 :postDiameter rdf:type owl:DatatypeProperty ;
               rdfs:domain :Post ;
               rdfs:range xsd:float ;
@@ -752,7 +752,7 @@
               <http://www.w3.org/2004/02/skos/core#definition> "Diameter of the post cross-section."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/postLength
+###  https://w3id.org/pvcollada/postLength
 :postLength rdf:type owl:DatatypeProperty ;
             rdfs:domain :Post ;
             rdfs:range xsd:float ;
@@ -760,14 +760,14 @@
             <http://www.w3.org/2004/02/skos/core#definition> "Total length of the post including the underground portion."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/productName
+###  https://w3id.org/pvcollada/productName
 :productName rdf:type owl:DatatypeProperty ;
              rdfs:range xsd:string ;
              rdfs:label "product name"@en ;
              <http://www.w3.org/2004/02/skos/core#definition> "Model name of the product (e.g., 'Q.Tron Classic 440W')."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/projectName
+###  https://w3id.org/pvcollada/projectName
 :projectName rdf:type owl:DatatypeProperty ;
              rdfs:domain :Project ;
              rdfs:range xsd:string ;
@@ -775,7 +775,7 @@
              <http://www.w3.org/2004/02/skos/core#definition> "Name of the PV project."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/rackColumn
+###  https://w3id.org/pvcollada/rackColumn
 :rackColumn rdf:type owl:DatatypeProperty ;
             rdfs:domain :ModuleLayout ;
             rdfs:range xsd:integer ;
@@ -783,7 +783,7 @@
             <http://www.w3.org/2004/02/skos/core#definition> "Column index of the module slot on the physical rack."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/rackOffset
+###  https://w3id.org/pvcollada/rackOffset
 :rackOffset rdf:type owl:DatatypeProperty ;
             rdfs:domain :Rack ;
             rdfs:range xsd:float ;
@@ -791,7 +791,7 @@
             <http://www.w3.org/2004/02/skos/core#definition> "Distance from the rack surface to the tracker torque tube centre."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/rackRow
+###  https://w3id.org/pvcollada/rackRow
 :rackRow rdf:type owl:DatatypeProperty ;
          rdfs:domain :ModuleLayout ;
          rdfs:range xsd:integer ;
@@ -799,7 +799,7 @@
          <http://www.w3.org/2004/02/skos/core#definition> "Row index of the module slot on the physical rack."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/resistance
+###  https://w3id.org/pvcollada/resistance
 :resistance rdf:type owl:DatatypeProperty ;
             rdfs:domain :Cable ;
             rdfs:range xsd:float ;
@@ -808,7 +808,7 @@
             <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: Ω/km"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/rigid
+###  https://w3id.org/pvcollada/rigid
 :rigid rdf:type owl:DatatypeProperty ;
        rdfs:domain :Gap ;
        rdfs:range xsd:boolean ;
@@ -816,7 +816,7 @@
        <http://www.w3.org/2004/02/skos/core#definition> "True if the gap is rigid; false if it allows torque tube flexion."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/rowSpacing
+###  https://w3id.org/pvcollada/rowSpacing
 :rowSpacing rdf:type owl:DatatypeProperty ;
             rdfs:domain :Rack ;
             rdfs:range xsd:float ;
@@ -824,7 +824,7 @@
             <http://www.w3.org/2004/02/skos/core#definition> "Spacing between modules in the row direction on a rack."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/selfConsumption
+###  https://w3id.org/pvcollada/selfConsumption
 :selfConsumption rdf:type owl:DatatypeProperty ;
                  rdfs:domain :Inverter ;
                  rdfs:range xsd:float ;
@@ -834,7 +834,7 @@
                  <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: W"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/slope
+###  https://w3id.org/pvcollada/slope
 :slope rdf:type owl:DatatypeProperty ;
        rdfs:domain :Rack ;
        rdfs:range xsd:float ;
@@ -843,7 +843,7 @@
        <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: °"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/stringCount
+###  https://w3id.org/pvcollada/stringCount
 :stringCount rdf:type owl:DatatypeProperty ;
              rdfs:domain :Project ;
              rdfs:range xsd:positiveInteger ;
@@ -851,7 +851,7 @@
              <http://www.w3.org/2004/02/skos/core#definition> "Total number of series-connected module strings."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/systemCapacityAC
+###  https://w3id.org/pvcollada/systemCapacityAC
 :systemCapacityAC rdf:type owl:DatatypeProperty ;
                   rdfs:domain :Project ;
                   rdfs:range xsd:float ;
@@ -861,7 +861,7 @@
                   <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: W"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/systemCapacityDC
+###  https://w3id.org/pvcollada/systemCapacityDC
 :systemCapacityDC rdf:type owl:DatatypeProperty ;
                   rdfs:domain :Project ;
                   rdfs:range xsd:float ;
@@ -871,7 +871,7 @@
                   <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: W"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/tCoefIsc
+###  https://w3id.org/pvcollada/tCoefIsc
 :tCoefIsc rdf:type owl:DatatypeProperty ;
           rdfs:domain :Module ;
           rdfs:range xsd:float ;
@@ -881,7 +881,7 @@
           <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: A/°C"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/tCoefPower
+###  https://w3id.org/pvcollada/tCoefPower
 :tCoefPower rdf:type owl:DatatypeProperty ;
             rdfs:domain :Module ;
             rdfs:range xsd:float ;
@@ -891,7 +891,7 @@
             <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: %/°C"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/tCoefVoc
+###  https://w3id.org/pvcollada/tCoefVoc
 :tCoefVoc rdf:type owl:DatatypeProperty ;
           rdfs:domain :Module ;
           rdfs:range xsd:float ;
@@ -901,7 +901,7 @@
           <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: V/°C"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/tableCount
+###  https://w3id.org/pvcollada/tableCount
 :tableCount rdf:type owl:DatatypeProperty ;
             rdfs:domain :Project ;
             rdfs:range xsd:positiveInteger ;
@@ -909,7 +909,7 @@
             <http://www.w3.org/2004/02/skos/core#definition> "Total number of tables in the physical layout."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/tilt
+###  https://w3id.org/pvcollada/tilt
 :tilt rdf:type owl:DatatypeProperty ;
       rdfs:domain :Rack ;
       rdfs:range xsd:float ;
@@ -918,7 +918,7 @@
       <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: °; applies to FixedTiltRack only."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/timezone
+###  https://w3id.org/pvcollada/timezone
 :timezone rdf:type owl:DatatypeProperty ;
           rdfs:domain :Project ;
           rdfs:range xsd:string ;
@@ -926,7 +926,7 @@
           <http://www.w3.org/2004/02/skos/core#definition> "IANA timezone string for the project location (e.g., 'America/Phoenix')."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/timezoneOffset
+###  https://w3id.org/pvcollada/timezoneOffset
 :timezoneOffset rdf:type owl:DatatypeProperty ;
                 rdfs:domain :Project ;
                 rdfs:range xsd:float ;
@@ -935,7 +935,7 @@
                 <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: h"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/trackerAzimuth
+###  https://w3id.org/pvcollada/trackerAzimuth
 :trackerAzimuth rdf:type owl:DatatypeProperty ;
                 rdfs:domain :Rack ;
                 rdfs:range xsd:float ;
@@ -944,7 +944,7 @@
                 <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: °; applies to TrackerRack only."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/trackerHeight
+###  https://w3id.org/pvcollada/trackerHeight
 :trackerHeight rdf:type owl:DatatypeProperty ;
                rdfs:domain :Rack ;
                rdfs:range xsd:float ;
@@ -952,7 +952,7 @@
                <http://www.w3.org/2004/02/skos/core#definition> "Height of the tracker torque tube centre above ground."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/trackerMaxGapAngle
+###  https://w3id.org/pvcollada/trackerMaxGapAngle
 :trackerMaxGapAngle rdf:type owl:DatatypeProperty ;
                     rdfs:domain :Table ;
                     rdfs:range xsd:float ;
@@ -961,7 +961,7 @@
                     <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: °"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/trackerMaxRotation
+###  https://w3id.org/pvcollada/trackerMaxRotation
 :trackerMaxRotation rdf:type owl:DatatypeProperty ;
                     rdfs:domain :Table ;
                     rdfs:range xsd:string ;
@@ -970,7 +970,7 @@
                     <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: °; encoded as two space-separated floats."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/trackerSlope
+###  https://w3id.org/pvcollada/trackerSlope
 :trackerSlope rdf:type owl:DatatypeProperty ;
               rdfs:domain :Rack ;
               rdfs:range xsd:float ;
@@ -979,7 +979,7 @@
               <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: °"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/trackerTorqueTubeDiameter
+###  https://w3id.org/pvcollada/trackerTorqueTubeDiameter
 :trackerTorqueTubeDiameter rdf:type owl:DatatypeProperty ;
                            rdfs:domain :Table ;
                            rdfs:range xsd:float ;
@@ -987,7 +987,7 @@
                            <http://www.w3.org/2004/02/skos/core#definition> "Nominal diameter of the single-axis tracker torque tube."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/triangleCount
+###  https://w3id.org/pvcollada/triangleCount
 :triangleCount rdf:type owl:DatatypeProperty ;
                rdfs:domain :Terrain ;
                rdfs:range xsd:positiveInteger ;
@@ -995,7 +995,7 @@
                <http://www.w3.org/2004/02/skos/core#definition> "Number of triangular faces in the terrain surface mesh."@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/vIn
+###  https://w3id.org/pvcollada/vIn
 :vIn rdf:type owl:DatatypeProperty ;
      rdfs:domain :Transformer ;
      rdfs:range xsd:float ;
@@ -1005,7 +1005,7 @@
      <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: V"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/vMpp
+###  https://w3id.org/pvcollada/vMpp
 :vMpp rdf:type owl:DatatypeProperty ;
       rdfs:domain :Module ;
       rdfs:range xsd:float ;
@@ -1016,7 +1016,7 @@
       <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: V"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/vMppMax
+###  https://w3id.org/pvcollada/vMppMax
 :vMppMax rdf:type owl:DatatypeProperty ;
          rdfs:range xsd:float ;
          <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/V> ;
@@ -1025,7 +1025,7 @@
          <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: V"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/vMppMin
+###  https://w3id.org/pvcollada/vMppMin
 :vMppMin rdf:type owl:DatatypeProperty ;
          rdfs:range xsd:float ;
          <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/V> ;
@@ -1034,7 +1034,7 @@
          <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: V"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/vMppNom
+###  https://w3id.org/pvcollada/vMppNom
 :vMppNom rdf:type owl:DatatypeProperty ;
          rdfs:range xsd:float ;
          <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/V> ;
@@ -1043,7 +1043,7 @@
          <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: V"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/vOc
+###  https://w3id.org/pvcollada/vOc
 :vOc rdf:type owl:DatatypeProperty ;
      rdfs:domain :Module ;
      rdfs:range xsd:float ;
@@ -1055,7 +1055,7 @@
      <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: V"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/vOut
+###  https://w3id.org/pvcollada/vOut
 :vOut rdf:type owl:DatatypeProperty ;
       rdfs:domain :Transformer ;
       rdfs:range xsd:float ;
@@ -1065,7 +1065,7 @@
       <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: V"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/vOutAC
+###  https://w3id.org/pvcollada/vOutAC
 :vOutAC rdf:type owl:DatatypeProperty ;
         rdfs:domain :Inverter ;
         rdfs:range xsd:float ;
@@ -1075,7 +1075,7 @@
         <http://www.w3.org/2004/02/skos/core#scopeNote> "Unit: V"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/vertexCount
+###  https://w3id.org/pvcollada/vertexCount
 :vertexCount rdf:type owl:DatatypeProperty ;
              rdfs:domain :Terrain ;
              rdfs:range xsd:positiveInteger ;
@@ -1103,7 +1103,7 @@
 <https://cwrusdle.bitbucket.io/mds/Racking> rdf:type owl:Class .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ACCombiner
+###  https://w3id.org/pvcollada/ACCombiner
 :ACCombiner rdf:type owl:Class ;
             rdfs:subClassOf :PVComponent ;
             rdfs:label "AC Combiner Product"@en ;
@@ -1114,7 +1114,7 @@
             <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ACCombinerInstance
+###  https://w3id.org/pvcollada/ACCombinerInstance
 :ACCombinerInstance rdf:type owl:Class ;
                     rdfs:subClassOf :CircuitInstance ;
                     rdfs:label "AC Combiner Instance"@en ;
@@ -1124,7 +1124,7 @@
                     <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Cable
+###  https://w3id.org/pvcollada/Cable
 :Cable rdf:type owl:Class ;
        rdfs:subClassOf :PVComponent ;
        rdfs:label "Cable Product"@en ;
@@ -1135,7 +1135,7 @@
        <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CableTo
+###  https://w3id.org/pvcollada/CableTo
 :CableTo rdf:type owl:Class ;
          rdfs:subClassOf :CircuitInstance ;
          rdfs:label "Cable To"@en ;
@@ -1145,7 +1145,7 @@
          <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CellArchitecture
+###  https://w3id.org/pvcollada/CellArchitecture
 :CellArchitecture rdf:type owl:Class ;
                   owl:equivalentClass [ rdf:type owl:Class ;
                                         owl:oneOf ( :Heterojunction
@@ -1166,7 +1166,7 @@
                   <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CellMaterial
+###  https://w3id.org/pvcollada/CellMaterial
 :CellMaterial rdf:type owl:Class ;
               owl:equivalentClass [ rdf:type owl:Class ;
                                     owl:oneOf ( :ASi
@@ -1183,7 +1183,7 @@
               <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Circuit
+###  https://w3id.org/pvcollada/Circuit
 :Circuit rdf:type owl:Class ;
          rdfs:subClassOf :CircuitInstance ;
          rdfs:label "Circuit"@en ;
@@ -1193,7 +1193,7 @@
          <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CircuitInstance
+###  https://w3id.org/pvcollada/CircuitInstance
 :CircuitInstance rdf:type owl:Class ;
                  rdfs:subClassOf :PVColladaEntity ;
                  rdfs:label "Circuit Instance"@en ;
@@ -1203,7 +1203,7 @@
                  <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ConductorMaterial
+###  https://w3id.org/pvcollada/ConductorMaterial
 :ConductorMaterial rdf:type owl:Class ;
                    owl:equivalentClass [ rdf:type owl:Class ;
                                          owl:oneOf ( :AluminumConductor
@@ -1217,7 +1217,7 @@
                    <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/DCCombiner
+###  https://w3id.org/pvcollada/DCCombiner
 :DCCombiner rdf:type owl:Class ;
             rdfs:subClassOf :PVComponent ;
             rdfs:label "DC Combiner Product"@en ;
@@ -1228,7 +1228,7 @@
             <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/DCCombinerInstance
+###  https://w3id.org/pvcollada/DCCombinerInstance
 :DCCombinerInstance rdf:type owl:Class ;
                     rdfs:subClassOf :CircuitInstance ;
                     rdfs:label "DC Combiner Instance"@en ;
@@ -1238,7 +1238,7 @@
                     <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/DriveType
+###  https://w3id.org/pvcollada/DriveType
 :DriveType rdf:type owl:Class ;
            owl:equivalentClass [ rdf:type owl:Class ;
                                  owl:oneOf ( :IndependentDrive
@@ -1252,7 +1252,7 @@
            <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/EfficiencyStandardType
+###  https://w3id.org/pvcollada/EfficiencyStandardType
 :EfficiencyStandardType rdf:type owl:Class ;
                         owl:equivalentClass [ rdf:type owl:Class ;
                                               owl:oneOf ( :CECEfficiency
@@ -1266,7 +1266,7 @@
                         <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/FixedTiltRack
+###  https://w3id.org/pvcollada/FixedTiltRack
 :FixedTiltRack rdf:type owl:Class ;
                rdfs:subClassOf :Rack ,
                                [ rdf:type owl:Restriction ;
@@ -1288,7 +1288,7 @@
                <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Gap
+###  https://w3id.org/pvcollada/Gap
 :Gap rdf:type owl:Class ;
      rdfs:subClassOf :PhysicalAsset ;
      rdfs:label "Tracker Gap"@en ;
@@ -1298,7 +1298,7 @@
      <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/GapType
+###  https://w3id.org/pvcollada/GapType
 :GapType rdf:type owl:Class ;
          owl:equivalentClass [ rdf:type owl:Class ;
                                owl:oneOf ( :JointGap
@@ -1312,7 +1312,7 @@
          <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Inverter
+###  https://w3id.org/pvcollada/Inverter
 :Inverter rdf:type owl:Class ;
           rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds/Inverter> ,
                           :PVComponent ;
@@ -1324,7 +1324,7 @@
           <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/InverterInstance
+###  https://w3id.org/pvcollada/InverterInstance
 :InverterInstance rdf:type owl:Class ;
                   rdfs:subClassOf :CircuitInstance ;
                   rdfs:label "Inverter Instance"@en ;
@@ -1334,7 +1334,7 @@
                   <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/InverterType
+###  https://w3id.org/pvcollada/InverterType
 :InverterType rdf:type owl:Class ;
               owl:equivalentClass [ rdf:type owl:Class ;
                                     owl:oneOf ( :CentralInverter
@@ -1349,7 +1349,7 @@
               <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/MPPTInput
+###  https://w3id.org/pvcollada/MPPTInput
 :MPPTInput rdf:type owl:Class ;
            rdfs:subClassOf :CircuitInstance ;
            rdfs:label "MPPT Input"@en ;
@@ -1359,7 +1359,7 @@
            <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/MPPTUnit
+###  https://w3id.org/pvcollada/MPPTUnit
 :MPPTUnit rdf:type owl:Class ;
           rdfs:subClassOf :PVComponent ;
           rdfs:label "MPPT Unit Product"@en ;
@@ -1370,7 +1370,7 @@
           <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module
+###  https://w3id.org/pvcollada/Module
 :Module rdf:type owl:Class ;
         rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds/PhotovoltaicModule> ,
                         :PVComponent ;
@@ -1382,7 +1382,7 @@
         <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleArray
+###  https://w3id.org/pvcollada/ModuleArray
 :ModuleArray rdf:type owl:Class ;
              rdfs:subClassOf :CircuitInstance ;
              rdfs:label "Module Array"@en ;
@@ -1392,7 +1392,7 @@
              <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleLayout
+###  https://w3id.org/pvcollada/ModuleLayout
 :ModuleLayout rdf:type owl:Class ;
               rdfs:subClassOf :CircuitInstance ;
               rdfs:label "Module Layout"@en ;
@@ -1403,7 +1403,7 @@
               <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleOrientation
+###  https://w3id.org/pvcollada/ModuleOrientation
 :ModuleOrientation rdf:type owl:Class ;
                    owl:equivalentClass [ rdf:type owl:Class ;
                                          owl:oneOf ( :Landscape
@@ -1417,7 +1417,7 @@
                    <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleType
+###  https://w3id.org/pvcollada/ModuleType
 :ModuleType rdf:type owl:Class ;
             owl:equivalentClass [ rdf:type owl:Class ;
                                   owl:oneOf ( :Bifacial
@@ -1433,7 +1433,7 @@
             <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Optimizer
+###  https://w3id.org/pvcollada/Optimizer
 :Optimizer rdf:type owl:Class ;
            rdfs:subClassOf :PVComponent ;
            rdfs:label "Power Optimizer Product"@en ;
@@ -1444,7 +1444,7 @@
            <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/OptimizerArray
+###  https://w3id.org/pvcollada/OptimizerArray
 :OptimizerArray rdf:type owl:Class ;
                 rdfs:subClassOf :CircuitInstance ;
                 rdfs:label "Optimizer Array"@en ;
@@ -1454,7 +1454,7 @@
                 <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/OptimizerInstance
+###  https://w3id.org/pvcollada/OptimizerInstance
 :OptimizerInstance rdf:type owl:Class ;
                    rdfs:subClassOf :CircuitInstance ;
                    rdfs:label "Optimizer Instance"@en ;
@@ -1464,7 +1464,7 @@
                    <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity
+###  https://w3id.org/pvcollada/PVColladaEntity
 :PVColladaEntity rdf:type owl:Class ;
                  rdfs:label "PV-Collada Entity"@en ;
                  <http://www.w3.org/2004/02/skos/core#definition> "Abstract root class for all entities described in the PV-Collada schema."@en ;
@@ -1472,7 +1472,7 @@
                  <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVComponent
+###  https://w3id.org/pvcollada/PVComponent
 :PVComponent rdf:type owl:Class ;
              rdfs:subClassOf :PVColladaEntity ;
              rdfs:label "PV Component"@en ;
@@ -1482,7 +1482,7 @@
              <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PhysicalAsset
+###  https://w3id.org/pvcollada/PhysicalAsset
 :PhysicalAsset rdf:type owl:Class ;
                rdfs:subClassOf :PVColladaEntity ;
                rdfs:label "Physical Asset"@en ;
@@ -1492,7 +1492,7 @@
                <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Post
+###  https://w3id.org/pvcollada/Post
 :Post rdf:type owl:Class ;
       rdfs:subClassOf :PhysicalAsset ;
       rdfs:label "Structural Post"@en ;
@@ -1502,7 +1502,7 @@
       <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PostInclination
+###  https://w3id.org/pvcollada/PostInclination
 :PostInclination rdf:type owl:Class ;
                  owl:equivalentClass [ rdf:type owl:Class ;
                                        owl:oneOf ( :PerpendicularPost
@@ -1516,7 +1516,7 @@
                  <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PostShape
+###  https://w3id.org/pvcollada/PostShape
 :PostShape rdf:type owl:Class ;
            owl:equivalentClass [ rdf:type owl:Class ;
                                  owl:oneOf ( :CircularPost
@@ -1531,7 +1531,7 @@
            <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PostType
+###  https://w3id.org/pvcollada/PostType
 :PostType rdf:type owl:Class ;
           owl:equivalentClass [ rdf:type owl:Class ;
                                 owl:oneOf ( :FencePost
@@ -1546,7 +1546,7 @@
           <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PowerType
+###  https://w3id.org/pvcollada/PowerType
 :PowerType rdf:type owl:Class ;
            owl:equivalentClass [ rdf:type owl:Class ;
                                  owl:oneOf ( :ACPower
@@ -1560,7 +1560,7 @@
            <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Project
+###  https://w3id.org/pvcollada/Project
 :Project rdf:type owl:Class ;
          rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds/PhotovoltaicSite> ,
                          :PhysicalAsset ;
@@ -1572,7 +1572,7 @@
          <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack
+###  https://w3id.org/pvcollada/Rack
 :Rack rdf:type owl:Class ;
       rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds/Racking> ,
                       :PhysicalAsset ;
@@ -1584,7 +1584,7 @@
       <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/RackType
+###  https://w3id.org/pvcollada/RackType
 :RackType rdf:type owl:Class ;
           owl:equivalentClass [ rdf:type owl:Class ;
                                 owl:oneOf ( :FixedTilt
@@ -1599,7 +1599,7 @@
           <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/String
+###  https://w3id.org/pvcollada/String
 :String rdf:type owl:Class ;
         rdfs:subClassOf :CircuitInstance ;
         rdfs:label "PV String"@en ;
@@ -1609,7 +1609,7 @@
         <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Table
+###  https://w3id.org/pvcollada/Table
 :Table rdf:type owl:Class ;
        rdfs:subClassOf :PhysicalAsset ;
        rdfs:label "PV Table"@en ;
@@ -1619,7 +1619,7 @@
        <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TableType
+###  https://w3id.org/pvcollada/TableType
 :TableType rdf:type owl:Class ;
            owl:equivalentClass [ rdf:type owl:Class ;
                                  owl:oneOf ( :FixedTable
@@ -1633,7 +1633,7 @@
            <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Terrain
+###  https://w3id.org/pvcollada/Terrain
 :Terrain rdf:type owl:Class ;
          rdfs:subClassOf :PhysicalAsset ;
          rdfs:label "Terrain"@en ;
@@ -1643,7 +1643,7 @@
          <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TorqueTubeShape
+###  https://w3id.org/pvcollada/TorqueTubeShape
 :TorqueTubeShape rdf:type owl:Class ;
                  owl:equivalentClass [ rdf:type owl:Class ;
                                        owl:oneOf ( :CircularTube
@@ -1658,7 +1658,7 @@
                  <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TrackerRack
+###  https://w3id.org/pvcollada/TrackerRack
 :TrackerRack rdf:type owl:Class ;
              rdfs:subClassOf :Rack ,
                              [ rdf:type owl:Restriction ;
@@ -1675,7 +1675,7 @@
              <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TrackerType
+###  https://w3id.org/pvcollada/TrackerType
 :TrackerType rdf:type owl:Class ;
              owl:equivalentClass [ rdf:type owl:Class ;
                                    owl:oneOf ( :DualAxisTracker
@@ -1689,7 +1689,7 @@
              <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Transformer
+###  https://w3id.org/pvcollada/Transformer
 :Transformer rdf:type owl:Class ;
              rdfs:subClassOf :PVComponent ;
              rdfs:label "Transformer Product"@en ;
@@ -1700,7 +1700,7 @@
              <https://cwrusdle.bitbucket.io/mds/hasSubDomain> "pvcollada" .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TransformerInstance
+###  https://w3id.org/pvcollada/TransformerInstance
 :TransformerInstance rdf:type owl:Class ;
                      rdfs:subClassOf :CircuitInstance ;
                      rdfs:label "Transformer Instance"@en ;
@@ -1714,208 +1714,208 @@
 #    Individuals
 #################################################################
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ACPower
+###  https://w3id.org/pvcollada/ACPower
 :ACPower rdf:type owl:NamedIndividual ,
                   :PowerType ;
          rdfs:label "alternating current"@en ;
          <http://www.w3.org/2004/02/skos/core#altLabel> "ac"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ASi
+###  https://w3id.org/pvcollada/ASi
 :ASi rdf:type owl:NamedIndividual ,
               :CellMaterial ;
      rdfs:label "amorphous silicon"@en ;
      <http://www.w3.org/2004/02/skos/core#altLabel> "aSi"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/AluminumConductor
+###  https://w3id.org/pvcollada/AluminumConductor
 :AluminumConductor rdf:type owl:NamedIndividual ,
                             :ConductorMaterial ;
                    rdfs:label "aluminum conductor"@en ;
                    <http://www.w3.org/2004/02/skos/core#altLabel> "aluminum"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Bifacial
+###  https://w3id.org/pvcollada/Bifacial
 :Bifacial rdf:type owl:NamedIndividual ,
                    :ModuleType ;
           rdfs:label "bifacial module"@en ;
           <http://www.w3.org/2004/02/skos/core#altLabel> "bifacial"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CECEfficiency
+###  https://w3id.org/pvcollada/CECEfficiency
 :CECEfficiency rdf:type owl:NamedIndividual ,
                         :EfficiencyStandardType ;
                rdfs:label "CEC efficiency standard"@en ;
                <http://www.w3.org/2004/02/skos/core#altLabel> "CEC"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CPV
+###  https://w3id.org/pvcollada/CPV
 :CPV rdf:type owl:NamedIndividual ,
               :ModuleType ;
      rdfs:label "concentrating photovoltaic module"@en ;
      <http://www.w3.org/2004/02/skos/core#altLabel> "cpv"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CdTe
+###  https://w3id.org/pvcollada/CdTe
 :CdTe rdf:type owl:NamedIndividual ,
                :CellMaterial ;
       rdfs:label "cadmium telluride"@en ;
       <http://www.w3.org/2004/02/skos/core#altLabel> "cdTe"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CentralInverter
+###  https://w3id.org/pvcollada/CentralInverter
 :CentralInverter rdf:type owl:NamedIndividual ,
                           :InverterType ;
                  rdfs:label "central inverter"@en ;
                  <http://www.w3.org/2004/02/skos/core#altLabel> "central"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CircularPost
+###  https://w3id.org/pvcollada/CircularPost
 :CircularPost rdf:type owl:NamedIndividual ,
                        :PostShape ;
               rdfs:label "circular post"@en ;
               <http://www.w3.org/2004/02/skos/core#altLabel> "circle"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CircularTube
+###  https://w3id.org/pvcollada/CircularTube
 :CircularTube rdf:type owl:NamedIndividual ,
                        :TorqueTubeShape ;
               rdfs:label "circular torque tube"@en ;
               <http://www.w3.org/2004/02/skos/core#altLabel> "circle"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CopperConductor
+###  https://w3id.org/pvcollada/CopperConductor
 :CopperConductor rdf:type owl:NamedIndividual ,
                           :ConductorMaterial ;
                  rdfs:label "copper conductor"@en ;
                  <http://www.w3.org/2004/02/skos/core#altLabel> "copper"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/DCPower
+###  https://w3id.org/pvcollada/DCPower
 :DCPower rdf:type owl:NamedIndividual ,
                   :PowerType ;
          rdfs:label "direct current"@en ;
          <http://www.w3.org/2004/02/skos/core#altLabel> "dc"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/DualAxisTracker
+###  https://w3id.org/pvcollada/DualAxisTracker
 :DualAxisTracker rdf:type owl:NamedIndividual ,
                           :TrackerType ;
                  rdfs:label "dual axis tracker"@en ;
                  <http://www.w3.org/2004/02/skos/core#altLabel> "dual_axis"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/EUEfficiency
+###  https://w3id.org/pvcollada/EUEfficiency
 :EUEfficiency rdf:type owl:NamedIndividual ,
                        :EfficiencyStandardType ;
               rdfs:label "EU efficiency standard"@en ;
               <http://www.w3.org/2004/02/skos/core#altLabel> "EU"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/FencePost
+###  https://w3id.org/pvcollada/FencePost
 :FencePost rdf:type owl:NamedIndividual ,
                     :PostType ;
            rdfs:label "fence post"@en ;
            <http://www.w3.org/2004/02/skos/core#altLabel> "fence"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/FixedTable
+###  https://w3id.org/pvcollada/FixedTable
 :FixedTable rdf:type owl:NamedIndividual ,
                      :TableType ;
             rdfs:label "fixed table"@en ;
             <http://www.w3.org/2004/02/skos/core#altLabel> "fixed"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/FixedTilt
+###  https://w3id.org/pvcollada/FixedTilt
 :FixedTilt rdf:type owl:NamedIndividual ,
                     :RackType ;
            rdfs:label "fixed tilt"@en ;
            <http://www.w3.org/2004/02/skos/core#altLabel> "fixed_tilt"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/HShapePost
+###  https://w3id.org/pvcollada/HShapePost
 :HShapePost rdf:type owl:NamedIndividual ,
                      :PostShape ;
             rdfs:label "H-shape post"@en ;
             <http://www.w3.org/2004/02/skos/core#altLabel> "h-shape"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Heterojunction
+###  https://w3id.org/pvcollada/Heterojunction
 :Heterojunction rdf:type owl:NamedIndividual ,
                          :CellArchitecture ;
                 rdfs:label "heterojunction"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/IBC
+###  https://w3id.org/pvcollada/IBC
 :IBC rdf:type owl:NamedIndividual ,
               :CellArchitecture ;
      rdfs:label "interdigitated back contact"@en ;
      <http://www.w3.org/2004/02/skos/core#altLabel> "IBC"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/IndependentDrive
+###  https://w3id.org/pvcollada/IndependentDrive
 :IndependentDrive rdf:type owl:NamedIndividual ,
                            :DriveType ;
                   rdfs:label "independent drive"@en ;
                   <http://www.w3.org/2004/02/skos/core#altLabel> "independent"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/JointGap
+###  https://w3id.org/pvcollada/JointGap
 :JointGap rdf:type owl:NamedIndividual ,
                    :GapType ;
           rdfs:label "joint gap"@en ;
           <http://www.w3.org/2004/02/skos/core#altLabel> "joint"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Landscape
+###  https://w3id.org/pvcollada/Landscape
 :Landscape rdf:type owl:NamedIndividual ,
                     :ModuleOrientation ;
            rdfs:label "landscape orientation"@en ;
            <http://www.w3.org/2004/02/skos/core#altLabel> "landscape"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/LinkedDrive
+###  https://w3id.org/pvcollada/LinkedDrive
 :LinkedDrive rdf:type owl:NamedIndividual ,
                       :DriveType ;
              rdfs:label "linked drive"@en ;
              <http://www.w3.org/2004/02/skos/core#altLabel> "linked"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Microinverter
+###  https://w3id.org/pvcollada/Microinverter
 :Microinverter rdf:type owl:NamedIndividual ,
                         :InverterType ;
                rdfs:label "microinverter"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/MonoSi
+###  https://w3id.org/pvcollada/MonoSi
 :MonoSi rdf:type owl:NamedIndividual ,
                  :CellMaterial ;
         rdfs:label "monocrystalline silicon"@en ;
         <http://www.w3.org/2004/02/skos/core#altLabel> "monoSi"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Monofacial
+###  https://w3id.org/pvcollada/Monofacial
 :Monofacial rdf:type owl:NamedIndividual ,
                      :ModuleType ;
             rdfs:label "monofacial module"@en ;
             <http://www.w3.org/2004/02/skos/core#altLabel> "monofacial"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/MotorGap
+###  https://w3id.org/pvcollada/MotorGap
 :MotorGap rdf:type owl:NamedIndividual ,
                    :GapType ;
           rdfs:label "motor gap"@en ;
           <http://www.w3.org/2004/02/skos/core#altLabel> "motor"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/OctagonalTube
+###  https://w3id.org/pvcollada/OctagonalTube
 :OctagonalTube rdf:type owl:NamedIndividual ,
                         :TorqueTubeShape ;
                rdfs:label "octagonal torque tube"@en ;
                <http://www.w3.org/2004/02/skos/core#altLabel> "octogon"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PERC
+###  https://w3id.org/pvcollada/PERC
 :PERC rdf:type owl:NamedIndividual ,
                :CellArchitecture ;
       rdfs:label "passivated emitter and rear cell"@en ;
@@ -1923,112 +1923,112 @@
       <http://www.w3.org/2004/02/skos/core#exactMatch> <https://cwrusdle.bitbucket.io/mds/PassivatedEmitterRearCell> .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PerpendicularPost
+###  https://w3id.org/pvcollada/PerpendicularPost
 :PerpendicularPost rdf:type owl:NamedIndividual ,
                             :PostInclination ;
                    rdfs:label "perpendicular post"@en ;
                    <http://www.w3.org/2004/02/skos/core#altLabel> "perpendicular"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PolySi
+###  https://w3id.org/pvcollada/PolySi
 :PolySi rdf:type owl:NamedIndividual ,
                  :CellMaterial ;
         rdfs:label "polycrystalline silicon"@en ;
         <http://www.w3.org/2004/02/skos/core#altLabel> "polySi"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Portrait
+###  https://w3id.org/pvcollada/Portrait
 :Portrait rdf:type owl:NamedIndividual ,
                    :ModuleOrientation ;
           rdfs:label "portrait orientation"@en ;
           <http://www.w3.org/2004/02/skos/core#altLabel> "portrait"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/RackPost
+###  https://w3id.org/pvcollada/RackPost
 :RackPost rdf:type owl:NamedIndividual ,
                    :PostType ;
           rdfs:label "rack post"@en ;
           <http://www.w3.org/2004/02/skos/core#altLabel> "rack"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/RectangularPost
+###  https://w3id.org/pvcollada/RectangularPost
 :RectangularPost rdf:type owl:NamedIndividual ,
                           :PostShape ;
                  rdfs:label "rectangular post"@en ;
                  <http://www.w3.org/2004/02/skos/core#altLabel> "rectangle"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/RectangularTube
+###  https://w3id.org/pvcollada/RectangularTube
 :RectangularTube rdf:type owl:NamedIndividual ,
                           :TorqueTubeShape ;
                  rdfs:label "rectangular torque tube"@en ;
                  <http://www.w3.org/2004/02/skos/core#altLabel> "rectangle"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Shingle
+###  https://w3id.org/pvcollada/Shingle
 :Shingle rdf:type owl:NamedIndividual ,
                   :ModuleType ;
          rdfs:label "shingle module"@en ;
          <http://www.w3.org/2004/02/skos/core#altLabel> "shingle"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/SingleAxisTracker
+###  https://w3id.org/pvcollada/SingleAxisTracker
 :SingleAxisTracker rdf:type owl:NamedIndividual ,
                             :TrackerType ;
                    rdfs:label "single axis tracker"@en ;
                    <http://www.w3.org/2004/02/skos/core#altLabel> "single_axis"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/SingleJunction
+###  https://w3id.org/pvcollada/SingleJunction
 :SingleJunction rdf:type owl:NamedIndividual ,
                          :CellArchitecture ;
                 rdfs:label "single junction"@en ;
                 <http://www.w3.org/2004/02/skos/core#altLabel> "single_junction"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/StringInverter
+###  https://w3id.org/pvcollada/StringInverter
 :StringInverter rdf:type owl:NamedIndividual ,
                          :InverterType ;
                 rdfs:label "string inverter"@en ;
                 <http://www.w3.org/2004/02/skos/core#altLabel> "string"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TOPcon
+###  https://w3id.org/pvcollada/TOPcon
 :TOPcon rdf:type owl:NamedIndividual ,
                  :CellArchitecture ;
         rdfs:label "tunnel oxide passivated contact"@en ;
         <http://www.w3.org/2004/02/skos/core#altLabel> "TOPcon"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TandemPerovskite
+###  https://w3id.org/pvcollada/TandemPerovskite
 :TandemPerovskite rdf:type owl:NamedIndividual ,
                            :CellArchitecture ;
                   rdfs:label "tandem perovskite"@en ;
                   <http://www.w3.org/2004/02/skos/core#altLabel> "tandem-perovskite"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TrackerPost
+###  https://w3id.org/pvcollada/TrackerPost
 :TrackerPost rdf:type owl:NamedIndividual ,
                       :PostType ;
              rdfs:label "tracker post"@en ;
              <http://www.w3.org/2004/02/skos/core#altLabel> "tracker"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TrackerRackType
+###  https://w3id.org/pvcollada/TrackerRackType
 :TrackerRackType rdf:type owl:NamedIndividual ,
                           :RackType ;
                  rdfs:label "tracker rack"@en ;
                  <http://www.w3.org/2004/02/skos/core#altLabel> "tracker"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TrackerTable
+###  https://w3id.org/pvcollada/TrackerTable
 :TrackerTable rdf:type owl:NamedIndividual ,
                        :TableType ;
               rdfs:label "tracker table"@en ;
               <http://www.w3.org/2004/02/skos/core#altLabel> "tracker"@en .
 
 
-###  https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/VerticalPost
+###  https://w3id.org/pvcollada/VerticalPost
 :VerticalPost rdf:type owl:NamedIndividual ,
                        :PostInclination ;
               rdfs:label "vertical post"@en ;

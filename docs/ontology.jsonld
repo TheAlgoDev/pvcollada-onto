@@ -3,17 +3,17 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Heterojunction"
+      "@id" : "https://w3id.org/pvcollada/Heterojunction"
     }, {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/IBC"
+      "@id" : "https://w3id.org/pvcollada/IBC"
     }, {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PERC"
+      "@id" : "https://w3id.org/pvcollada/PERC"
     }, {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/SingleJunction"
+      "@id" : "https://w3id.org/pvcollada/SingleJunction"
     }, {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TOPcon"
+      "@id" : "https://w3id.org/pvcollada/TOPcon"
     }, {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TandemPerovskite"
+      "@id" : "https://w3id.org/pvcollada/TandemPerovskite"
     } ]
   } ]
 }, {
@@ -21,9 +21,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/AluminumConductor"
+      "@id" : "https://w3id.org/pvcollada/AluminumConductor"
     }, {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CopperConductor"
+      "@id" : "https://w3id.org/pvcollada/CopperConductor"
     } ]
   } ]
 }, {
@@ -31,9 +31,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/IndependentDrive"
+      "@id" : "https://w3id.org/pvcollada/IndependentDrive"
     }, {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/LinkedDrive"
+      "@id" : "https://w3id.org/pvcollada/LinkedDrive"
     } ]
   } ]
 }, {
@@ -41,19 +41,19 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CECEfficiency"
+      "@id" : "https://w3id.org/pvcollada/CECEfficiency"
     }, {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/EUEfficiency"
+      "@id" : "https://w3id.org/pvcollada/EUEfficiency"
     } ]
   } ]
 }, {
   "@id" : "_:genid22",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/FixedTilt"
+    "@id" : "https://w3id.org/pvcollada/FixedTilt"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasRackType"
+    "@id" : "https://w3id.org/pvcollada/hasRackType"
   } ]
 }, {
   "@id" : "_:genid23",
@@ -63,7 +63,7 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/azimuth"
+    "@id" : "https://w3id.org/pvcollada/azimuth"
   } ]
 }, {
   "@id" : "_:genid24",
@@ -73,16 +73,16 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/tilt"
+    "@id" : "https://w3id.org/pvcollada/tilt"
   } ]
 }, {
   "@id" : "_:genid25",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/JointGap"
+      "@id" : "https://w3id.org/pvcollada/JointGap"
     }, {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/MotorGap"
+      "@id" : "https://w3id.org/pvcollada/MotorGap"
     } ]
   } ]
 }, {
@@ -90,11 +90,11 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CentralInverter"
+      "@id" : "https://w3id.org/pvcollada/CentralInverter"
     }, {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Microinverter"
+      "@id" : "https://w3id.org/pvcollada/Microinverter"
     }, {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/StringInverter"
+      "@id" : "https://w3id.org/pvcollada/StringInverter"
     } ]
   } ]
 }, {
@@ -102,9 +102,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Landscape"
+      "@id" : "https://w3id.org/pvcollada/Landscape"
     }, {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Portrait"
+      "@id" : "https://w3id.org/pvcollada/Portrait"
     } ]
   } ]
 }, {
@@ -112,13 +112,13 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Bifacial"
+      "@id" : "https://w3id.org/pvcollada/Bifacial"
     }, {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CPV"
+      "@id" : "https://w3id.org/pvcollada/CPV"
     }, {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Monofacial"
+      "@id" : "https://w3id.org/pvcollada/Monofacial"
     }, {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Shingle"
+      "@id" : "https://w3id.org/pvcollada/Shingle"
     } ]
   } ]
 }, {
@@ -126,9 +126,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PerpendicularPost"
+      "@id" : "https://w3id.org/pvcollada/PerpendicularPost"
     }, {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/VerticalPost"
+      "@id" : "https://w3id.org/pvcollada/VerticalPost"
     } ]
   } ]
 }, {
@@ -136,11 +136,11 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CircularPost"
+      "@id" : "https://w3id.org/pvcollada/CircularPost"
     }, {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/HShapePost"
+      "@id" : "https://w3id.org/pvcollada/HShapePost"
     }, {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/RectangularPost"
+      "@id" : "https://w3id.org/pvcollada/RectangularPost"
     } ]
   } ]
 }, {
@@ -148,11 +148,11 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/FencePost"
+      "@id" : "https://w3id.org/pvcollada/FencePost"
     }, {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/RackPost"
+      "@id" : "https://w3id.org/pvcollada/RackPost"
     }, {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TrackerPost"
+      "@id" : "https://w3id.org/pvcollada/TrackerPost"
     } ]
   } ]
 }, {
@@ -160,9 +160,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ACPower"
+      "@id" : "https://w3id.org/pvcollada/ACPower"
     }, {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/DCPower"
+      "@id" : "https://w3id.org/pvcollada/DCPower"
     } ]
   } ]
 }, {
@@ -170,9 +170,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/FixedTilt"
+      "@id" : "https://w3id.org/pvcollada/FixedTilt"
     }, {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TrackerRackType"
+      "@id" : "https://w3id.org/pvcollada/TrackerRackType"
     } ]
   } ]
 }, {
@@ -180,9 +180,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/FixedTable"
+      "@id" : "https://w3id.org/pvcollada/FixedTable"
     }, {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TrackerTable"
+      "@id" : "https://w3id.org/pvcollada/TrackerTable"
     } ]
   } ]
 }, {
@@ -190,21 +190,21 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CircularTube"
+      "@id" : "https://w3id.org/pvcollada/CircularTube"
     }, {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/OctagonalTube"
+      "@id" : "https://w3id.org/pvcollada/OctagonalTube"
     }, {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/RectangularTube"
+      "@id" : "https://w3id.org/pvcollada/RectangularTube"
     } ]
   } ]
 }, {
   "@id" : "_:genid64",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TrackerRackType"
+    "@id" : "https://w3id.org/pvcollada/TrackerRackType"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasRackType"
+    "@id" : "https://w3id.org/pvcollada/hasRackType"
   } ]
 }, {
   "@id" : "_:genid65",
@@ -214,16 +214,16 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/trackerAzimuth"
+    "@id" : "https://w3id.org/pvcollada/trackerAzimuth"
   } ]
 }, {
   "@id" : "_:genid66",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/DualAxisTracker"
+      "@id" : "https://w3id.org/pvcollada/DualAxisTracker"
     }, {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/SingleAxisTracker"
+      "@id" : "https://w3id.org/pvcollada/SingleAxisTracker"
     } ]
   } ]
 }, {
@@ -231,13 +231,13 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ASi"
+      "@id" : "https://w3id.org/pvcollada/ASi"
     }, {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CdTe"
+      "@id" : "https://w3id.org/pvcollada/CdTe"
     }, {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/MonoSi"
+      "@id" : "https://w3id.org/pvcollada/MonoSi"
     }, {
-      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PolySi"
+      "@id" : "https://w3id.org/pvcollada/PolySi"
     } ]
   } ]
 }, {
@@ -274,7 +274,16 @@
   "@id" : "https://cwrusdle.bitbucket.io/mds/Racking",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/",
+  "@id" : "https://cwrusdle.bitbucket.io/mds/hasDomain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/hasStudyStage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/hasSubDomain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/pvcollada/",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://www.ontologyrepository.com/CommonCoreOntologies/ont00001754" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -291,7 +300,7 @@
     "@id" : "https://cwrusdle.bitbucket.io/mds/"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/0.1.0"
+    "@id" : "https://w3id.org/pvcollada/0.1.0"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -302,14 +311,14 @@
     "@value" : "Covers three interlocking layers: (1) a product library of typed PV components (modules, inverters, cables, etc.); (2) a circuit topology describing how those components are wired together; and (3) a physical 3-D layout associating circuit positions with geometric rack instances. ModuleLayout is the cross-domain bridge between layers 2 and 3."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ACCombiner",
+  "@id" : "https://w3id.org/pvcollada/ACCombiner",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "AC Combiner Product"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVComponent"
+    "@id" : "https://w3id.org/pvcollada/PVComponent"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -329,14 +338,14 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ACCombinerInstance",
+  "@id" : "https://w3id.org/pvcollada/ACCombinerInstance",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "AC Combiner Instance"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CircuitInstance"
+    "@id" : "https://w3id.org/pvcollada/CircuitInstance"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -352,10 +361,10 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ACPower",
+  "@id" : "https://w3id.org/pvcollada/ACPower",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PowerType"
+    "@id" : "https://w3id.org/pvcollada/PowerType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -366,10 +375,10 @@
     "@value" : "ac"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ASi",
+  "@id" : "https://w3id.org/pvcollada/ASi",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CellMaterial"
+    "@id" : "https://w3id.org/pvcollada/CellMaterial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -380,10 +389,10 @@
     "@value" : "aSi"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/AluminumConductor",
+  "@id" : "https://w3id.org/pvcollada/AluminumConductor",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ConductorMaterial"
+    "@id" : "https://w3id.org/pvcollada/ConductorMaterial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -394,10 +403,10 @@
     "@value" : "aluminum"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Bifacial",
+  "@id" : "https://w3id.org/pvcollada/Bifacial",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleType"
+    "@id" : "https://w3id.org/pvcollada/ModuleType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -408,10 +417,10 @@
     "@value" : "bifacial"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CECEfficiency",
+  "@id" : "https://w3id.org/pvcollada/CECEfficiency",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/EfficiencyStandardType"
+    "@id" : "https://w3id.org/pvcollada/EfficiencyStandardType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -422,10 +431,10 @@
     "@value" : "CEC"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CPV",
+  "@id" : "https://w3id.org/pvcollada/CPV",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleType"
+    "@id" : "https://w3id.org/pvcollada/ModuleType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -436,14 +445,14 @@
     "@value" : "cpv"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Cable",
+  "@id" : "https://w3id.org/pvcollada/Cable",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Cable Product"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVComponent"
+    "@id" : "https://w3id.org/pvcollada/PVComponent"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -463,14 +472,14 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CableTo",
+  "@id" : "https://w3id.org/pvcollada/CableTo",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Cable To"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CircuitInstance"
+    "@id" : "https://w3id.org/pvcollada/CircuitInstance"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -486,10 +495,10 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CdTe",
+  "@id" : "https://w3id.org/pvcollada/CdTe",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CellMaterial"
+    "@id" : "https://w3id.org/pvcollada/CellMaterial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -500,14 +509,14 @@
     "@value" : "cdTe"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CellArchitecture",
+  "@id" : "https://w3id.org/pvcollada/CellArchitecture",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Cell Architecture"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+    "@id" : "https://w3id.org/pvcollada/PVColladaEntity"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid1"
@@ -531,14 +540,14 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CellMaterial",
+  "@id" : "https://w3id.org/pvcollada/CellMaterial",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Cell Material"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+    "@id" : "https://w3id.org/pvcollada/PVColladaEntity"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid8"
@@ -557,10 +566,10 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CentralInverter",
+  "@id" : "https://w3id.org/pvcollada/CentralInverter",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/InverterType"
+    "@id" : "https://w3id.org/pvcollada/InverterType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -571,14 +580,14 @@
     "@value" : "central"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Circuit",
+  "@id" : "https://w3id.org/pvcollada/Circuit",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Circuit"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CircuitInstance"
+    "@id" : "https://w3id.org/pvcollada/CircuitInstance"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -594,14 +603,14 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CircuitInstance",
+  "@id" : "https://w3id.org/pvcollada/CircuitInstance",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Circuit Instance"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+    "@id" : "https://w3id.org/pvcollada/PVColladaEntity"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -617,10 +626,10 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CircularPost",
+  "@id" : "https://w3id.org/pvcollada/CircularPost",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PostShape"
+    "@id" : "https://w3id.org/pvcollada/PostShape"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -631,10 +640,10 @@
     "@value" : "circle"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CircularTube",
+  "@id" : "https://w3id.org/pvcollada/CircularTube",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TorqueTubeShape"
+    "@id" : "https://w3id.org/pvcollada/TorqueTubeShape"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -645,14 +654,14 @@
     "@value" : "circle"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ConductorMaterial",
+  "@id" : "https://w3id.org/pvcollada/ConductorMaterial",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Conductor Material"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+    "@id" : "https://w3id.org/pvcollada/PVColladaEntity"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid13"
@@ -668,10 +677,10 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CopperConductor",
+  "@id" : "https://w3id.org/pvcollada/CopperConductor",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ConductorMaterial"
+    "@id" : "https://w3id.org/pvcollada/ConductorMaterial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -682,14 +691,14 @@
     "@value" : "copper"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/DCCombiner",
+  "@id" : "https://w3id.org/pvcollada/DCCombiner",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "DC Combiner Product"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVComponent"
+    "@id" : "https://w3id.org/pvcollada/PVComponent"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -709,14 +718,14 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/DCCombinerInstance",
+  "@id" : "https://w3id.org/pvcollada/DCCombinerInstance",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "DC Combiner Instance"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CircuitInstance"
+    "@id" : "https://w3id.org/pvcollada/CircuitInstance"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -732,10 +741,10 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/DCPower",
+  "@id" : "https://w3id.org/pvcollada/DCPower",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PowerType"
+    "@id" : "https://w3id.org/pvcollada/PowerType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -746,14 +755,14 @@
     "@value" : "dc"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/DriveType",
+  "@id" : "https://w3id.org/pvcollada/DriveType",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Drive Type"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+    "@id" : "https://w3id.org/pvcollada/PVColladaEntity"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid16"
@@ -769,10 +778,10 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/DualAxisTracker",
+  "@id" : "https://w3id.org/pvcollada/DualAxisTracker",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TrackerType"
+    "@id" : "https://w3id.org/pvcollada/TrackerType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -783,10 +792,10 @@
     "@value" : "dual_axis"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/EUEfficiency",
+  "@id" : "https://w3id.org/pvcollada/EUEfficiency",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/EfficiencyStandardType"
+    "@id" : "https://w3id.org/pvcollada/EfficiencyStandardType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -797,14 +806,14 @@
     "@value" : "EU"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/EfficiencyStandardType",
+  "@id" : "https://w3id.org/pvcollada/EfficiencyStandardType",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Efficiency Standard Type"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+    "@id" : "https://w3id.org/pvcollada/PVColladaEntity"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid19"
@@ -820,10 +829,10 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/FencePost",
+  "@id" : "https://w3id.org/pvcollada/FencePost",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PostType"
+    "@id" : "https://w3id.org/pvcollada/PostType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -834,10 +843,10 @@
     "@value" : "fence"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/FixedTable",
+  "@id" : "https://w3id.org/pvcollada/FixedTable",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TableType"
+    "@id" : "https://w3id.org/pvcollada/TableType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -848,10 +857,10 @@
     "@value" : "fixed"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/FixedTilt",
+  "@id" : "https://w3id.org/pvcollada/FixedTilt",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/RackType"
+    "@id" : "https://w3id.org/pvcollada/RackType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -862,14 +871,14 @@
     "@value" : "fixed_tilt"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/FixedTiltRack",
+  "@id" : "https://w3id.org/pvcollada/FixedTiltRack",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Fixed Tilt Rack"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack"
+    "@id" : "https://w3id.org/pvcollada/Rack"
   }, {
     "@id" : "_:genid22"
   }, {
@@ -878,7 +887,7 @@
     "@id" : "_:genid24"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TrackerRack"
+    "@id" : "https://w3id.org/pvcollada/TrackerRack"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -891,14 +900,14 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Gap",
+  "@id" : "https://w3id.org/pvcollada/Gap",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Tracker Gap"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PhysicalAsset"
+    "@id" : "https://w3id.org/pvcollada/PhysicalAsset"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -914,14 +923,14 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/GapType",
+  "@id" : "https://w3id.org/pvcollada/GapType",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Gap Type"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+    "@id" : "https://w3id.org/pvcollada/PVColladaEntity"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid25"
@@ -937,10 +946,10 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/HShapePost",
+  "@id" : "https://w3id.org/pvcollada/HShapePost",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PostShape"
+    "@id" : "https://w3id.org/pvcollada/PostShape"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -951,20 +960,20 @@
     "@value" : "h-shape"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Heterojunction",
+  "@id" : "https://w3id.org/pvcollada/Heterojunction",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CellArchitecture"
+    "@id" : "https://w3id.org/pvcollada/CellArchitecture"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "heterojunction"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/IBC",
+  "@id" : "https://w3id.org/pvcollada/IBC",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CellArchitecture"
+    "@id" : "https://w3id.org/pvcollada/CellArchitecture"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -975,10 +984,10 @@
     "@value" : "IBC"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/IndependentDrive",
+  "@id" : "https://w3id.org/pvcollada/IndependentDrive",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/DriveType"
+    "@id" : "https://w3id.org/pvcollada/DriveType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -989,7 +998,7 @@
     "@value" : "independent"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Inverter",
+  "@id" : "https://w3id.org/pvcollada/Inverter",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -998,7 +1007,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://cwrusdle.bitbucket.io/mds/Inverter"
   }, {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVComponent"
+    "@id" : "https://w3id.org/pvcollada/PVComponent"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -1018,14 +1027,14 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/InverterInstance",
+  "@id" : "https://w3id.org/pvcollada/InverterInstance",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Inverter Instance"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CircuitInstance"
+    "@id" : "https://w3id.org/pvcollada/CircuitInstance"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -1041,14 +1050,14 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/InverterType",
+  "@id" : "https://w3id.org/pvcollada/InverterType",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Inverter Type"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+    "@id" : "https://w3id.org/pvcollada/PVColladaEntity"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid28"
@@ -1064,10 +1073,10 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/JointGap",
+  "@id" : "https://w3id.org/pvcollada/JointGap",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/GapType"
+    "@id" : "https://w3id.org/pvcollada/GapType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1078,10 +1087,10 @@
     "@value" : "joint"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Landscape",
+  "@id" : "https://w3id.org/pvcollada/Landscape",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleOrientation"
+    "@id" : "https://w3id.org/pvcollada/ModuleOrientation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1092,10 +1101,10 @@
     "@value" : "landscape"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/LinkedDrive",
+  "@id" : "https://w3id.org/pvcollada/LinkedDrive",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/DriveType"
+    "@id" : "https://w3id.org/pvcollada/DriveType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1106,14 +1115,14 @@
     "@value" : "linked"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/MPPTInput",
+  "@id" : "https://w3id.org/pvcollada/MPPTInput",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "MPPT Input"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CircuitInstance"
+    "@id" : "https://w3id.org/pvcollada/CircuitInstance"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -1129,14 +1138,14 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/MPPTUnit",
+  "@id" : "https://w3id.org/pvcollada/MPPTUnit",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "MPPT Unit Product"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVComponent"
+    "@id" : "https://w3id.org/pvcollada/PVComponent"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -1156,17 +1165,17 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Microinverter",
+  "@id" : "https://w3id.org/pvcollada/Microinverter",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/InverterType"
+    "@id" : "https://w3id.org/pvcollada/InverterType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "microinverter"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module",
+  "@id" : "https://w3id.org/pvcollada/Module",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1175,7 +1184,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://cwrusdle.bitbucket.io/mds/PhotovoltaicModule"
   }, {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVComponent"
+    "@id" : "https://w3id.org/pvcollada/PVComponent"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -1195,14 +1204,14 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleArray",
+  "@id" : "https://w3id.org/pvcollada/ModuleArray",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Module Array"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CircuitInstance"
+    "@id" : "https://w3id.org/pvcollada/CircuitInstance"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -1218,14 +1227,14 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleLayout",
+  "@id" : "https://w3id.org/pvcollada/ModuleLayout",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Module Layout"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CircuitInstance"
+    "@id" : "https://w3id.org/pvcollada/CircuitInstance"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -1245,14 +1254,14 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleOrientation",
+  "@id" : "https://w3id.org/pvcollada/ModuleOrientation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Module Orientation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+    "@id" : "https://w3id.org/pvcollada/PVColladaEntity"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid32"
@@ -1268,14 +1277,14 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleType",
+  "@id" : "https://w3id.org/pvcollada/ModuleType",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Module Type"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+    "@id" : "https://w3id.org/pvcollada/PVColladaEntity"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid35"
@@ -1291,10 +1300,10 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/MonoSi",
+  "@id" : "https://w3id.org/pvcollada/MonoSi",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CellMaterial"
+    "@id" : "https://w3id.org/pvcollada/CellMaterial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1305,10 +1314,10 @@
     "@value" : "monoSi"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Monofacial",
+  "@id" : "https://w3id.org/pvcollada/Monofacial",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleType"
+    "@id" : "https://w3id.org/pvcollada/ModuleType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1319,10 +1328,10 @@
     "@value" : "monofacial"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/MotorGap",
+  "@id" : "https://w3id.org/pvcollada/MotorGap",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/GapType"
+    "@id" : "https://w3id.org/pvcollada/GapType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1333,10 +1342,10 @@
     "@value" : "motor"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/OctagonalTube",
+  "@id" : "https://w3id.org/pvcollada/OctagonalTube",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TorqueTubeShape"
+    "@id" : "https://w3id.org/pvcollada/TorqueTubeShape"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1347,14 +1356,14 @@
     "@value" : "octogon"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Optimizer",
+  "@id" : "https://w3id.org/pvcollada/Optimizer",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Power Optimizer Product"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVComponent"
+    "@id" : "https://w3id.org/pvcollada/PVComponent"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -1374,14 +1383,14 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/OptimizerArray",
+  "@id" : "https://w3id.org/pvcollada/OptimizerArray",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Optimizer Array"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CircuitInstance"
+    "@id" : "https://w3id.org/pvcollada/CircuitInstance"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -1397,14 +1406,14 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/OptimizerInstance",
+  "@id" : "https://w3id.org/pvcollada/OptimizerInstance",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Optimizer Instance"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CircuitInstance"
+    "@id" : "https://w3id.org/pvcollada/CircuitInstance"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -1420,10 +1429,10 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PERC",
+  "@id" : "https://w3id.org/pvcollada/PERC",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CellArchitecture"
+    "@id" : "https://w3id.org/pvcollada/CellArchitecture"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1437,7 +1446,7 @@
     "@id" : "https://cwrusdle.bitbucket.io/mds/PassivatedEmitterRearCell"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity",
+  "@id" : "https://w3id.org/pvcollada/PVColladaEntity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1454,14 +1463,14 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVComponent",
+  "@id" : "https://w3id.org/pvcollada/PVComponent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "PV Component"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+    "@id" : "https://w3id.org/pvcollada/PVColladaEntity"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -1477,10 +1486,10 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PerpendicularPost",
+  "@id" : "https://w3id.org/pvcollada/PerpendicularPost",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PostInclination"
+    "@id" : "https://w3id.org/pvcollada/PostInclination"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1491,14 +1500,14 @@
     "@value" : "perpendicular"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PhysicalAsset",
+  "@id" : "https://w3id.org/pvcollada/PhysicalAsset",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Physical Asset"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+    "@id" : "https://w3id.org/pvcollada/PVColladaEntity"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -1514,10 +1523,10 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PolySi",
+  "@id" : "https://w3id.org/pvcollada/PolySi",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CellMaterial"
+    "@id" : "https://w3id.org/pvcollada/CellMaterial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1528,10 +1537,10 @@
     "@value" : "polySi"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Portrait",
+  "@id" : "https://w3id.org/pvcollada/Portrait",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleOrientation"
+    "@id" : "https://w3id.org/pvcollada/ModuleOrientation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1542,14 +1551,14 @@
     "@value" : "portrait"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Post",
+  "@id" : "https://w3id.org/pvcollada/Post",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Structural Post"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PhysicalAsset"
+    "@id" : "https://w3id.org/pvcollada/PhysicalAsset"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -1565,14 +1574,14 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PostInclination",
+  "@id" : "https://w3id.org/pvcollada/PostInclination",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Post Inclination"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+    "@id" : "https://w3id.org/pvcollada/PVColladaEntity"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid40"
@@ -1588,14 +1597,14 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PostShape",
+  "@id" : "https://w3id.org/pvcollada/PostShape",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Post Shape"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+    "@id" : "https://w3id.org/pvcollada/PVColladaEntity"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid43"
@@ -1611,14 +1620,14 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PostType",
+  "@id" : "https://w3id.org/pvcollada/PostType",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Post Type"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+    "@id" : "https://w3id.org/pvcollada/PVColladaEntity"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid47"
@@ -1634,14 +1643,14 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PowerType",
+  "@id" : "https://w3id.org/pvcollada/PowerType",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Power Type"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+    "@id" : "https://w3id.org/pvcollada/PVColladaEntity"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid51"
@@ -1657,7 +1666,7 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Project",
+  "@id" : "https://w3id.org/pvcollada/Project",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1666,7 +1675,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://cwrusdle.bitbucket.io/mds/PhotovoltaicSite"
   }, {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PhysicalAsset"
+    "@id" : "https://w3id.org/pvcollada/PhysicalAsset"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -1686,7 +1695,7 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack",
+  "@id" : "https://w3id.org/pvcollada/Rack",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1695,7 +1704,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://cwrusdle.bitbucket.io/mds/Racking"
   }, {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PhysicalAsset"
+    "@id" : "https://w3id.org/pvcollada/PhysicalAsset"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -1715,10 +1724,10 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/RackPost",
+  "@id" : "https://w3id.org/pvcollada/RackPost",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PostType"
+    "@id" : "https://w3id.org/pvcollada/PostType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1729,14 +1738,14 @@
     "@value" : "rack"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/RackType",
+  "@id" : "https://w3id.org/pvcollada/RackType",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Rack Type"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+    "@id" : "https://w3id.org/pvcollada/PVColladaEntity"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid54"
@@ -1755,10 +1764,10 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/RectangularPost",
+  "@id" : "https://w3id.org/pvcollada/RectangularPost",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PostShape"
+    "@id" : "https://w3id.org/pvcollada/PostShape"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1769,10 +1778,10 @@
     "@value" : "rectangle"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/RectangularTube",
+  "@id" : "https://w3id.org/pvcollada/RectangularTube",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TorqueTubeShape"
+    "@id" : "https://w3id.org/pvcollada/TorqueTubeShape"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1783,10 +1792,10 @@
     "@value" : "rectangle"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Shingle",
+  "@id" : "https://w3id.org/pvcollada/Shingle",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleType"
+    "@id" : "https://w3id.org/pvcollada/ModuleType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1797,10 +1806,10 @@
     "@value" : "shingle"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/SingleAxisTracker",
+  "@id" : "https://w3id.org/pvcollada/SingleAxisTracker",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TrackerType"
+    "@id" : "https://w3id.org/pvcollada/TrackerType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1811,10 +1820,10 @@
     "@value" : "single_axis"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/SingleJunction",
+  "@id" : "https://w3id.org/pvcollada/SingleJunction",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CellArchitecture"
+    "@id" : "https://w3id.org/pvcollada/CellArchitecture"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1825,14 +1834,14 @@
     "@value" : "single_junction"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/String",
+  "@id" : "https://w3id.org/pvcollada/String",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "PV String"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CircuitInstance"
+    "@id" : "https://w3id.org/pvcollada/CircuitInstance"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -1848,10 +1857,10 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/StringInverter",
+  "@id" : "https://w3id.org/pvcollada/StringInverter",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/InverterType"
+    "@id" : "https://w3id.org/pvcollada/InverterType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1862,10 +1871,10 @@
     "@value" : "string"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TOPcon",
+  "@id" : "https://w3id.org/pvcollada/TOPcon",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CellArchitecture"
+    "@id" : "https://w3id.org/pvcollada/CellArchitecture"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1876,14 +1885,14 @@
     "@value" : "TOPcon"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Table",
+  "@id" : "https://w3id.org/pvcollada/Table",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "PV Table"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PhysicalAsset"
+    "@id" : "https://w3id.org/pvcollada/PhysicalAsset"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -1899,14 +1908,14 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TableType",
+  "@id" : "https://w3id.org/pvcollada/TableType",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Table Type"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+    "@id" : "https://w3id.org/pvcollada/PVColladaEntity"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid57"
@@ -1922,10 +1931,10 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TandemPerovskite",
+  "@id" : "https://w3id.org/pvcollada/TandemPerovskite",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CellArchitecture"
+    "@id" : "https://w3id.org/pvcollada/CellArchitecture"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1936,14 +1945,14 @@
     "@value" : "tandem-perovskite"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Terrain",
+  "@id" : "https://w3id.org/pvcollada/Terrain",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Terrain"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PhysicalAsset"
+    "@id" : "https://w3id.org/pvcollada/PhysicalAsset"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -1959,14 +1968,14 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TorqueTubeShape",
+  "@id" : "https://w3id.org/pvcollada/TorqueTubeShape",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Torque Tube Shape"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+    "@id" : "https://w3id.org/pvcollada/PVColladaEntity"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid60"
@@ -1982,10 +1991,10 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TrackerPost",
+  "@id" : "https://w3id.org/pvcollada/TrackerPost",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PostType"
+    "@id" : "https://w3id.org/pvcollada/PostType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1996,14 +2005,14 @@
     "@value" : "tracker"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TrackerRack",
+  "@id" : "https://w3id.org/pvcollada/TrackerRack",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Tracker Rack"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack"
+    "@id" : "https://w3id.org/pvcollada/Rack"
   }, {
     "@id" : "_:genid64"
   }, {
@@ -2020,10 +2029,10 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TrackerRackType",
+  "@id" : "https://w3id.org/pvcollada/TrackerRackType",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/RackType"
+    "@id" : "https://w3id.org/pvcollada/RackType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2034,10 +2043,10 @@
     "@value" : "tracker"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TrackerTable",
+  "@id" : "https://w3id.org/pvcollada/TrackerTable",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TableType"
+    "@id" : "https://w3id.org/pvcollada/TableType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2048,14 +2057,14 @@
     "@value" : "tracker"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TrackerType",
+  "@id" : "https://w3id.org/pvcollada/TrackerType",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Tracker Type"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+    "@id" : "https://w3id.org/pvcollada/PVColladaEntity"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid66"
@@ -2071,14 +2080,14 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Transformer",
+  "@id" : "https://w3id.org/pvcollada/Transformer",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Transformer Product"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVComponent"
+    "@id" : "https://w3id.org/pvcollada/PVComponent"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -2098,14 +2107,14 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TransformerInstance",
+  "@id" : "https://w3id.org/pvcollada/TransformerInstance",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Transformer Instance"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CircuitInstance"
+    "@id" : "https://w3id.org/pvcollada/CircuitInstance"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -2121,10 +2130,10 @@
     "@value" : "pvcollada"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/VerticalPost",
+  "@id" : "https://w3id.org/pvcollada/VerticalPost",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PostInclination"
+    "@id" : "https://w3id.org/pvcollada/PostInclination"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2135,10 +2144,10 @@
     "@value" : "vertical"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/azimuth",
+  "@id" : "https://w3id.org/pvcollada/azimuth",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack"
+    "@id" : "https://w3id.org/pvcollada/Rack"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2156,10 +2165,10 @@
     "@value" : "Unit: °; applies to FixedTiltRack only."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/bifacialFactor",
+  "@id" : "https://w3id.org/pvcollada/bifacialFactor",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+    "@id" : "https://w3id.org/pvcollada/Module"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2173,10 +2182,10 @@
     "@value" : "Ratio of rear-side to front-side quantum efficiency for bifacial modules (dimensionless, 0–1)."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/cableLength",
+  "@id" : "https://w3id.org/pvcollada/cableLength",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CableTo"
+    "@id" : "https://w3id.org/pvcollada/CableTo"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2194,13 +2203,13 @@
     "@value" : "Unit: m (assumed SI default; verify against project file)"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/capacityAC",
+  "@id" : "https://w3id.org/pvcollada/capacityAC",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://qudt.org/schema/qudt/applicableUnit" : [ {
     "@id" : "http://qudt.org/vocab/unit/W"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Inverter"
+    "@id" : "https://w3id.org/pvcollada/Inverter"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2218,13 +2227,13 @@
     "@value" : "Unit: W"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/capacityDC",
+  "@id" : "https://w3id.org/pvcollada/capacityDC",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://qudt.org/schema/qudt/applicableUnit" : [ {
     "@id" : "http://qudt.org/vocab/unit/W"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Inverter"
+    "@id" : "https://w3id.org/pvcollada/Inverter"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2242,10 +2251,10 @@
     "@value" : "Unit: W"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/columnSpacing",
+  "@id" : "https://w3id.org/pvcollada/columnSpacing",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack"
+    "@id" : "https://w3id.org/pvcollada/Rack"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2259,10 +2268,10 @@
     "@value" : "Spacing between modules in the column direction on a rack."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/company",
+  "@id" : "https://w3id.org/pvcollada/company",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Project"
+    "@id" : "https://w3id.org/pvcollada/Project"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2276,13 +2285,13 @@
     "@value" : "Name of the company or organisation responsible for the project."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/copperLoss",
+  "@id" : "https://w3id.org/pvcollada/copperLoss",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://qudt.org/schema/qudt/applicableUnit" : [ {
     "@id" : "http://qudt.org/vocab/unit/OHM"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Transformer"
+    "@id" : "https://w3id.org/pvcollada/Transformer"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2300,10 +2309,10 @@
     "@value" : "Unit: Ω"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/country",
+  "@id" : "https://w3id.org/pvcollada/country",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Project"
+    "@id" : "https://w3id.org/pvcollada/Project"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2317,10 +2326,10 @@
     "@value" : "ISO 3166 alpha-2 or alpha-3 country code for the project location."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/crossSection",
+  "@id" : "https://w3id.org/pvcollada/crossSection",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Cable"
+    "@id" : "https://w3id.org/pvcollada/Cable"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2338,10 +2347,10 @@
     "@value" : "Unit: mm²"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/drawing",
+  "@id" : "https://w3id.org/pvcollada/drawing",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Project"
+    "@id" : "https://w3id.org/pvcollada/Project"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2355,7 +2364,7 @@
     "@value" : "Drawing or document reference associated with the project."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/efficiency",
+  "@id" : "https://w3id.org/pvcollada/efficiency",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2373,10 +2382,10 @@
     "@value" : "Unit: %; range 0–100"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/efficiencyStandardValue",
+  "@id" : "https://w3id.org/pvcollada/efficiencyStandardValue",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Inverter"
+    "@id" : "https://w3id.org/pvcollada/Inverter"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2394,10 +2403,10 @@
     "@value" : "Unit: %; range 0–100"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/gapWidth",
+  "@id" : "https://w3id.org/pvcollada/gapWidth",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Gap"
+    "@id" : "https://w3id.org/pvcollada/Gap"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2411,449 +2420,449 @@
     "@value" : "Nominal width of the gap between the two adjacent racks."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasCableToNeighbor",
+  "@id" : "https://w3id.org/pvcollada/hasCableToNeighbor",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/OptimizerInstance"
+    "@id" : "https://w3id.org/pvcollada/OptimizerInstance"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has cable to neighbor"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CableTo"
+    "@id" : "https://w3id.org/pvcollada/CableTo"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Associates an optimizer instance with the cable that daisy-chains it to an adjacent optimizer."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasCableToParent",
+  "@id" : "https://w3id.org/pvcollada/hasCableToParent",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has cable to parent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CableTo"
+    "@id" : "https://w3id.org/pvcollada/CableTo"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Associates a circuit instance with the cable that connects it to its electrical parent node."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasCellArchitecture",
+  "@id" : "https://w3id.org/pvcollada/hasCellArchitecture",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+    "@id" : "https://w3id.org/pvcollada/Module"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has cell architecture"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CellArchitecture"
+    "@id" : "https://w3id.org/pvcollada/CellArchitecture"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Specifies the cell junction or contact architecture used in a module."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasCellMaterial",
+  "@id" : "https://w3id.org/pvcollada/hasCellMaterial",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+    "@id" : "https://w3id.org/pvcollada/Module"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has cell material"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CellMaterial"
+    "@id" : "https://w3id.org/pvcollada/CellMaterial"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Specifies the semiconductor absorber material of the cells in a module."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasConductorMaterial",
+  "@id" : "https://w3id.org/pvcollada/hasConductorMaterial",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Cable"
+    "@id" : "https://w3id.org/pvcollada/Cable"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has conductor material"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ConductorMaterial"
+    "@id" : "https://w3id.org/pvcollada/ConductorMaterial"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Specifies the conductor material of a cable product."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasDCCombinerInput",
+  "@id" : "https://w3id.org/pvcollada/hasDCCombinerInput",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/MPPTInput"
+    "@id" : "https://w3id.org/pvcollada/MPPTInput"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has DC combiner input"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/DCCombinerInstance"
+    "@id" : "https://w3id.org/pvcollada/DCCombinerInstance"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Associates an MPPT input with a DC combiner that aggregates strings."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasDriveType",
+  "@id" : "https://w3id.org/pvcollada/hasDriveType",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Table"
+    "@id" : "https://w3id.org/pvcollada/Table"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has drive type"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/DriveType"
+    "@id" : "https://w3id.org/pvcollada/DriveType"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Associates a single-axis tracker table with its drive coupling type."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasEfficiencyStandardType",
+  "@id" : "https://w3id.org/pvcollada/hasEfficiencyStandardType",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Inverter"
+    "@id" : "https://w3id.org/pvcollada/Inverter"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has efficiency standard type"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/EfficiencyStandardType"
+    "@id" : "https://w3id.org/pvcollada/EfficiencyStandardType"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Specifies the rating standard (CEC or EU) used to compute the efficiency_standard_value."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasGapType",
+  "@id" : "https://w3id.org/pvcollada/hasGapType",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Gap"
+    "@id" : "https://w3id.org/pvcollada/Gap"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has gap type"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/GapType"
+    "@id" : "https://w3id.org/pvcollada/GapType"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Associates a gap with its function (motor or joint)."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasInverterType",
+  "@id" : "https://w3id.org/pvcollada/hasInverterType",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Inverter"
+    "@id" : "https://w3id.org/pvcollada/Inverter"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has inverter type"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/InverterType"
+    "@id" : "https://w3id.org/pvcollada/InverterType"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Associates an inverter product with its deployment topology."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasMPPTInput",
+  "@id" : "https://w3id.org/pvcollada/hasMPPTInput",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/InverterInstance"
+    "@id" : "https://w3id.org/pvcollada/InverterInstance"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has MPPT input"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/MPPTInput"
+    "@id" : "https://w3id.org/pvcollada/MPPTInput"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Associates a circuit inverter instance with its MPPT channel instances."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasMPPTUnit",
+  "@id" : "https://w3id.org/pvcollada/hasMPPTUnit",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Inverter"
+    "@id" : "https://w3id.org/pvcollada/Inverter"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has MPPT unit"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/MPPTUnit"
+    "@id" : "https://w3id.org/pvcollada/MPPTUnit"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Associates an inverter product with its MPPT channel specifications."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasModuleArray",
+  "@id" : "https://w3id.org/pvcollada/hasModuleArray",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/String"
+    "@id" : "https://w3id.org/pvcollada/String"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has module array"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleArray"
+    "@id" : "https://w3id.org/pvcollada/ModuleArray"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Associates a string with its module array (direct-wire configuration)."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasModuleLayout",
+  "@id" : "https://w3id.org/pvcollada/hasModuleLayout",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleArray"
+    "@id" : "https://w3id.org/pvcollada/ModuleArray"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has module layout"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleLayout"
+    "@id" : "https://w3id.org/pvcollada/ModuleLayout"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Associates a module array with its constituent ModuleLayout entries, each describing the position of one module in the string and in the rack."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasModuleOrientation",
+  "@id" : "https://w3id.org/pvcollada/hasModuleOrientation",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack"
+    "@id" : "https://w3id.org/pvcollada/Rack"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has module orientation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleOrientation"
+    "@id" : "https://w3id.org/pvcollada/ModuleOrientation"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Associates a rack with the mounting orientation of its modules."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasModuleType",
+  "@id" : "https://w3id.org/pvcollada/hasModuleType",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+    "@id" : "https://w3id.org/pvcollada/Module"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has module type"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleType"
+    "@id" : "https://w3id.org/pvcollada/ModuleType"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Associates a module product with its form-factor type."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasOptimizerArray",
+  "@id" : "https://w3id.org/pvcollada/hasOptimizerArray",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/String"
+    "@id" : "https://w3id.org/pvcollada/String"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has optimizer array"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/OptimizerArray"
+    "@id" : "https://w3id.org/pvcollada/OptimizerArray"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Associates a string with its optimizer array (optimized configuration)."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasPostInclination",
+  "@id" : "https://w3id.org/pvcollada/hasPostInclination",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Post"
+    "@id" : "https://w3id.org/pvcollada/Post"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has post inclination"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PostInclination"
+    "@id" : "https://w3id.org/pvcollada/PostInclination"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Associates a post with its installation inclination (vertical or perpendicular)."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasPostShape",
+  "@id" : "https://w3id.org/pvcollada/hasPostShape",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Post"
+    "@id" : "https://w3id.org/pvcollada/Post"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has post shape"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PostShape"
+    "@id" : "https://w3id.org/pvcollada/PostShape"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Associates a post with its cross-section shape."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasPostType",
+  "@id" : "https://w3id.org/pvcollada/hasPostType",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Post"
+    "@id" : "https://w3id.org/pvcollada/Post"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has post type"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PostType"
+    "@id" : "https://w3id.org/pvcollada/PostType"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Associates a post with its structural function (rack, tracker, fence)."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasPowerType",
+  "@id" : "https://w3id.org/pvcollada/hasPowerType",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Cable"
+    "@id" : "https://w3id.org/pvcollada/Cable"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has power type"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PowerType"
+    "@id" : "https://w3id.org/pvcollada/PowerType"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Associates a cable with its power type (AC or DC)."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasRackType",
+  "@id" : "https://w3id.org/pvcollada/hasRackType",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack"
+    "@id" : "https://w3id.org/pvcollada/Rack"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has rack type"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/RackType"
+    "@id" : "https://w3id.org/pvcollada/RackType"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Associates a rack with its mounting type (fixed_tilt or tracker)."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasString",
+  "@id" : "https://w3id.org/pvcollada/hasString",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/MPPTInput"
+    "@id" : "https://w3id.org/pvcollada/MPPTInput"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has string"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/String"
+    "@id" : "https://w3id.org/pvcollada/String"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Associates an MPPT input with its connected PV strings."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasTableType",
+  "@id" : "https://w3id.org/pvcollada/hasTableType",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Table"
+    "@id" : "https://w3id.org/pvcollada/Table"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has table type"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TableType"
+    "@id" : "https://w3id.org/pvcollada/TableType"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Associates a table with its mounting type (fixed or tracker)."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasTorqueTubeShape",
+  "@id" : "https://w3id.org/pvcollada/hasTorqueTubeShape",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Table"
+    "@id" : "https://w3id.org/pvcollada/Table"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has torque tube shape"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TorqueTubeShape"
+    "@id" : "https://w3id.org/pvcollada/TorqueTubeShape"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Associates a single-axis tracker table with its torque tube cross-section shape."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasTrackerType",
+  "@id" : "https://w3id.org/pvcollada/hasTrackerType",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Table"
+    "@id" : "https://w3id.org/pvcollada/Table"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has tracker type"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TrackerType"
+    "@id" : "https://w3id.org/pvcollada/TrackerType"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Associates a tracker table with its axis configuration."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/heightAboveGround",
+  "@id" : "https://w3id.org/pvcollada/heightAboveGround",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack"
+    "@id" : "https://w3id.org/pvcollada/Rack"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2867,13 +2876,13 @@
     "@value" : "Height of the lower edge of a fixed rack above ground level."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/iMaxDC",
+  "@id" : "https://w3id.org/pvcollada/iMaxDC",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://qudt.org/schema/qudt/applicableUnit" : [ {
     "@id" : "http://qudt.org/vocab/unit/A"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Inverter"
+    "@id" : "https://w3id.org/pvcollada/Inverter"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2891,13 +2900,13 @@
     "@value" : "Unit: A"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/iMpp",
+  "@id" : "https://w3id.org/pvcollada/iMpp",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://qudt.org/schema/qudt/applicableUnit" : [ {
     "@id" : "http://qudt.org/vocab/unit/A"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+    "@id" : "https://w3id.org/pvcollada/Module"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2920,13 +2929,13 @@
     "@value" : "Unit: A"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/iSc",
+  "@id" : "https://w3id.org/pvcollada/iSc",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://qudt.org/schema/qudt/applicableUnit" : [ {
     "@id" : "http://qudt.org/vocab/unit/A"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+    "@id" : "https://w3id.org/pvcollada/Module"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2949,10 +2958,10 @@
     "@value" : "Unit: A"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/impedance",
+  "@id" : "https://w3id.org/pvcollada/impedance",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Cable"
+    "@id" : "https://w3id.org/pvcollada/Cable"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2970,7 +2979,7 @@
     "@value" : "Unit: Ω/km"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/inputCount",
+  "@id" : "https://w3id.org/pvcollada/inputCount",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2984,13 +2993,13 @@
     "@value" : "Number of parallel inputs (strings) that can be connected."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/interconnectionLimit",
+  "@id" : "https://w3id.org/pvcollada/interconnectionLimit",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://qudt.org/schema/qudt/applicableUnit" : [ {
     "@id" : "http://qudt.org/vocab/unit/W"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Project"
+    "@id" : "https://w3id.org/pvcollada/Project"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3008,13 +3017,13 @@
     "@value" : "Unit: W"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ironLoss",
+  "@id" : "https://w3id.org/pvcollada/ironLoss",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://qudt.org/schema/qudt/applicableUnit" : [ {
     "@id" : "http://qudt.org/vocab/unit/W"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Transformer"
+    "@id" : "https://w3id.org/pvcollada/Transformer"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3032,10 +3041,10 @@
     "@value" : "Unit: W"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/jointAngle",
+  "@id" : "https://w3id.org/pvcollada/jointAngle",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Gap"
+    "@id" : "https://w3id.org/pvcollada/Gap"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3053,10 +3062,10 @@
     "@value" : "Unit: °"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/localProjection",
+  "@id" : "https://w3id.org/pvcollada/localProjection",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Project"
+    "@id" : "https://w3id.org/pvcollada/Project"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3070,7 +3079,7 @@
     "@value" : "EPSG code for the coordinate projection used to relate local (x,y,z) coordinates to geocoordinates (e.g., 'EPSG:3857')."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/manufacturer",
+  "@id" : "https://w3id.org/pvcollada/manufacturer",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3087,10 +3096,10 @@
     "@value" : "Name of the product manufacturer."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/moduleColumns",
+  "@id" : "https://w3id.org/pvcollada/moduleColumns",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack"
+    "@id" : "https://w3id.org/pvcollada/Rack"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3104,10 +3113,10 @@
     "@value" : "Number of columns of modules on the rack."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/moduleCount",
+  "@id" : "https://w3id.org/pvcollada/moduleCount",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Project"
+    "@id" : "https://w3id.org/pvcollada/Project"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3121,13 +3130,13 @@
     "@value" : "Total number of PV modules in the system."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/moduleDepth",
+  "@id" : "https://w3id.org/pvcollada/moduleDepth",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://qudt.org/schema/qudt/applicableUnit" : [ {
     "@id" : "http://qudt.org/vocab/unit/MilliM"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+    "@id" : "https://w3id.org/pvcollada/Module"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3145,13 +3154,13 @@
     "@value" : "Unit: mm"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/moduleLength",
+  "@id" : "https://w3id.org/pvcollada/moduleLength",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://qudt.org/schema/qudt/applicableUnit" : [ {
     "@id" : "http://qudt.org/vocab/unit/MilliM"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+    "@id" : "https://w3id.org/pvcollada/Module"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3169,10 +3178,10 @@
     "@value" : "Unit: mm"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/moduleRows",
+  "@id" : "https://w3id.org/pvcollada/moduleRows",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack"
+    "@id" : "https://w3id.org/pvcollada/Rack"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3186,13 +3195,13 @@
     "@value" : "Number of rows of modules on the rack."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/moduleWidth",
+  "@id" : "https://w3id.org/pvcollada/moduleWidth",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://qudt.org/schema/qudt/applicableUnit" : [ {
     "@id" : "http://qudt.org/vocab/unit/MilliM"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+    "@id" : "https://w3id.org/pvcollada/Module"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3210,10 +3219,10 @@
     "@value" : "Unit: mm"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/mpptCount",
+  "@id" : "https://w3id.org/pvcollada/mpptCount",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Inverter"
+    "@id" : "https://w3id.org/pvcollada/Inverter"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3227,10 +3236,10 @@
     "@value" : "Number of MPPT channels on the inverter."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/nightDisconnect",
+  "@id" : "https://w3id.org/pvcollada/nightDisconnect",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Transformer"
+    "@id" : "https://w3id.org/pvcollada/Transformer"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3244,13 +3253,13 @@
     "@value" : "True if the transformer automatically disconnects from the grid at night."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/nightTare",
+  "@id" : "https://w3id.org/pvcollada/nightTare",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://qudt.org/schema/qudt/applicableUnit" : [ {
     "@id" : "http://qudt.org/vocab/unit/W"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Inverter"
+    "@id" : "https://w3id.org/pvcollada/Inverter"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3268,13 +3277,13 @@
     "@value" : "Unit: W"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/nomPower",
+  "@id" : "https://w3id.org/pvcollada/nomPower",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://qudt.org/schema/qudt/applicableUnit" : [ {
     "@id" : "http://qudt.org/vocab/unit/W"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+    "@id" : "https://w3id.org/pvcollada/Module"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3295,13 +3304,13 @@
     "@value" : "Unit: W"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/nomPowerAC",
+  "@id" : "https://w3id.org/pvcollada/nomPowerAC",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://qudt.org/schema/qudt/applicableUnit" : [ {
     "@id" : "http://qudt.org/vocab/unit/W"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Inverter"
+    "@id" : "https://w3id.org/pvcollada/Inverter"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3319,13 +3328,13 @@
     "@value" : "Unit: W"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/nomPowerDC",
+  "@id" : "https://w3id.org/pvcollada/nomPowerDC",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://qudt.org/schema/qudt/applicableUnit" : [ {
     "@id" : "http://qudt.org/vocab/unit/W"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Inverter"
+    "@id" : "https://w3id.org/pvcollada/Inverter"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3343,10 +3352,10 @@
     "@value" : "Unit: W"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/numCells",
+  "@id" : "https://w3id.org/pvcollada/numCells",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+    "@id" : "https://w3id.org/pvcollada/Module"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3363,10 +3372,10 @@
     "@value" : "Total number of PV cells in the module."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/numCellsLength",
+  "@id" : "https://w3id.org/pvcollada/numCellsLength",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+    "@id" : "https://w3id.org/pvcollada/Module"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3380,10 +3389,10 @@
     "@value" : "Number of cells arranged along the length dimension."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/numCellsSeries",
+  "@id" : "https://w3id.org/pvcollada/numCellsSeries",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+    "@id" : "https://w3id.org/pvcollada/Module"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3402,10 +3411,10 @@
     "@value" : "Number of series-connected cells in a single internal string."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/numCellsWidth",
+  "@id" : "https://w3id.org/pvcollada/numCellsWidth",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+    "@id" : "https://w3id.org/pvcollada/Module"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3419,10 +3428,10 @@
     "@value" : "Number of cells arranged along the width dimension."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/numConductors",
+  "@id" : "https://w3id.org/pvcollada/numConductors",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Cable"
+    "@id" : "https://w3id.org/pvcollada/Cable"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3436,10 +3445,10 @@
     "@value" : "Number of electrical conductors in the cable."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/numStrings",
+  "@id" : "https://w3id.org/pvcollada/numStrings",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+    "@id" : "https://w3id.org/pvcollada/Module"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3458,10 +3467,10 @@
     "@value" : "Number of parallel internal cell strings within the module."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/positionInString",
+  "@id" : "https://w3id.org/pvcollada/positionInString",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleLayout"
+    "@id" : "https://w3id.org/pvcollada/ModuleLayout"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3475,10 +3484,10 @@
     "@value" : "Sequential index of this module within its series string (1-based)."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/postDepth",
+  "@id" : "https://w3id.org/pvcollada/postDepth",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Post"
+    "@id" : "https://w3id.org/pvcollada/Post"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3492,10 +3501,10 @@
     "@value" : "Nominal depth of the post driven underground."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/postDiameter",
+  "@id" : "https://w3id.org/pvcollada/postDiameter",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Post"
+    "@id" : "https://w3id.org/pvcollada/Post"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3509,10 +3518,10 @@
     "@value" : "Diameter of the post cross-section."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/postLength",
+  "@id" : "https://w3id.org/pvcollada/postLength",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Post"
+    "@id" : "https://w3id.org/pvcollada/Post"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3526,7 +3535,7 @@
     "@value" : "Total length of the post including the underground portion."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/productName",
+  "@id" : "https://w3id.org/pvcollada/productName",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3540,10 +3549,10 @@
     "@value" : "Model name of the product (e.g., 'Q.Tron Classic 440W')."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/projectName",
+  "@id" : "https://w3id.org/pvcollada/projectName",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Project"
+    "@id" : "https://w3id.org/pvcollada/Project"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3557,10 +3566,10 @@
     "@value" : "Name of the PV project."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/rackColumn",
+  "@id" : "https://w3id.org/pvcollada/rackColumn",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleLayout"
+    "@id" : "https://w3id.org/pvcollada/ModuleLayout"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3574,10 +3583,10 @@
     "@value" : "Column index of the module slot on the physical rack."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/rackOffset",
+  "@id" : "https://w3id.org/pvcollada/rackOffset",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack"
+    "@id" : "https://w3id.org/pvcollada/Rack"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3591,10 +3600,10 @@
     "@value" : "Distance from the rack surface to the tracker torque tube centre."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/rackRow",
+  "@id" : "https://w3id.org/pvcollada/rackRow",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleLayout"
+    "@id" : "https://w3id.org/pvcollada/ModuleLayout"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3608,119 +3617,119 @@
     "@value" : "Row index of the module slot on the physical rack."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/referencesACCombinerProduct",
+  "@id" : "https://w3id.org/pvcollada/referencesACCombinerProduct",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ACCombinerInstance"
+    "@id" : "https://w3id.org/pvcollada/ACCombinerInstance"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "references AC combiner product"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ACCombiner"
+    "@id" : "https://w3id.org/pvcollada/ACCombiner"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Links a circuit AC combiner instance to its product specification."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/referencesCableProduct",
+  "@id" : "https://w3id.org/pvcollada/referencesCableProduct",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CableTo"
+    "@id" : "https://w3id.org/pvcollada/CableTo"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "references cable product"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Cable"
+    "@id" : "https://w3id.org/pvcollada/Cable"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Links a CableTo connection to the cable product it uses."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/referencesDCCombinerProduct",
+  "@id" : "https://w3id.org/pvcollada/referencesDCCombinerProduct",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/DCCombinerInstance"
+    "@id" : "https://w3id.org/pvcollada/DCCombinerInstance"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "references DC combiner product"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/DCCombiner"
+    "@id" : "https://w3id.org/pvcollada/DCCombiner"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Links a circuit DC combiner instance to its product specification."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/referencesInverterProduct",
+  "@id" : "https://w3id.org/pvcollada/referencesInverterProduct",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/InverterInstance"
+    "@id" : "https://w3id.org/pvcollada/InverterInstance"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "references inverter product"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Inverter"
+    "@id" : "https://w3id.org/pvcollada/Inverter"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Links a circuit inverter instance to its product specification."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/referencesModule",
+  "@id" : "https://w3id.org/pvcollada/referencesModule",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack"
+    "@id" : "https://w3id.org/pvcollada/Rack"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "references module"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+    "@id" : "https://w3id.org/pvcollada/Module"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Links a rack to the module product specification it holds, via the module_id IDREF in the PV-Collada schema."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/referencesOptimizerProduct",
+  "@id" : "https://w3id.org/pvcollada/referencesOptimizerProduct",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/OptimizerInstance"
+    "@id" : "https://w3id.org/pvcollada/OptimizerInstance"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "references optimizer product"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Optimizer"
+    "@id" : "https://w3id.org/pvcollada/Optimizer"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Links a circuit optimizer instance to its product specification."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/referencesRack",
+  "@id" : "https://w3id.org/pvcollada/referencesRack",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleLayout"
+    "@id" : "https://w3id.org/pvcollada/ModuleLayout"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "references rack"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack"
+    "@id" : "https://w3id.org/pvcollada/Rack"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -3731,27 +3740,27 @@
     "@value" : "This is the critical join between circuit topology and physical layout."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/referencesTransformerProduct",
+  "@id" : "https://w3id.org/pvcollada/referencesTransformerProduct",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TransformerInstance"
+    "@id" : "https://w3id.org/pvcollada/TransformerInstance"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "references transformer product"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Transformer"
+    "@id" : "https://w3id.org/pvcollada/Transformer"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Links a circuit transformer instance to its product specification."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/resistance",
+  "@id" : "https://w3id.org/pvcollada/resistance",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Cable"
+    "@id" : "https://w3id.org/pvcollada/Cable"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3769,10 +3778,10 @@
     "@value" : "Unit: Ω/km"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/rigid",
+  "@id" : "https://w3id.org/pvcollada/rigid",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Gap"
+    "@id" : "https://w3id.org/pvcollada/Gap"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3786,10 +3795,10 @@
     "@value" : "True if the gap is rigid; false if it allows torque tube flexion."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/rowSpacing",
+  "@id" : "https://w3id.org/pvcollada/rowSpacing",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack"
+    "@id" : "https://w3id.org/pvcollada/Rack"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3803,13 +3812,13 @@
     "@value" : "Spacing between modules in the row direction on a rack."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/selfConsumption",
+  "@id" : "https://w3id.org/pvcollada/selfConsumption",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://qudt.org/schema/qudt/applicableUnit" : [ {
     "@id" : "http://qudt.org/vocab/unit/W"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Inverter"
+    "@id" : "https://w3id.org/pvcollada/Inverter"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3827,10 +3836,10 @@
     "@value" : "Unit: W"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/slope",
+  "@id" : "https://w3id.org/pvcollada/slope",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack"
+    "@id" : "https://w3id.org/pvcollada/Rack"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3848,10 +3857,10 @@
     "@value" : "Unit: °"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/stringCount",
+  "@id" : "https://w3id.org/pvcollada/stringCount",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Project"
+    "@id" : "https://w3id.org/pvcollada/Project"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3865,13 +3874,13 @@
     "@value" : "Total number of series-connected module strings."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/systemCapacityAC",
+  "@id" : "https://w3id.org/pvcollada/systemCapacityAC",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://qudt.org/schema/qudt/applicableUnit" : [ {
     "@id" : "http://qudt.org/vocab/unit/W"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Project"
+    "@id" : "https://w3id.org/pvcollada/Project"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3889,13 +3898,13 @@
     "@value" : "Unit: W"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/systemCapacityDC",
+  "@id" : "https://w3id.org/pvcollada/systemCapacityDC",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://qudt.org/schema/qudt/applicableUnit" : [ {
     "@id" : "http://qudt.org/vocab/unit/W"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Project"
+    "@id" : "https://w3id.org/pvcollada/Project"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3913,10 +3922,10 @@
     "@value" : "Unit: W"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/tCoefIsc",
+  "@id" : "https://w3id.org/pvcollada/tCoefIsc",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+    "@id" : "https://w3id.org/pvcollada/Module"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3937,10 +3946,10 @@
     "@value" : "Unit: A/°C"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/tCoefPower",
+  "@id" : "https://w3id.org/pvcollada/tCoefPower",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+    "@id" : "https://w3id.org/pvcollada/Module"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3961,10 +3970,10 @@
     "@value" : "Unit: %/°C"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/tCoefVoc",
+  "@id" : "https://w3id.org/pvcollada/tCoefVoc",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+    "@id" : "https://w3id.org/pvcollada/Module"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3985,10 +3994,10 @@
     "@value" : "Unit: V/°C"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/tableCount",
+  "@id" : "https://w3id.org/pvcollada/tableCount",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Project"
+    "@id" : "https://w3id.org/pvcollada/Project"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4002,10 +4011,10 @@
     "@value" : "Total number of tables in the physical layout."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/tilt",
+  "@id" : "https://w3id.org/pvcollada/tilt",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack"
+    "@id" : "https://w3id.org/pvcollada/Rack"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4023,10 +4032,10 @@
     "@value" : "Unit: °; applies to FixedTiltRack only."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/timezone",
+  "@id" : "https://w3id.org/pvcollada/timezone",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Project"
+    "@id" : "https://w3id.org/pvcollada/Project"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4040,10 +4049,10 @@
     "@value" : "IANA timezone string for the project location (e.g., 'America/Phoenix')."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/timezoneOffset",
+  "@id" : "https://w3id.org/pvcollada/timezoneOffset",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Project"
+    "@id" : "https://w3id.org/pvcollada/Project"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4061,10 +4070,10 @@
     "@value" : "Unit: h"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/trackerAzimuth",
+  "@id" : "https://w3id.org/pvcollada/trackerAzimuth",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack"
+    "@id" : "https://w3id.org/pvcollada/Rack"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4082,10 +4091,10 @@
     "@value" : "Unit: °; applies to TrackerRack only."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/trackerHeight",
+  "@id" : "https://w3id.org/pvcollada/trackerHeight",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack"
+    "@id" : "https://w3id.org/pvcollada/Rack"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4099,10 +4108,10 @@
     "@value" : "Height of the tracker torque tube centre above ground."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/trackerMaxGapAngle",
+  "@id" : "https://w3id.org/pvcollada/trackerMaxGapAngle",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Table"
+    "@id" : "https://w3id.org/pvcollada/Table"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4120,10 +4129,10 @@
     "@value" : "Unit: °"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/trackerMaxRotation",
+  "@id" : "https://w3id.org/pvcollada/trackerMaxRotation",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Table"
+    "@id" : "https://w3id.org/pvcollada/Table"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4141,10 +4150,10 @@
     "@value" : "Unit: °; encoded as two space-separated floats."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/trackerSlope",
+  "@id" : "https://w3id.org/pvcollada/trackerSlope",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack"
+    "@id" : "https://w3id.org/pvcollada/Rack"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4162,10 +4171,10 @@
     "@value" : "Unit: °"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/trackerTorqueTubeDiameter",
+  "@id" : "https://w3id.org/pvcollada/trackerTorqueTubeDiameter",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Table"
+    "@id" : "https://w3id.org/pvcollada/Table"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4179,10 +4188,10 @@
     "@value" : "Nominal diameter of the single-axis tracker torque tube."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/triangleCount",
+  "@id" : "https://w3id.org/pvcollada/triangleCount",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Terrain"
+    "@id" : "https://w3id.org/pvcollada/Terrain"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4196,13 +4205,13 @@
     "@value" : "Number of triangular faces in the terrain surface mesh."
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/vIn",
+  "@id" : "https://w3id.org/pvcollada/vIn",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://qudt.org/schema/qudt/applicableUnit" : [ {
     "@id" : "http://qudt.org/vocab/unit/V"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Transformer"
+    "@id" : "https://w3id.org/pvcollada/Transformer"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4220,13 +4229,13 @@
     "@value" : "Unit: V"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/vMpp",
+  "@id" : "https://w3id.org/pvcollada/vMpp",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://qudt.org/schema/qudt/applicableUnit" : [ {
     "@id" : "http://qudt.org/vocab/unit/V"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+    "@id" : "https://w3id.org/pvcollada/Module"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4247,7 +4256,7 @@
     "@value" : "Unit: V"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/vMppMax",
+  "@id" : "https://w3id.org/pvcollada/vMppMax",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://qudt.org/schema/qudt/applicableUnit" : [ {
     "@id" : "http://qudt.org/vocab/unit/V"
@@ -4268,7 +4277,7 @@
     "@value" : "Unit: V"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/vMppMin",
+  "@id" : "https://w3id.org/pvcollada/vMppMin",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://qudt.org/schema/qudt/applicableUnit" : [ {
     "@id" : "http://qudt.org/vocab/unit/V"
@@ -4289,7 +4298,7 @@
     "@value" : "Unit: V"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/vMppNom",
+  "@id" : "https://w3id.org/pvcollada/vMppNom",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://qudt.org/schema/qudt/applicableUnit" : [ {
     "@id" : "http://qudt.org/vocab/unit/V"
@@ -4310,13 +4319,13 @@
     "@value" : "Unit: V"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/vOc",
+  "@id" : "https://w3id.org/pvcollada/vOc",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://qudt.org/schema/qudt/applicableUnit" : [ {
     "@id" : "http://qudt.org/vocab/unit/V"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+    "@id" : "https://w3id.org/pvcollada/Module"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4339,13 +4348,13 @@
     "@value" : "Unit: V"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/vOut",
+  "@id" : "https://w3id.org/pvcollada/vOut",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://qudt.org/schema/qudt/applicableUnit" : [ {
     "@id" : "http://qudt.org/vocab/unit/V"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Transformer"
+    "@id" : "https://w3id.org/pvcollada/Transformer"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4363,13 +4372,13 @@
     "@value" : "Unit: V"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/vOutAC",
+  "@id" : "https://w3id.org/pvcollada/vOutAC",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://qudt.org/schema/qudt/applicableUnit" : [ {
     "@id" : "http://qudt.org/vocab/unit/V"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Inverter"
+    "@id" : "https://w3id.org/pvcollada/Inverter"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4387,10 +4396,10 @@
     "@value" : "Unit: V"
   } ]
 }, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/vertexCount",
+  "@id" : "https://w3id.org/pvcollada/vertexCount",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Terrain"
+    "@id" : "https://w3id.org/pvcollada/Terrain"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -4403,13 +4412,4 @@
     "@language" : "en",
     "@value" : "Number of vertices in the triangulated terrain surface mesh."
   } ]
-}, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/hasDomain",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/hasStudyStage",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
-  "@id" : "https://cwrusdle.bitbucket.io/mds/hasSubDomain",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 } ]
