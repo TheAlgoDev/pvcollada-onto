@@ -1,0 +1,17 @@
+# CQ04 — What is the full electrical circuit topology?
+# Returns the hierarchy: InverterInstance → MPPTInput → String → ModuleArray
+# along with the component type used at each level.
+
+PREFIX pvc:  <https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?invInst ?invType ?mpptInput ?string ?modArray ?modType
+WHERE {
+    ?invInst  a pvc:InverterInstance ;
+              pvc:hasComponentType ?invType ;
+              pvc:hasMPPTInput     ?mpptInput .
+    ?mpptInput pvc:hasString       ?string .
+    ?string    pvc:hasModuleArray  ?modArray .
+    ?modArray  pvc:hasModuleType   ?modType .
+}
+ORDER BY ?invInst ?mpptInput ?string

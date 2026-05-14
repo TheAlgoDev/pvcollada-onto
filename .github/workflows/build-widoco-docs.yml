@@ -1,0 +1,104 @@
+name: Build WIDOCO documentation
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "ontology/pvcollada_onto.ttl"
+      - "widoco-sections/**"
+      - ".github/workflows/build-widoco-docs.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build-docs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        env:
+          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+      # ── Prepare input ─────────────────────────────────────────────────────
+      - name: Prepare temporary workspace
+        run: |
+          sudo rm -rf /tmp/widoco-input /tmp/widoco-output
+          mkdir -p /tmp/widoco-input
+          mkdir -p /tmp/widoco-output
+          mkdir -p /tmp/widoco-output/resources
+          mkdir -p /tmp/widoco-output/webvowl
+          cp ontology/pvcollada_onto.ttl /tmp/widoco-input/pvcollada_onto.ttl
+          chmod -R 777 /tmp/widoco-output
+
+      # ── Run WIDOCO ────────────────────────────────────────────────────────
+      - name: Generate WIDOCO documentation with OOPS
+        run: |
+          docker run --rm \
+            -v /tmp/widoco-input:/input \
+            -v /tmp/widoco-output:/output \
+            ghcr.io/dgarijo/widoco:latest \
+            -ontFile /input/pvcollada_onto.ttl \
+            -outFolder /output \
+            -webVowl \
+            -rewriteAll \
+            -getOntologyMetadata \
+            -oops
+
+      # ── Assemble docs/ ────────────────────────────────────────────────────
+      - name: Replace docs folder
+        run: |
+          sudo rm -rf docs
+          mkdir -p docs
+          cp -R /tmp/widoco-output/. docs/
+          if [ -f docs/index-en.html ]; then
+            cp docs/index-en.html docs/index.html
+          fi
+
+      # ── Prevent Jekyll ────────────────────────────────────────────────────
+      - name: Add .nojekyll
+        run: touch docs/.nojekyll
+
+      # ── Inject custom sections ────────────────────────────────────────────
+      - name: Replace WIDOCO placeholder sections
+        run: |
+          mkdir -p docs/sections
+          for f in abstract introduction description references; do
+            if [ -f "widoco-sections/${f}-en.html" ]; then
+              cp "widoco-sections/${f}-en.html" "docs/sections/${f}-en.html"
+            fi
+          done
+
+      # ── Commit docs back to repo ──────────────────────────────────────────
+      - name: Commit generated documentation
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "docs: auto-rebuild WIDOCO documentation [skip ci]"
+          file_pattern: "docs/**"
+
+      # ── Upload Pages artifact ─────────────────────────────────────────────
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/
+
+  deploy:
+    needs: build-docs
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

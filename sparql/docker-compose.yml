@@ -1,0 +1,41 @@
+version: "3.9"
+
+services:
+  oxigraph:
+    image: ghcr.io/oxigraph/oxigraph:latest
+    container_name: pvcollada-sparql
+    ports:
+      - "7878:7878"
+    volumes:
+      - oxigraph_data:/data
+      - ../ontology:/ontology:ro
+    command: >
+      serve
+      --location /data
+      --bind 0.0.0.0:7878
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:7878/query?query=ASK%7B%7D"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  loader:
+    image: ghcr.io/oxigraph/oxigraph:latest
+    container_name: pvcollada-loader
+    depends_on:
+      oxigraph:
+        condition: service_healthy
+    volumes:
+      - ../ontology:/ontology:ro
+    entrypoint: >
+      sh -c "
+        echo 'Loading pvcollada_onto.ttl...' &&
+        wget -qO- --post-file=/ontology/pvcollada_onto.ttl
+          --header='Content-Type: text/turtle'
+          'http://oxigraph:7878/store?graph=https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/' &&
+        echo 'Done.'
+      "
+    restart: "no"
+
+volumes:
+  oxigraph_data:

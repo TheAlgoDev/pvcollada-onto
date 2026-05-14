@@ -1,0 +1,17 @@
+# CQ02 — What are the STC electrical parameters of all module types?
+# Returns Pnom, Voc, Isc, Vmpp, Impp for every Module instance.
+
+PREFIX pvc:  <https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?module ?label ?nomPower ?vOc ?iSc ?vMpp ?iMpp
+WHERE {
+    ?module a pvc:Module ;
+            rdfs:label ?label .
+    OPTIONAL { ?module pvc:nomPower  ?nomPower }
+    OPTIONAL { ?module pvc:vOc      ?vOc }
+    OPTIONAL { ?module pvc:iSc      ?iSc }
+    OPTIONAL { ?module pvc:vMpp     ?vMpp }
+    OPTIONAL { ?module pvc:iMpp     ?iMpp }
+}
+ORDER BY DESC(?nomPower)

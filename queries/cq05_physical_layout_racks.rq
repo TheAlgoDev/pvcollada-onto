@@ -1,0 +1,19 @@
+# CQ05 — What racks exist in the physical layout, and what are their geometry parameters?
+# Returns each rack with its type (FixedTilt vs. Tracker), azimuth/tilt, module counts.
+
+PREFIX pvc:  <https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?rack ?rackLabel ?rackType ?azimuth ?tilt ?trackerAzimuth ?modsPerRow ?modsPerCol
+WHERE {
+    ?rack a pvc:Rack ;
+          rdfs:label ?rackLabel .
+    OPTIONAL { ?rack a ?rackType .
+               FILTER ( ?rackType IN (pvc:FixedTiltRack, pvc:TrackerRack) ) }
+    OPTIONAL { ?rack pvc:azimuth        ?azimuth }
+    OPTIONAL { ?rack pvc:tilt           ?tilt }
+    OPTIONAL { ?rack pvc:trackerAzimuth ?trackerAzimuth }
+    OPTIONAL { ?rack pvc:modulesPerRow  ?modsPerRow }
+    OPTIONAL { ?rack pvc:modulesPerCol  ?modsPerCol }
+}
+ORDER BY ?rackLabel

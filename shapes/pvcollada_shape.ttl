@@ -1,0 +1,349 @@
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix pvc:   <https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+
+# ─────────────────────────────────────────────────────────────────────────────
+# PV-Collada SHACL Shapes
+# Validates instance data conforming to pvcollada_onto.ttl
+# Run with: pyshacl -s shapes/pvcollada_shape.ttl -o results.ttl data.ttl
+# ─────────────────────────────────────────────────────────────────────────────
+
+
+# ── Layer 1: Component Specifications ────────────────────────────────────────
+
+pvc:ModuleShape
+    a sh:NodeShape ;
+    sh:targetClass pvc:Module ;
+    rdfs:label "Module shape" ;
+
+    # Required identification
+    sh:property [
+        sh:path pvc:manufacturer ;
+        sh:minCount 1 ;
+        sh:datatype xsd:string ;
+        sh:message "Module must have a manufacturer name." ;
+    ] ;
+    sh:property [
+        sh:path pvc:model ;
+        sh:minCount 1 ;
+        sh:datatype xsd:string ;
+        sh:message "Module must have a model identifier." ;
+    ] ;
+
+    # STC electrical parameters — all required for simulation
+    sh:property [
+        sh:path pvc:nomPower ;
+        sh:minCount 1 ;
+        sh:datatype xsd:float ;
+        sh:minExclusive 0 ;
+        sh:message "Module must have a positive nominal STC power (W)." ;
+    ] ;
+    sh:property [
+        sh:path pvc:vOc ;
+        sh:minCount 1 ;
+        sh:datatype xsd:float ;
+        sh:minExclusive 0 ;
+        sh:message "Module must have open-circuit voltage (V)." ;
+    ] ;
+    sh:property [
+        sh:path pvc:iSc ;
+        sh:minCount 1 ;
+        sh:datatype xsd:float ;
+        sh:minExclusive 0 ;
+        sh:message "Module must have short-circuit current (A)." ;
+    ] ;
+    sh:property [
+        sh:path pvc:vMpp ;
+        sh:minCount 1 ;
+        sh:datatype xsd:float ;
+        sh:minExclusive 0 ;
+        sh:message "Module must have MPP voltage (V)." ;
+    ] ;
+    sh:property [
+        sh:path pvc:iMpp ;
+        sh:minCount 1 ;
+        sh:datatype xsd:float ;
+        sh:minExclusive 0 ;
+        sh:message "Module must have MPP current (A)." ;
+    ] ;
+
+    # Vmp must be less than Voc
+    sh:sparql [
+        sh:message "vMpp must be less than vOc." ;
+        sh:prefixes pvc: ;
+        sh:select """
+            PREFIX pvc: <https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/>
+            SELECT $this WHERE {
+                $this pvc:vMpp ?vmpp ;
+                      pvc:vOc  ?voc .
+                FILTER ( ?vmpp >= ?voc )
+            }
+        """ ;
+    ] ;
+
+    # Temperature coefficients
+    sh:property [
+        sh:path pvc:tCoefPower ;
+        sh:minCount 1 ;
+        sh:datatype xsd:float ;
+        sh:maxExclusive 0 ;
+        sh:message "Temperature coefficient of power must be negative (%/°C)." ;
+    ] ;
+
+    # Physical dimensions
+    sh:property [
+        sh:path pvc:moduleLength ;
+        sh:minCount 1 ;
+        sh:datatype xsd:float ;
+        sh:minExclusive 0 ;
+        sh:message "Module length (mm) must be present and positive." ;
+    ] ;
+    sh:property [
+        sh:path pvc:moduleWidth ;
+        sh:minCount 1 ;
+        sh:datatype xsd:float ;
+        sh:minExclusive 0 ;
+        sh:message "Module width (mm) must be present and positive." ;
+    ] ;
+
+    # Cell type classification
+    sh:property [
+        sh:path pvc:cellMaterial ;
+        sh:minCount 1 ;
+        sh:class pvc:CellMaterial ;
+        sh:message "Module must declare a cell material." ;
+    ] ;
+.
+
+pvc:InverterShape
+    a sh:NodeShape ;
+    sh:targetClass pvc:Inverter ;
+    rdfs:label "Inverter shape" ;
+
+    sh:property [
+        sh:path pvc:manufacturer ;
+        sh:minCount 1 ;
+        sh:datatype xsd:string ;
+    ] ;
+    sh:property [
+        sh:path pvc:model ;
+        sh:minCount 1 ;
+        sh:datatype xsd:string ;
+    ] ;
+    sh:property [
+        sh:path pvc:nomACPower ;
+        sh:minCount 1 ;
+        sh:datatype xsd:float ;
+        sh:minExclusive 0 ;
+        sh:message "Inverter must have a positive nominal AC power (W)." ;
+    ] ;
+    sh:property [
+        sh:path pvc:maxDCPower ;
+        sh:minCount 1 ;
+        sh:datatype xsd:float ;
+        sh:minExclusive 0 ;
+        sh:message "Inverter must declare maximum DC input power (W)." ;
+    ] ;
+    sh:property [
+        sh:path pvc:hasMPPTUnit ;
+        sh:minCount 1 ;
+        sh:class pvc:MPPTUnit ;
+        sh:message "Inverter must declare at least one MPPT unit." ;
+    ] ;
+.
+
+pvc:MPPTUnitShape
+    a sh:NodeShape ;
+    sh:targetClass pvc:MPPTUnit ;
+    rdfs:label "MPPT unit shape" ;
+
+    sh:property [
+        sh:path pvc:vMppMin ;
+        sh:minCount 1 ;
+        sh:datatype xsd:float ;
+        sh:minExclusive 0 ;
+        sh:message "MPPT unit must declare minimum MPP voltage (V)." ;
+    ] ;
+    sh:property [
+        sh:path pvc:vMppMax ;
+        sh:minCount 1 ;
+        sh:datatype xsd:float ;
+        sh:message "MPPT unit must declare maximum MPP voltage (V)." ;
+    ] ;
+    sh:property [
+        sh:path pvc:maxInputCurrent ;
+        sh:minCount 1 ;
+        sh:datatype xsd:float ;
+        sh:minExclusive 0 ;
+        sh:message "MPPT unit must declare maximum input current (A)." ;
+    ] ;
+
+    # Sanity: vMppMax > vMppMin
+    sh:sparql [
+        sh:message "vMppMax must be greater than vMppMin." ;
+        sh:select """
+            PREFIX pvc: <https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/>
+            SELECT $this WHERE {
+                $this pvc:vMppMin ?vmin ;
+                      pvc:vMppMax ?vmax .
+                FILTER ( ?vmax <= ?vmin )
+            }
+        """ ;
+    ] ;
+.
+
+
+# ── Layer 2: Circuit Topology ─────────────────────────────────────────────────
+
+pvc:StringShape
+    a sh:NodeShape ;
+    sh:targetClass pvc:String ;
+    rdfs:label "String shape" ;
+
+    sh:property [
+        sh:path pvc:hasModuleArray ;
+        sh:minCount 1 ;
+        sh:class pvc:ModuleArray ;
+        sh:message "A String must reference at least one ModuleArray." ;
+    ] ;
+.
+
+pvc:ModuleLayoutShape
+    a sh:NodeShape ;
+    sh:targetClass pvc:ModuleLayout ;
+    rdfs:label "ModuleLayout shape" ;
+
+    sh:property [
+        sh:path pvc:inRack ;
+        sh:minCount 1 ;
+        sh:class pvc:Rack ;
+        sh:message "ModuleLayout must reference the Rack it belongs to." ;
+    ] ;
+    sh:property [
+        sh:path pvc:rackRow ;
+        sh:minCount 1 ;
+        sh:datatype xsd:positiveInteger ;
+        sh:message "ModuleLayout must specify the row index within the rack." ;
+    ] ;
+    sh:property [
+        sh:path pvc:rackCol ;
+        sh:minCount 1 ;
+        sh:datatype xsd:positiveInteger ;
+        sh:message "ModuleLayout must specify the column index within the rack." ;
+    ] ;
+.
+
+pvc:InverterInstanceShape
+    a sh:NodeShape ;
+    sh:targetClass pvc:InverterInstance ;
+    rdfs:label "InverterInstance shape" ;
+
+    sh:property [
+        sh:path pvc:hasComponentType ;
+        sh:minCount 1 ;
+        sh:class pvc:Inverter ;
+        sh:message "InverterInstance must reference an Inverter component type." ;
+    ] ;
+    sh:property [
+        sh:path pvc:hasMPPTInput ;
+        sh:minCount 1 ;
+        sh:class pvc:MPPTInput ;
+        sh:message "InverterInstance must have at least one MPPTInput." ;
+    ] ;
+.
+
+
+# ── Layer 3: Physical Assets ──────────────────────────────────────────────────
+
+pvc:ProjectShape
+    a sh:NodeShape ;
+    sh:targetClass pvc:Project ;
+    rdfs:label "Project shape" ;
+
+    sh:property [
+        sh:path pvc:projectName ;
+        sh:minCount 1 ;
+        sh:datatype xsd:string ;
+        sh:message "Project must have a name." ;
+    ] ;
+    sh:property [
+        sh:path pvc:dcCapacity ;
+        sh:minCount 1 ;
+        sh:datatype xsd:float ;
+        sh:minExclusive 0 ;
+        sh:message "Project must declare DC system capacity (kWp)." ;
+    ] ;
+.
+
+pvc:FixedTiltRackShape
+    a sh:NodeShape ;
+    sh:targetClass pvc:FixedTiltRack ;
+    rdfs:label "FixedTiltRack shape" ;
+
+    sh:property [
+        sh:path pvc:azimuth ;
+        sh:minCount 1 ;
+        sh:datatype xsd:float ;
+        sh:minInclusive 0 ;
+        sh:maxExclusive 360 ;
+        sh:message "FixedTiltRack must have azimuth in [0, 360) degrees." ;
+    ] ;
+    sh:property [
+        sh:path pvc:tilt ;
+        sh:minCount 1 ;
+        sh:datatype xsd:float ;
+        sh:minInclusive 0 ;
+        sh:maxInclusive 90 ;
+        sh:message "FixedTiltRack must have tilt in [0, 90] degrees." ;
+    ] ;
+
+    # Must NOT have tracker-specific properties
+    sh:not [
+        sh:property [
+            sh:path pvc:trackerAzimuth ;
+            sh:minCount 1 ;
+        ]
+    ] ;
+.
+
+pvc:TrackerRackShape
+    a sh:NodeShape ;
+    sh:targetClass pvc:TrackerRack ;
+    rdfs:label "TrackerRack shape" ;
+
+    sh:property [
+        sh:path pvc:trackerAzimuth ;
+        sh:minCount 1 ;
+        sh:datatype xsd:float ;
+        sh:message "TrackerRack must declare tracker axis azimuth (degrees)." ;
+    ] ;
+
+    # Must NOT have fixed-tilt-specific tilt property
+    sh:not [
+        sh:property [
+            sh:path pvc:tilt ;
+            sh:minCount 1 ;
+        ]
+    ] ;
+.
+
+pvc:RackShape
+    a sh:NodeShape ;
+    sh:targetClass pvc:Rack ;
+    rdfs:label "Rack shape" ;
+
+    sh:property [
+        sh:path pvc:modulesPerRow ;
+        sh:minCount 1 ;
+        sh:datatype xsd:positiveInteger ;
+        sh:message "Rack must declare the number of modules per row." ;
+    ] ;
+    sh:property [
+        sh:path pvc:modulesPerCol ;
+        sh:minCount 1 ;
+        sh:datatype xsd:positiveInteger ;
+        sh:message "Rack must declare the number of module columns." ;
+    ] ;
+.

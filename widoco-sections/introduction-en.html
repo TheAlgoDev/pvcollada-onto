@@ -1,0 +1,39 @@
+<p>
+  Photovoltaic (PV) system modelling software — pvlib, PVsyst, SAM, and their
+  data exchange formats — represents system topology and geometry in incompatible
+  ways. The <strong>PV-Collada Ontology</strong> addresses this gap by providing a
+  shared, FAIR semantic layer derived from the openly specified PV-Collada 2.0
+  XML schema.
+</p>
+<p>
+  PV-Collada describes a PV power plant across three interlocking layers that
+  this ontology mirrors directly:
+</p>
+<ul>
+  <li>
+    <strong>Layer 1 — Product library.</strong> Typed component specifications
+    (modules, inverters, MPPT units, cables, combiners, optimizers) drawn from
+    manufacturer datasheets.
+  </li>
+  <li>
+    <strong>Layer 2 — Circuit topology.</strong> Instantiated electrical elements
+    and their wiring: module strings, MPPT inputs, inverter instances, DC/AC
+    combiners, and cable connections.
+  </li>
+  <li>
+    <strong>Layer 3 — Physical layout.</strong> 3-D rack and tracker geometry
+    encoded as COLLADA scene-graph primitives: racks, tables, posts, gaps, and
+    a triangulated terrain mesh.
+  </li>
+</ul>
+<p>
+  The <code>pvc:ModuleLayout</code> class acts as a cross-domain bridge, binding
+  a module's position in the circuit (Layer 2) to its physical slot on a rack
+  (Layer 3). This design supports both electrical simulation queries and
+  spatial/shading analysis within a single knowledge graph.
+</p>
+<p>
+  Formal alignment with MDS-Onto enables downstream interoperability with other
+  materials and built-environment ontologies in the MDS-Onto ecosystem and with
+  upper-level ontologies (BFO, PMDco) through the MDS-Onto hierarchy.
+</p>

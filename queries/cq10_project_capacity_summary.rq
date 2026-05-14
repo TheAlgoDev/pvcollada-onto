@@ -1,0 +1,15 @@
+# CQ10 — What is the system capacity and module count for each project?
+
+PREFIX pvc:  <https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?project ?projectName ?dcCapacity ?acCapacity ?moduleCount ?inverterCount
+WHERE {
+    ?project a pvc:Project ;
+             rdfs:label ?projectName .
+    OPTIONAL { ?project pvc:dcCapacity    ?dcCapacity }
+    OPTIONAL { ?project pvc:acCapacity    ?acCapacity }
+    OPTIONAL { ?project pvc:moduleCount   ?moduleCount }
+    OPTIONAL { ?project pvc:inverterCount ?inverterCount }
+}
+ORDER BY DESC(?dcCapacity)

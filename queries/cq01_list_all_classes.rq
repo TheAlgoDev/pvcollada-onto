@@ -1,0 +1,15 @@
+# CQ01 — What classes does the PV-Collada ontology define?
+# Returns all OWL classes with their labels.
+
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX pvc:  <https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/>
+
+SELECT ?class ?label ?comment
+WHERE {
+    ?class a owl:Class ;
+           rdfs:label ?label .
+    OPTIONAL { ?class rdfs:comment ?comment }
+    FILTER ( STRSTARTS(STR(?class), STR(pvc:)) )
+}
+ORDER BY ?label

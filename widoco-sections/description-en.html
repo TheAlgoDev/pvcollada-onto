@@ -1,0 +1,57 @@
+<h3>Design decisions</h3>
+<p>
+  The ontology is serialised in Turtle (OWL 2 DL profile). All classes carry
+  the MDS-Onto required annotation properties
+  <code>mds:hasDomain</code> ("builtenv"),
+  <code>mds:hasSubDomain</code> ("pvcollada"), and
+  <code>mds:hasStudyStage</code>.
+  Quantitative data properties are annotated with
+  <code>qudt:applicableUnit</code> pointing to QUDT unit IRIs, so
+  unit information is machine-readable without embedding it in property names.
+</p>
+
+<h3>Enumeration modelling</h3>
+<p>
+  XSD <code>simpleType</code> enumerations (cell technology, rack type, inverter
+  type, etc.) are modelled as <code>owl:Class</code> + <code>owl:oneOf</code>
+  named individuals rather than as <code>rdfs:Datatype</code> restrictions.
+  This preserves the ability to attach annotations and alignment links to each
+  enumeration member (e.g. <code>pvc:PERC skos:exactMatch
+  mds:PassivatedEmitterRearCell</code>).
+</p>
+
+<h3>Business rules</h3>
+<p>
+  Two Schematron conditional-field rules from
+  <code>pvcollada_business_2.0.sch</code> are re-expressed as OWL 2 subclass
+  restrictions:
+</p>
+<ul>
+  <li>
+    <code>pvc:FixedTiltRack</code> must have <code>pvc:azimuth</code> and
+    <code>pvc:tilt</code> (minCardinality 1).
+  </li>
+  <li>
+    <code>pvc:TrackerRack</code> must have <code>pvc:trackerAzimuth</code>
+    (minCardinality 1).
+  </li>
+</ul>
+<p>
+  The two subclasses are declared <code>owl:AllDisjointClasses</code>.
+  The MPPT URL uniqueness constraint (also in the Schematron) cannot be
+  expressed in OWL 2 DL; it is documented as a comment and enforced via the
+  SPARQL SHACL shapes file (<code>shapes/pvcollada_shape.ttl</code>).
+</p>
+
+<h3>MDS-Onto alignment summary</h3>
+<p>
+  Four class bridges use <code>rdfs:subClassOf</code>:
+  <code>pvc:Module</code> → <code>mds:PhotovoltaicModule</code>;
+  <code>pvc:Inverter</code> → <code>mds:Inverter</code>;
+  <code>pvc:Rack</code> → <code>mds:Racking</code>;
+  <code>pvc:Project</code> → <code>mds:PhotovoltaicSite</code>.
+  One enumeration member uses <code>skos:exactMatch</code>
+  (<code>pvc:PERC</code>); two enumeration classes use
+  <code>skos:closeMatch</code>; thirteen data properties use
+  <code>rdfs:seeAlso</code> links to MDS-Onto measurement classes.
+</p>

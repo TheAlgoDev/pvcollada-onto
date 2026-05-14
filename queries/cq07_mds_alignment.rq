@@ -1,0 +1,29 @@
+# CQ07 — How are pvc: terms aligned to MDS-Onto?
+# Returns all subClassOf, exactMatch, closeMatch, and seeAlso links
+# between pvc: and mds: namespace terms.
+
+PREFIX pvc:    <https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/>
+PREFIX mds:    <https://cwrusdle.bitbucket.io/mds/>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+
+SELECT ?pvcTerm ?relation ?mdsTerm
+WHERE {
+    {
+        ?pvcTerm rdfs:subClassOf ?mdsTerm .
+        BIND("rdfs:subClassOf" AS ?relation)
+    } UNION {
+        ?pvcTerm skos:exactMatch ?mdsTerm .
+        BIND("skos:exactMatch" AS ?relation)
+    } UNION {
+        ?pvcTerm skos:closeMatch ?mdsTerm .
+        BIND("skos:closeMatch" AS ?relation)
+    } UNION {
+        ?pvcTerm rdfs:seeAlso ?mdsTerm .
+        BIND("rdfs:seeAlso" AS ?relation)
+    }
+    FILTER ( STRSTARTS(STR(?pvcTerm), STR(pvc:)) )
+    FILTER ( STRSTARTS(STR(?mdsTerm), STR(mds:)) )
+}
+ORDER BY ?relation ?pvcTerm
