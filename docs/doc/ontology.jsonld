@@ -1,0 +1,4415 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Heterojunction"
+    }, {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/IBC"
+    }, {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PERC"
+    }, {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/SingleJunction"
+    }, {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TOPcon"
+    }, {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TandemPerovskite"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/AluminumConductor"
+    }, {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CopperConductor"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/IndependentDrive"
+    }, {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/LinkedDrive"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CECEfficiency"
+    }, {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/EUEfficiency"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/FixedTilt"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasRackType"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/azimuth"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/tilt"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/JointGap"
+    }, {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/MotorGap"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CentralInverter"
+    }, {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Microinverter"
+    }, {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/StringInverter"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid32",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Landscape"
+    }, {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Portrait"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Bifacial"
+    }, {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CPV"
+    }, {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Monofacial"
+    }, {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Shingle"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid40",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PerpendicularPost"
+    }, {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/VerticalPost"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid43",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CircularPost"
+    }, {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/HShapePost"
+    }, {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/RectangularPost"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid47",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/FencePost"
+    }, {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/RackPost"
+    }, {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TrackerPost"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid51",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ACPower"
+    }, {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/DCPower"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid54",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/FixedTilt"
+    }, {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TrackerRackType"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid57",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/FixedTable"
+    }, {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TrackerTable"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid60",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CircularTube"
+    }, {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/OctagonalTube"
+    }, {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/RectangularTube"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid64",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TrackerRackType"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasRackType"
+  } ]
+}, {
+  "@id" : "_:genid65",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/trackerAzimuth"
+  } ]
+}, {
+  "@id" : "_:genid66",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/DualAxisTracker"
+    }, {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/SingleAxisTracker"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ASi"
+    }, {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CdTe"
+    }, {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/MonoSi"
+    }, {
+      "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PolySi"
+    } ]
+  } ]
+}, {
+  "@id" : "http://qudt.org/schema/qudt/applicableUnit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.ontologyrepository.com/CommonCoreOntologies/ont00001754",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#altLabel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#closeMatch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#definition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#scopeNote",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/Inverter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/PhotovoltaicModule",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/PhotovoltaicSite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/Racking",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.ontologyrepository.com/CommonCoreOntologies/ont00001754" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://github.com/ucf-photovoltaics/pv-ontology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PV-Collada Ontology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "http://www.example.com/pvcollada"
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/0.1.0"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "OWL 2 ontology derived from the PV-Collada 2.0 XSD schema. Provides vocabulary for PV system circuit topology, physical layout geometry, and component product data, within the MDS-Onto builtenv domain."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Covers three interlocking layers: (1) a product library of typed PV components (modules, inverters, cables, etc.); (2) a circuit topology describing how those components are wired together; and (3) a physical 3-D layout associating circuit positions with geometric rack instances. ModuleLayout is the cross-domain bridge between layers 2 and 3."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ACCombiner",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AC Combiner Product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVComponent"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Product-level specification for an AC inverter combiner panel."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Corresponds to combiner_ac_type_object."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasStudyStage" : [ {
+    "@value" : "Characterization"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ACCombinerInstance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AC Combiner Instance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CircuitInstance"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "An instance of an AC combiner panel in the electrical circuit."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasStudyStage" : [ {
+    "@value" : "Simulation"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ACPower",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PowerType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "alternating current"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "ac"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ASi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CellMaterial"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "amorphous silicon"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "aSi"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/AluminumConductor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ConductorMaterial"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "aluminum conductor"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "aluminum"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Bifacial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "bifacial module"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "bifacial"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CECEfficiency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/EfficiencyStandardType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CEC efficiency standard"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "CEC"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CPV",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "concentrating photovoltaic module"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "cpv"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Cable",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cable Product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVComponent"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Product-level specification for a PV cable, including cross-sectional area, conductor count, material, and electrical resistance."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Corresponds to cable_type_object."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasStudyStage" : [ {
+    "@value" : "Characterization"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CableTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cable To"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CircuitInstance"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A directed cable connection from a circuit instance to its electrical parent, carrying a reference to the cable product and the installed length."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasStudyStage" : [ {
+    "@value" : "Simulation"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CdTe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CellMaterial"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cadmium telluride"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "cdTe"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CellArchitecture",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cell Architecture"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/CellTechnology"
+  }, {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/CellTechnologyType"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Enumeration of cell junction or contact architectures used in PV modules."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasStudyStage" : [ {
+    "@value" : "Characterization"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CellMaterial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cell Material"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid8"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Enumeration of absorber semiconductor materials used in PV cells."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasStudyStage" : [ {
+    "@value" : "Characterization"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CentralInverter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/InverterType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "central inverter"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "central"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Circuit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Circuit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CircuitInstance"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "The complete electrical circuit description of a PV system, rooted at a single circuit_root element that is a transformer, AC combiner, or inverter."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasStudyStage" : [ {
+    "@value" : "Simulation"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CircuitInstance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Circuit Instance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "An instantiated element in the electrical circuit topology of a PV system, referencing a PVComponent product specification."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasStudyStage" : [ {
+    "@value" : "Simulation"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CircularPost",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PostShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "circular post"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "circle"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CircularTube",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TorqueTubeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "circular torque tube"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "circle"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ConductorMaterial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Conductor Material"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid13"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Enumeration of cable conductor materials."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CopperConductor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ConductorMaterial"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "copper conductor"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "copper"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/DCCombiner",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "DC Combiner Product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVComponent"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Product-level specification for a DC string combiner box."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Corresponds to combiner_dc_type_object."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasStudyStage" : [ {
+    "@value" : "Characterization"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/DCCombinerInstance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "DC Combiner Instance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CircuitInstance"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "An instance of a DC combiner box in the electrical circuit."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasStudyStage" : [ {
+    "@value" : "Simulation"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/DCPower",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PowerType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "direct current"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "dc"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/DriveType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Drive Type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid16"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Enumeration of drive coupling configurations for single-axis trackers."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/DualAxisTracker",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TrackerType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "dual axis tracker"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "dual_axis"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/EUEfficiency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/EfficiencyStandardType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "EU efficiency standard"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "EU"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/EfficiencyStandardType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Efficiency Standard Type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid19"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Enumeration of rating standards used for inverter efficiency measurement."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/FencePost",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PostType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "fence post"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "fence"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/FixedTable",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TableType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "fixed table"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "fixed"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/FixedTilt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/RackType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "fixed tilt"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "fixed_tilt"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/FixedTiltRack",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Fixed Tilt Rack"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack"
+  }, {
+    "@id" : "_:genid22"
+  }, {
+    "@id" : "_:genid23"
+  }, {
+    "@id" : "_:genid24"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TrackerRack"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A rack mounted at a fixed tilt angle; requires azimuth and tilt, and must not carry tracker geometry fields."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Gap",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tracker Gap"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PhysicalAsset"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A space between two racks on a single-axis tracker torque tube, occupied by a motor drive or a flexible joint."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasStudyStage" : [ {
+    "@value" : "Simulation"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/GapType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Gap Type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid25"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Enumeration of gap categories between racks on a tracker torque tube."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/HShapePost",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PostShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "H-shape post"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "h-shape"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Heterojunction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CellArchitecture"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "heterojunction"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/IBC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CellArchitecture"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "interdigitated back contact"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "IBC"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/IndependentDrive",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/DriveType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "independent drive"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "independent"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Inverter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PV Inverter Product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/Inverter"
+  }, {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVComponent"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Product-level specification for a PV inverter, capturing its AC/DC power ratings, MPPT voltage window, efficiency, and parasitic consumption."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Corresponds to inverter_type_object. Declared as a subclass of mds:Inverter to align with MDS-Onto."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasStudyStage" : [ {
+    "@value" : "Characterization"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/InverterInstance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Inverter Instance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CircuitInstance"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "An instance of an inverter in the electrical circuit, referencing a product inverter specification and containing MPPT inputs."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasStudyStage" : [ {
+    "@value" : "Simulation"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/InverterType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Inverter Type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid28"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Enumeration of PV inverter deployment topologies."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/JointGap",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/GapType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "joint gap"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "joint"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Landscape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleOrientation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "landscape orientation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "landscape"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/LinkedDrive",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/DriveType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "linked drive"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "linked"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/MPPTInput",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "MPPT Input"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CircuitInstance"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A single MPPT channel instance within an inverter circuit instance, containing one or more strings or DC combiners."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasStudyStage" : [ {
+    "@value" : "Simulation"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/MPPTUnit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "MPPT Unit Product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVComponent"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Product-level specification for a single maximum-power-point-tracking channel on an inverter, recording the number of parallel input strings."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Corresponds to mppt_type_object."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasStudyStage" : [ {
+    "@value" : "Characterization"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Microinverter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/InverterType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "microinverter"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PV Module Product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/PhotovoltaicModule"
+  }, {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVComponent"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Product-level specification for a PV module, capturing its physical dimensions, electrical parameters at STC, and cell technology."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Corresponds to module_type_object in pvcollada_schema_2.0.xsd. Declared as a subclass of mds:PhotovoltaicModule to align with the MDS-Onto builtenv PV-module hierarchy."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasStudyStage" : [ {
+    "@value" : "Characterization"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleArray",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Module Array"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CircuitInstance"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "An ordered collection of modules within a string, each described by a ModuleLayout that maps a circuit position to a physical rack cell."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasStudyStage" : [ {
+    "@value" : "Simulation"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleLayout",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Module Layout"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CircuitInstance"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Cross-domain bridge entity that maps a module's position in the electrical circuit (position_in_string) to its physical location on a rack (row, column) via a reference to an instance_rack_ref."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "This is the key join point between circuit topology and physical 3-D layout in PV-Collada."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasStudyStage" : [ {
+    "@value" : "Simulation"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleOrientation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Module Orientation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid32"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Enumeration of module mounting orientations on a rack."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Module Type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid35"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Enumeration of PV module form-factor types."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/MonoSi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CellMaterial"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "monocrystalline silicon"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "monoSi"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Monofacial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "monofacial module"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "monofacial"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/MotorGap",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/GapType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "motor gap"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "motor"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/OctagonalTube",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TorqueTubeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "octagonal torque tube"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "octogon"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Optimizer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Power Optimizer Product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVComponent"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Product-level specification for a module-level power optimizer."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Corresponds to optimizer_type_object."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasStudyStage" : [ {
+    "@value" : "Characterization"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/OptimizerArray",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Optimizer Array"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CircuitInstance"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "An ordered collection of power optimizer instances within a string."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasStudyStage" : [ {
+    "@value" : "Simulation"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/OptimizerInstance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Optimizer Instance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CircuitInstance"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "An instance of a power optimizer in the circuit, connected via cable_to_parent and optionally cable_to_neighbor."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasStudyStage" : [ {
+    "@value" : "Simulation"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PERC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CellArchitecture"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "passivated emitter and rear cell"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "PERC"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/PassivatedEmitterRearCell"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PV-Collada Entity"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Abstract root class for all entities described in the PV-Collada schema."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVComponent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PV Component"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A typed product specification for a physical PV balance-of-system component, as declared in the PV-Collada components library."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasStudyStage" : [ {
+    "@value" : "Characterization"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PerpendicularPost",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PostInclination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "perpendicular post"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "perpendicular"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PhysicalAsset",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Physical Asset"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A physical or geometric object in the 3-D layout of a PV installation, represented in the COLLADA scene graph."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasStudyStage" : [ {
+    "@value" : "Simulation"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PolySi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CellMaterial"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "polycrystalline silicon"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "polySi"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Portrait",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleOrientation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "portrait orientation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "portrait"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Post",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Structural Post"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PhysicalAsset"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A vertical structural member that supports a rack, tracker torque tube, or fence, driven into or anchored to the ground."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasStudyStage" : [ {
+    "@value" : "Simulation"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PostInclination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Post Inclination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid40"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Enumeration of post installation inclination modes."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PostShape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Post Shape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid43"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Enumeration of structural post cross-section shapes."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PostType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Post Type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid47"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Enumeration of structural post functions."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PowerType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Power Type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid51"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Enumeration of electrical power type (AC or DC) for cables."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Project",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PV Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/PhotovoltaicSite"
+  }, {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PhysicalAsset"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Top-level project metadata for a PV-Collada file, recording system capacity, string and module counts, geographic projection, and boundary."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Declared as a subclass of mds:PhotovoltaicSite; the pvc:Project adds schema-level attributes (capacity, module/string counts, projection)."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasStudyStage" : [ {
+    "@value" : "Simulation"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PV Rack"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/Racking"
+  }, {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PhysicalAsset"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A co-planar group of modules mounted in a fixed or tracker configuration, described by a COLLADA geometry rectangle representing the rack surface."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Declared as a subclass of mds:Racking. Business rule (Schematron): if rack_type = fixed_tilt then azimuth and tilt are required and tracker fields are forbidden; if rack_type = tracker then tracker_azimuth is required and fixed-tilt fields are forbidden. See pvc:FixedTiltRack and pvc:TrackerRack subclasses."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasStudyStage" : [ {
+    "@value" : "Simulation"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/RackPost",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PostType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "rack post"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "rack"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/RackType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Rack Type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid54"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/RackingType"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Enumeration of rack mounting strategies."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/RectangularPost",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PostShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "rectangular post"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "rectangle"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/RectangularTube",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TorqueTubeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "rectangular torque tube"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "rectangle"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Shingle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "shingle module"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "shingle"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/SingleAxisTracker",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TrackerType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "single axis tracker"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "single_axis"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/SingleJunction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CellArchitecture"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "single junction"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "single_junction"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/String",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PV String"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CircuitInstance"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A series-connected string of PV modules, containing either a module array or an optimizer array."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasStudyStage" : [ {
+    "@value" : "Simulation"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/StringInverter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/InverterType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "string inverter"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "string"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TOPcon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CellArchitecture"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "tunnel oxide passivated contact"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "TOPcon"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Table",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PV Table"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PhysicalAsset"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A group of mechanically linked racks in a single row, potentially including posts and gaps. When the table is a tracker, all constituent racks share the same rotation around the tracker axis."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasStudyStage" : [ {
+    "@value" : "Simulation"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TableType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Table Type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid57"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Enumeration of table mounting types."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TandemPerovskite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CellArchitecture"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "tandem perovskite"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "tandem-perovskite"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Terrain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Terrain"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PhysicalAsset"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A triangulated 3-D surface model representing the site terrain."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasStudyStage" : [ {
+    "@value" : "Simulation"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TorqueTubeShape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Torque Tube Shape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid60"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Enumeration of cross-sectional shapes for a single-axis tracker torque tube."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TrackerPost",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PostType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "tracker post"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "tracker"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TrackerRack",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tracker Rack"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack"
+  }, {
+    "@id" : "_:genid64"
+  }, {
+    "@id" : "_:genid65"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A rack mounted on a solar tracker; requires tracker_azimuth, and must not carry fixed-tilt geometry fields."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TrackerRackType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/RackType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "tracker rack"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "tracker"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TrackerTable",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TableType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "tracker table"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "tracker"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TrackerType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tracker Type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVColladaEntity"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid66"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Enumeration of solar tracker axis configurations."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Transformer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Transformer Product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PVComponent"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Product-level specification for an AC step-up or isolation transformer, including rated power, voltage ratio, efficiency, and loss parameters."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Corresponds to transformer_type_object."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasStudyStage" : [ {
+    "@value" : "Characterization"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TransformerInstance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Transformer Instance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CircuitInstance"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "An instance of a transformer in the electrical circuit."
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasDomain" : [ {
+    "@value" : "builtenv"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasStudyStage" : [ {
+    "@value" : "Simulation"
+  } ],
+  "https://cwrusdle.bitbucket.io/mds/hasSubDomain" : [ {
+    "@value" : "pvcollada"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/VerticalPost",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PostInclination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "vertical post"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "vertical"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/azimuth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "rack azimuth"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Azimuth angle of a fixed rack (direction modules face)."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: °; applies to FixedTiltRack only."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/bifacialFactor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "bifaciality factor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Ratio of rear-side to front-side quantum efficiency for bifacial modules (dimensionless, 0–1)."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/cableLength",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CableTo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cable length"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Installed length of this cable run."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: m (assumed SI default; verify against project file)"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/capacityAC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://qudt.org/schema/qudt/applicableUnit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/W"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Inverter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "maximum AC capacity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Maximum inverter AC output power."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: W"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/capacityDC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://qudt.org/schema/qudt/applicableUnit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/W"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Inverter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "maximum DC capacity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Maximum inverter DC input power."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: W"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/columnSpacing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "column spacing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Spacing between modules in the column direction on a rack."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/company",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "company"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Name of the company or organisation responsible for the project."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/copperLoss",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://qudt.org/schema/qudt/applicableUnit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/OHM"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Transformer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "winding resistance (copper loss)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Equivalent series resistance used to compute winding (copper) losses."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: Ω"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "ISO 3166 alpha-2 or alpha-3 country code for the project location."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/crossSection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Cable"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cross-section area"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Conductor cross-sectional area."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: mm²"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/drawing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "drawing reference"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Drawing or document reference associated with the project."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/efficiency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "efficiency"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Maximum efficiency as AC output power / DC input power."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: %; range 0–100"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/efficiencyStandardValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Inverter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "efficiency standard value"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Weighted efficiency computed per the standard specified by efficiencyStandardType."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: %; range 0–100"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/gapWidth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Gap"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "gap width"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Nominal width of the gap between the two adjacent racks."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasCableToNeighbor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/OptimizerInstance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has cable to neighbor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CableTo"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Associates an optimizer instance with the cable that daisy-chains it to an adjacent optimizer."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasCableToParent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has cable to parent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CableTo"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Associates a circuit instance with the cable that connects it to its electrical parent node."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasCellArchitecture",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has cell architecture"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CellArchitecture"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Specifies the cell junction or contact architecture used in a module."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasCellMaterial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has cell material"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CellMaterial"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Specifies the semiconductor absorber material of the cells in a module."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasConductorMaterial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Cable"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has conductor material"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ConductorMaterial"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Specifies the conductor material of a cable product."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasDCCombinerInput",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/MPPTInput"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has DC combiner input"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/DCCombinerInstance"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Associates an MPPT input with a DC combiner that aggregates strings."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasDriveType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Table"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has drive type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/DriveType"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Associates a single-axis tracker table with its drive coupling type."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasEfficiencyStandardType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Inverter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has efficiency standard type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/EfficiencyStandardType"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Specifies the rating standard (CEC or EU) used to compute the efficiency_standard_value."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasGapType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Gap"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has gap type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/GapType"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Associates a gap with its function (motor or joint)."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasInverterType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Inverter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has inverter type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/InverterType"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Associates an inverter product with its deployment topology."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasMPPTInput",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/InverterInstance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has MPPT input"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/MPPTInput"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Associates a circuit inverter instance with its MPPT channel instances."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasMPPTUnit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Inverter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has MPPT unit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/MPPTUnit"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Associates an inverter product with its MPPT channel specifications."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasModuleArray",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/String"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has module array"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleArray"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Associates a string with its module array (direct-wire configuration)."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasModuleLayout",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleArray"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has module layout"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleLayout"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Associates a module array with its constituent ModuleLayout entries, each describing the position of one module in the string and in the rack."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasModuleOrientation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has module orientation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleOrientation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Associates a rack with the mounting orientation of its modules."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasModuleType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has module type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleType"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Associates a module product with its form-factor type."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasOptimizerArray",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/String"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has optimizer array"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/OptimizerArray"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Associates a string with its optimizer array (optimized configuration)."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasPostInclination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Post"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has post inclination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PostInclination"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Associates a post with its installation inclination (vertical or perpendicular)."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasPostShape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Post"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has post shape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PostShape"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Associates a post with its cross-section shape."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasPostType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Post"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has post type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PostType"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Associates a post with its structural function (rack, tracker, fence)."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasPowerType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Cable"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has power type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/PowerType"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Associates a cable with its power type (AC or DC)."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasRackType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has rack type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/RackType"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Associates a rack with its mounting type (fixed_tilt or tracker)."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasString",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/MPPTInput"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/String"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Associates an MPPT input with its connected PV strings."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasTableType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Table"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has table type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TableType"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Associates a table with its mounting type (fixed or tracker)."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasTorqueTubeShape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Table"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has torque tube shape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TorqueTubeShape"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Associates a single-axis tracker table with its torque tube cross-section shape."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/hasTrackerType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Table"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has tracker type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TrackerType"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Associates a tracker table with its axis configuration."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/heightAboveGround",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "height above ground"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Height of the lower edge of a fixed rack above ground level."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/iMaxDC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://qudt.org/schema/qudt/applicableUnit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/A"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Inverter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "maximum DC current"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Maximum DC input current to the inverter."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: A"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/iMpp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://qudt.org/schema/qudt/applicableUnit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/A"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "current at maximum power point at STC"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/CurrentAtMaximumPower"
+  }, {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/NameplateCurrentAtMaximumPower"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Module current at the maximum power point under STC."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: A"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/iSc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://qudt.org/schema/qudt/applicableUnit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/A"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "short-circuit current at STC"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/NameplateShortCircuitCurrent"
+  }, {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/ShortCircuitCurrent"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Module short-circuit current at Standard Test Conditions."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: A"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/impedance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Cable"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "impedance per unit length"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "AC impedance per kilometre of cable."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: Ω/km"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/inputCount",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "input count"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Number of parallel inputs (strings) that can be connected."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/interconnectionLimit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://qudt.org/schema/qudt/applicableUnit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/W"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "interconnection limit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "AC power limit imposed by the grid interconnection agreement."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: W"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ironLoss",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://qudt.org/schema/qudt/applicableUnit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/W"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Transformer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "iron core loss"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "No-load loss in the transformer iron core, independent of output current."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: W"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/jointAngle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Gap"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "joint angle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Maximum flexion angle of a non-rigid joint gap."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: °"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/localProjection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "local projection"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "EPSG code for the coordinate projection used to relate local (x,y,z) coordinates to geocoordinates (e.g., 'EPSG:3857')."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/manufacturer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/Manufacturer"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Name of the product manufacturer."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/moduleColumns",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "module columns"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Number of columns of modules on the rack."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/moduleCount",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "module count"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Total number of PV modules in the system."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/moduleDepth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://qudt.org/schema/qudt/applicableUnit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/MilliM"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "module depth"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Depth (thickness) of the module."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: mm"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/moduleLength",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://qudt.org/schema/qudt/applicableUnit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/MilliM"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "module length"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Length of the module in the longest dimension."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: mm"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/moduleRows",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "module rows"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Number of rows of modules on the rack."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/moduleWidth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://qudt.org/schema/qudt/applicableUnit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/MilliM"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "module width"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Width of the module orthogonal to its longest dimension."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: mm"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/mpptCount",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Inverter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "MPPT count"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Number of MPPT channels on the inverter."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/nightDisconnect",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Transformer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "night disconnect"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "True if the transformer automatically disconnects from the grid at night."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/nightTare",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://qudt.org/schema/qudt/applicableUnit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/W"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Inverter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "night tare power"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Standby power consumed by the inverter when not generating."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: W"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/nomPower",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://qudt.org/schema/qudt/applicableUnit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/W"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "nominal power"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/NameplateMaximumPower"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Module power at Standard Test Conditions (STC)."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: W"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/nomPowerAC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://qudt.org/schema/qudt/applicableUnit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/W"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Inverter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "nominal AC power"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Inverter AC output power at rating conditions."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: W"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/nomPowerDC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://qudt.org/schema/qudt/applicableUnit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/W"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Inverter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "nominal DC power"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Inverter DC input power at rating conditions."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: W"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/numCells",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "number of cells"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/CellNumber"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Total number of PV cells in the module."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/numCellsLength",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "number of cells in length"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Number of cells arranged along the length dimension."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/numCellsSeries",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cells in series per string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/CellNumberPerString"
+  }, {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/NumberOfCellsPerString"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Number of series-connected cells in a single internal string."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/numCellsWidth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "number of cells in width"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Number of cells arranged along the width dimension."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/numConductors",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Cable"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "number of conductors"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Number of electrical conductors in the cable."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/numStrings",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "number of internal strings"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/ModuleParallelStringsNumber"
+  }, {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/NumberStrings"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Number of parallel internal cell strings within the module."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/positionInString",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleLayout"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "position in string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Sequential index of this module within its series string (1-based)."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/postDepth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Post"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "post underground depth"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Nominal depth of the post driven underground."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/postDiameter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Post"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "post diameter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Diameter of the post cross-section."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/postLength",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Post"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "post total length"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Total length of the post including the underground portion."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/productName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "product name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Model name of the product (e.g., 'Q.Tron Classic 440W')."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/projectName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "project name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Name of the PV project."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/rackColumn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleLayout"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "rack column"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Column index of the module slot on the physical rack."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/rackOffset",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "rack offset"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Distance from the rack surface to the tracker torque tube centre."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/rackRow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleLayout"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "rack row"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Row index of the module slot on the physical rack."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/referencesACCombinerProduct",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ACCombinerInstance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "references AC combiner product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ACCombiner"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Links a circuit AC combiner instance to its product specification."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/referencesCableProduct",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/CableTo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "references cable product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Cable"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Links a CableTo connection to the cable product it uses."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/referencesDCCombinerProduct",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/DCCombinerInstance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "references DC combiner product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/DCCombiner"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Links a circuit DC combiner instance to its product specification."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/referencesInverterProduct",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/InverterInstance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "references inverter product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Inverter"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Links a circuit inverter instance to its product specification."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/referencesModule",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "references module"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Links a rack to the module product specification it holds, via the module_id IDREF in the PV-Collada schema."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/referencesOptimizerProduct",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/OptimizerInstance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "references optimizer product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Optimizer"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Links a circuit optimizer instance to its product specification."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/referencesRack",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/ModuleLayout"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "references rack"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Cross-domain bridge property: links a circuit ModuleLayout to the physical rack instance (via instance_rack_ref) that holds the module."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "This is the critical join between circuit topology and physical layout."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/referencesTransformerProduct",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/TransformerInstance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "references transformer product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Transformer"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Links a circuit transformer instance to its product specification."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/resistance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Cable"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "resistance per unit length"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "DC electrical resistance per kilometre of cable."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: Ω/km"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/rigid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Gap"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "rigid"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "True if the gap is rigid; false if it allows torque tube flexion."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/rowSpacing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "row spacing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Spacing between modules in the row direction on a rack."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/selfConsumption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://qudt.org/schema/qudt/applicableUnit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/W"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Inverter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "self consumption"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Power consumed by the inverter during normal operation."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: W"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/slope",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "rack slope"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Slope of a fixed rack in the direction 90° counterclockwise from azimuth."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: °"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/stringCount",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "string count"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Total number of series-connected module strings."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/systemCapacityAC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://qudt.org/schema/qudt/applicableUnit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/W"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "system AC capacity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Total AC capacity at the inverter rating condition."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: W"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/systemCapacityDC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://qudt.org/schema/qudt/applicableUnit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/W"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "system DC capacity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Total DC nameplate capacity of the PV system at STC."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: W"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/tCoefIsc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "temperature coefficient of short-circuit current"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/ModuleTemperatureCoefficientCurrent"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Change in short-circuit current per degree Celsius."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: A/°C"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/tCoefPower",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "temperature coefficient of power"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/ModuleTemperatureCoefficientPower"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Change in maximum power per degree Celsius."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: %/°C"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/tCoefVoc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "temperature coefficient of open-circuit voltage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/ModuleTemperatureCoefficientVoltage"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Change in open-circuit voltage per degree Celsius."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: V/°C"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/tableCount",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "table count"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Total number of tables in the physical layout."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/tilt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "rack tilt"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Tilt angle from horizontal of a fixed rack."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: °; applies to FixedTiltRack only."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/timezone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "timezone"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "IANA timezone string for the project location (e.g., 'America/Phoenix')."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/timezoneOffset",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "timezone offset"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "UTC offset in hours; positive values are East of UTC."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: h"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/trackerAzimuth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "tracker azimuth"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Azimuth of a tracker torque tube. Rotation is a right-hand rotation around this axis; e.g., positive rotation at azimuth 180° is westward."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: °; applies to TrackerRack only."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/trackerHeight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "tracker height"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Height of the tracker torque tube centre above ground."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/trackerMaxGapAngle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Table"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "maximum gap angle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Maximum angle formed in the torque axis at a gap between racks."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: °"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/trackerMaxRotation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Table"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "tracker maximum rotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Pair of values (negative, positive) giving the nominal maximum rotation angles from horizontal for a single-axis tracker, e.g., '-45 45'."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: °; encoded as two space-separated floats."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/trackerSlope",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Rack"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "tracker slope"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Slope of a tracker torque tube in the direction of its azimuth."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: °"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/trackerTorqueTubeDiameter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Table"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "torque tube diameter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Nominal diameter of the single-axis tracker torque tube."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/triangleCount",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Terrain"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "triangle count"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Number of triangular faces in the terrain surface mesh."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/vIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://qudt.org/schema/qudt/applicableUnit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/V"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Transformer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "nominal input voltage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Nominal AC input voltage of the transformer."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: V"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/vMpp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://qudt.org/schema/qudt/applicableUnit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/V"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "voltage at maximum power point at STC"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/VoltageAtMaximumPower"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Module voltage at the maximum power point under STC."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: V"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/vMppMax",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://qudt.org/schema/qudt/applicableUnit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/V"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "maximum MPPT voltage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Maximum DC voltage for MPPT tracking."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: V"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/vMppMin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://qudt.org/schema/qudt/applicableUnit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/V"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "minimum MPPT voltage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Minimum DC voltage for MPPT tracking."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: V"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/vMppNom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://qudt.org/schema/qudt/applicableUnit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/V"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "nominal MPPT voltage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Nominal DC voltage for MPPT tracking."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: V"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/vOc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://qudt.org/schema/qudt/applicableUnit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/V"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Module"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "open-circuit voltage at STC"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/NameplateOpenCircuitVoltage"
+  }, {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/OpenCircuitVoltage"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Module open-circuit voltage at Standard Test Conditions."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: V"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/vOut",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://qudt.org/schema/qudt/applicableUnit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/V"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Transformer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "nominal output voltage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Nominal AC output voltage of the transformer."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: V"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/vOutAC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://qudt.org/schema/qudt/applicableUnit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/V"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Inverter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "nominal AC output voltage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Nominal AC output voltage of the inverter."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "Unit: V"
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/vertexCount",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://cwrusdle.bitbucket.io/mds/builtenv/pvcollada/Terrain"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "vertex count"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Number of vertices in the triangulated terrain surface mesh."
+  } ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/hasDomain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/hasStudyStage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://cwrusdle.bitbucket.io/mds/hasSubDomain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]
