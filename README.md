@@ -1,10 +1,10 @@
 # PV-Collada Ontology (`pvcollada_onto.ttl`)
 
 <p align="center">
-  <a href="https://w3id.org/pvcollada/webvowl">
+  <a href="https://thealgodev.github.io/pvcollada-onto/webvowl/index.html">
     <img src="https://img.shields.io/badge/Visualize-WebVOWL-blue?style=flat-square" alt="WebVOWL" />
   </a>
-  <a href="https://w3id.org/pvcollada">
+  <a href="https://thealgodev.github.io/pvcollada-onto/">
     <img src="https://img.shields.io/badge/Docs-WIDOCO-green?style=flat-square" alt="WIDOCO Docs" />
   </a>
   <a href="https://creativecommons.org/licenses/by-sa/4.0/">
@@ -32,13 +32,14 @@ The PV-Collada Ontology is an OWL 2 vocabulary designed to formalize the represe
 
 | Resource | Link |
 |---|---|
-| **Interactive graph (WebVOWL)** | [https://w3id.org/pvcollada/webvowl](https://w3id.org/pvcollada/webvowl) |
-| **Full HTML documentation** | [https://w3id.org/pvcollada](https://w3id.org/pvcollada) |
-| **Provenance** | [https://w3id.org/pvcollada/provenance](https://w3id.org/pvcollada/provenance) |
-| **OOPS! evaluation** | [https://w3id.org/pvcollada/oops](https://w3id.org/pvcollada/oops) |
+| **Interactive graph (WebVOWL)** | [View in WebVOWL](https://thealgodev.github.io/pvcollada-onto/webvowl/index.html) |
+| **Full HTML documentation** | [WIDOCO docs](https://thealgodev.github.io/pvcollada-onto/) |
+| **Provenance** | [provenance-en.html](https://thealgodev.github.io/pvcollada-onto/provenance/provenance-en.html) |
+| **OOPS! evaluation** | [oopsEval.html](https://thealgodev.github.io/pvcollada-onto/OOPSevaluation/oopsEval.html) |
+| **Persistent IRI** | [https://w3id.org/pvcollada](https://w3id.org/pvcollada) |
 | **Raw Turtle** | [pvcollada_onto.ttl](ontology/pvcollada_onto.ttl) |
 
-> All `https://w3id.org/pvcollada/` IRIs are content-negotiated: RDF clients receive the Turtle file directly; browsers are redirected to the documentation.
+> The persistent IRI `https://w3id.org/pvcollada` is content-negotiated: RDF clients receive the Turtle file directly; browsers are redirected to the documentation.
 
 ## Repository Structure
 
