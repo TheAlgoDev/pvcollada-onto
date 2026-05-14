@@ -45,7 +45,7 @@
     "id" : "40",
     "type" : "owl:Class"
   }, {
-    "id" : "14",
+    "id" : "11",
     "type" : "owl:Class"
   }, {
     "id" : "68",
@@ -60,7 +60,7 @@
     "id" : "47",
     "type" : "owl:Class"
   }, {
-    "id" : "11",
+    "id" : "8",
     "type" : "owl:Class"
   }, {
     "id" : "25",
@@ -90,7 +90,7 @@
     "id" : "21",
     "type" : "owl:Class"
   }, {
-    "id" : "15",
+    "id" : "12",
     "type" : "owl:Class"
   }, {
     "id" : "161",
@@ -99,7 +99,7 @@
     "id" : "39",
     "type" : "owl:Class"
   }, {
-    "id" : "8",
+    "id" : "5",
     "type" : "owl:Class"
   }, {
     "id" : "195",
@@ -108,7 +108,7 @@
     "id" : "121",
     "type" : "owl:Class"
   }, {
-    "id" : "6",
+    "id" : "14",
     "type" : "owl:Class"
   }, {
     "id" : "67",
@@ -180,7 +180,7 @@
     "id" : "109",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "96",
+    "id" : "94",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "140",
@@ -213,7 +213,7 @@
     "id" : "29",
     "type" : "owl:Class"
   }, {
-    "id" : "177",
+    "id" : "179",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "231",
@@ -291,10 +291,10 @@
     "id" : "254",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "7",
+    "id" : "15",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "155",
+    "id" : "153",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "74",
@@ -312,7 +312,7 @@
     "id" : "98",
     "type" : "owl:Class"
   }, {
-    "id" : "13",
+    "id" : "10",
     "type" : "owl:Class"
   }, {
     "id" : "119",
@@ -345,10 +345,10 @@
     "id" : "264",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "10",
+    "id" : "7",
     "type" : "owl:Class"
   }, {
-    "id" : "12",
+    "id" : "9",
     "type" : "owl:Class"
   }, {
     "id" : "199",
@@ -387,13 +387,13 @@
     "id" : "84",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "94",
+    "id" : "96",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "285",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "179",
+    "id" : "177",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "266",
@@ -405,7 +405,7 @@
     "id" : "81",
     "type" : "owl:Class"
   }, {
-    "id" : "9",
+    "id" : "6",
     "type" : "owl:Class"
   }, {
     "id" : "55",
@@ -429,7 +429,7 @@
     "id" : "104",
     "type" : "owl:Thing"
   }, {
-    "id" : "153",
+    "id" : "155",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "126",
@@ -484,7 +484,7 @@
       "IRI-based" : "PVComponent",
       "en" : "PV Component"
     },
-    "subClasses" : [ "8", "9", "10", "11", "12", "13", "14", "15" ],
+    "subClasses" : [ "5", "6", "7", "8", "9", "10", "11", "12" ],
     "id" : "1",
     "superClasses" : [ "2" ]
   }, {
@@ -492,16 +492,16 @@
     "baseIri" : "https://w3id.org/pvcollada",
     "instances" : 0,
     "annotations" : {
-      "hasDomain" : [ {
-        "identifier" : "hasDomain",
-        "language" : "undefined",
-        "value" : "builtenv",
-        "type" : "label"
-      } ],
       "definition" : [ {
         "identifier" : "definition",
         "language" : "en",
         "value" : "Enumeration of absorber semiconductor materials used in PV cells.",
+        "type" : "label"
+      } ],
+      "hasDomain" : [ {
+        "identifier" : "hasDomain",
+        "language" : "undefined",
+        "value" : "builtenv",
         "type" : "label"
       } ],
       "hasStudyStage" : [ {
@@ -589,16 +589,16 @@
     "baseIri" : "https://w3id.org/pvcollada",
     "instances" : 0,
     "annotations" : {
-      "definition" : [ {
-        "identifier" : "definition",
-        "language" : "en",
-        "value" : "Enumeration of gap categories between racks on a tracker torque tube.",
-        "type" : "label"
-      } ],
       "hasDomain" : [ {
         "identifier" : "hasDomain",
         "language" : "undefined",
         "value" : "builtenv",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Enumeration of gap categories between racks on a tracker torque tube.",
         "type" : "label"
       } ],
       "hasSubDomain" : [ {
@@ -685,7 +685,7 @@
       "IRI-based" : "ACCombiner",
       "en" : "AC Combiner Product"
     },
-    "id" : "14",
+    "id" : "11",
     "superClasses" : [ "1" ]
   }, {
     "iri" : "https://w3id.org/pvcollada/TrackerRack",
@@ -716,7 +716,7 @@
       "en" : "Tracker Rack"
     },
     "id" : "68",
-    "superClasses" : [ "6" ]
+    "superClasses" : [ "14" ]
   }, {
     "iri" : "https://w3id.org/pvcollada/DriveType",
     "baseIri" : "https://w3id.org/pvcollada",
@@ -783,16 +783,16 @@
     "baseIri" : "https://w3id.org/pvcollada",
     "instances" : 0,
     "annotations" : {
-      "definition" : [ {
-        "identifier" : "definition",
-        "language" : "en",
-        "value" : "The complete electrical circuit description of a PV system, rooted at a single circuit_root element that is a transformer, AC combiner, or inverter.",
-        "type" : "label"
-      } ],
       "hasDomain" : [ {
         "identifier" : "hasDomain",
         "language" : "undefined",
         "value" : "builtenv",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The complete electrical circuit description of a PV system, rooted at a single circuit_root element that is a transformer, AC combiner, or inverter.",
         "type" : "label"
       } ],
       "hasStudyStage" : [ {
@@ -819,16 +819,16 @@
     "baseIri" : "https://w3id.org/pvcollada",
     "instances" : 0,
     "annotations" : {
-      "hasDomain" : [ {
-        "identifier" : "hasDomain",
-        "language" : "undefined",
-        "value" : "builtenv",
-        "type" : "label"
-      } ],
       "definition" : [ {
         "identifier" : "definition",
         "language" : "en",
         "value" : "Enumeration of PV module form-factor types.",
+        "type" : "label"
+      } ],
+      "hasDomain" : [ {
+        "identifier" : "hasDomain",
+        "language" : "undefined",
+        "value" : "builtenv",
         "type" : "label"
       } ],
       "hasSubDomain" : [ {
@@ -945,7 +945,7 @@
       "IRI-based" : "DCCombiner",
       "en" : "DC Combiner Product"
     },
-    "id" : "11",
+    "id" : "8",
     "superClasses" : [ "1" ]
   }, {
     "iri" : "https://w3id.org/pvcollada/PowerType",
@@ -1135,16 +1135,16 @@
     "baseIri" : "https://w3id.org/pvcollada",
     "instances" : 0,
     "annotations" : {
-      "definition" : [ {
-        "identifier" : "definition",
-        "language" : "en",
-        "value" : "An instance of an inverter in the electrical circuit, referencing a product inverter specification and containing MPPT inputs.",
-        "type" : "label"
-      } ],
       "hasDomain" : [ {
         "identifier" : "hasDomain",
         "language" : "undefined",
         "value" : "builtenv",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "An instance of an inverter in the electrical circuit, referencing a product inverter specification and containing MPPT inputs.",
         "type" : "label"
       } ],
       "hasStudyStage" : [ {
@@ -1209,7 +1209,7 @@
     "label" : {
       "IRI-based" : "Inverter"
     },
-    "subClasses" : [ "10" ],
+    "subClasses" : [ "7" ],
     "attributes" : [ "external" ],
     "id" : "130"
   }, {
@@ -1217,16 +1217,16 @@
     "baseIri" : "https://w3id.org/pvcollada",
     "instances" : 0,
     "annotations" : {
-      "definition" : [ {
-        "identifier" : "definition",
-        "language" : "en",
-        "value" : "Enumeration of table mounting types.",
-        "type" : "label"
-      } ],
       "hasDomain" : [ {
         "identifier" : "hasDomain",
         "language" : "undefined",
         "value" : "builtenv",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Enumeration of table mounting types.",
         "type" : "label"
       } ],
       "hasSubDomain" : [ {
@@ -1288,16 +1288,16 @@
     "baseIri" : "https://w3id.org/pvcollada",
     "instances" : 0,
     "annotations" : {
-      "definition" : [ {
-        "identifier" : "definition",
-        "language" : "en",
-        "value" : "Enumeration of solar tracker axis configurations.",
-        "type" : "label"
-      } ],
       "hasDomain" : [ {
         "identifier" : "hasDomain",
         "language" : "undefined",
         "value" : "builtenv",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Enumeration of solar tracker axis configurations.",
         "type" : "label"
       } ],
       "hasSubDomain" : [ {
@@ -1367,16 +1367,16 @@
         "value" : "Characterization",
         "type" : "label"
       } ],
-      "hasSubDomain" : [ {
-        "identifier" : "hasSubDomain",
-        "language" : "undefined",
-        "value" : "pvcollada",
-        "type" : "label"
-      } ],
       "scopeNote" : [ {
         "identifier" : "scopeNote",
         "language" : "en",
         "value" : "Corresponds to transformer_type_object.",
+        "type" : "label"
+      } ],
+      "hasSubDomain" : [ {
+        "identifier" : "hasSubDomain",
+        "language" : "undefined",
+        "value" : "pvcollada",
         "type" : "label"
       } ]
     },
@@ -1384,7 +1384,7 @@
       "IRI-based" : "Transformer",
       "en" : "Transformer Product"
     },
-    "id" : "15",
+    "id" : "12",
     "superClasses" : [ "1" ]
   }, {
     "iri" : "https://w3id.org/pvcollada/ModuleOrientation",
@@ -1452,16 +1452,16 @@
     "baseIri" : "https://w3id.org/pvcollada",
     "instances" : 0,
     "annotations" : {
-      "hasDomain" : [ {
-        "identifier" : "hasDomain",
-        "language" : "undefined",
-        "value" : "builtenv",
-        "type" : "label"
-      } ],
       "definition" : [ {
         "identifier" : "definition",
         "language" : "en",
         "value" : "Enumeration of PV inverter deployment topologies.",
+        "type" : "label"
+      } ],
+      "hasDomain" : [ {
+        "identifier" : "hasDomain",
+        "language" : "undefined",
+        "value" : "builtenv",
         "type" : "label"
       } ],
       "hasSubDomain" : [ {
@@ -1520,16 +1520,16 @@
     "baseIri" : "https://w3id.org/pvcollada",
     "instances" : 0,
     "annotations" : {
-      "definition" : [ {
-        "identifier" : "definition",
-        "language" : "en",
-        "value" : "Product-level specification for a single maximum-power-point-tracking channel on an inverter, recording the number of parallel input strings.",
-        "type" : "label"
-      } ],
       "hasDomain" : [ {
         "identifier" : "hasDomain",
         "language" : "undefined",
         "value" : "builtenv",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Product-level specification for a single maximum-power-point-tracking channel on an inverter, recording the number of parallel input strings.",
         "type" : "label"
       } ],
       "hasStudyStage" : [ {
@@ -1538,16 +1538,16 @@
         "value" : "Characterization",
         "type" : "label"
       } ],
-      "scopeNote" : [ {
-        "identifier" : "scopeNote",
-        "language" : "en",
-        "value" : "Corresponds to mppt_type_object.",
-        "type" : "label"
-      } ],
       "hasSubDomain" : [ {
         "identifier" : "hasSubDomain",
         "language" : "undefined",
         "value" : "pvcollada",
+        "type" : "label"
+      } ],
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "Corresponds to mppt_type_object.",
         "type" : "label"
       } ]
     },
@@ -1555,23 +1555,23 @@
       "IRI-based" : "MPPTUnit",
       "en" : "MPPT Unit Product"
     },
-    "id" : "8",
+    "id" : "5",
     "superClasses" : [ "1" ]
   }, {
     "iri" : "https://w3id.org/pvcollada/PostType",
     "baseIri" : "https://w3id.org/pvcollada",
     "instances" : 0,
     "annotations" : {
-      "definition" : [ {
-        "identifier" : "definition",
-        "language" : "en",
-        "value" : "Enumeration of structural post functions.",
-        "type" : "label"
-      } ],
       "hasDomain" : [ {
         "identifier" : "hasDomain",
         "language" : "undefined",
         "value" : "builtenv",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Enumeration of structural post functions.",
         "type" : "label"
       } ],
       "hasSubDomain" : [ {
@@ -1717,16 +1717,16 @@
         "value" : "Simulation",
         "type" : "label"
       } ],
-      "scopeNote" : [ {
-        "identifier" : "scopeNote",
-        "language" : "en",
-        "value" : "Declared as a subclass of mds:Racking. Business rule (Schematron): if rack_type = fixed_tilt then azimuth and tilt are required and tracker fields are forbidden; if rack_type = tracker then tracker_azimuth is required and fixed-tilt fields are forbidden. See pvc:FixedTiltRack and pvc:TrackerRack subclasses.",
-        "type" : "label"
-      } ],
       "hasSubDomain" : [ {
         "identifier" : "hasSubDomain",
         "language" : "undefined",
         "value" : "pvcollada",
+        "type" : "label"
+      } ],
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "Declared as a subclass of mds:Racking. Business rule (Schematron): if rack_type = fixed_tilt then azimuth and tilt are required and tracker fields are forbidden; if rack_type = tracker then tracker_azimuth is required and fixed-tilt fields are forbidden. See pvc:FixedTiltRack and pvc:TrackerRack subclasses.",
         "type" : "label"
       } ]
     },
@@ -1735,7 +1735,7 @@
       "en" : "PV Rack"
     },
     "subClasses" : [ "199", "68" ],
-    "id" : "6",
+    "id" : "14",
     "superClasses" : [ "167", "140" ]
   }, {
     "iri" : "https://w3id.org/pvcollada/OptimizerArray",
@@ -1903,16 +1903,16 @@
     "baseIri" : "https://w3id.org/pvcollada",
     "instances" : 0,
     "annotations" : {
-      "hasDomain" : [ {
-        "identifier" : "hasDomain",
-        "language" : "undefined",
-        "value" : "builtenv",
-        "type" : "label"
-      } ],
       "definition" : [ {
         "identifier" : "definition",
         "language" : "en",
         "value" : "Enumeration of cross-sectional shapes for a single-axis tracker torque tube.",
+        "type" : "label"
+      } ],
+      "hasDomain" : [ {
+        "identifier" : "hasDomain",
+        "language" : "undefined",
+        "value" : "builtenv",
         "type" : "label"
       } ],
       "hasSubDomain" : [ {
@@ -2071,16 +2071,16 @@
     "baseIri" : "https://w3id.org/pvcollada",
     "instances" : 0,
     "annotations" : {
-      "hasDomain" : [ {
-        "identifier" : "hasDomain",
-        "language" : "undefined",
-        "value" : "builtenv",
-        "type" : "label"
-      } ],
       "definition" : [ {
         "identifier" : "definition",
         "language" : "en",
         "value" : "Enumeration of structural post cross-section shapes.",
+        "type" : "label"
+      } ],
+      "hasDomain" : [ {
+        "identifier" : "hasDomain",
+        "language" : "undefined",
+        "value" : "builtenv",
         "type" : "label"
       } ],
       "hasSubDomain" : [ {
@@ -2147,16 +2147,16 @@
     "baseIri" : "https://w3id.org/pvcollada",
     "instances" : 0,
     "annotations" : {
-      "definition" : [ {
-        "identifier" : "definition",
-        "language" : "en",
-        "value" : "Abstract root class for all entities described in the PV-Collada schema.",
-        "type" : "label"
-      } ],
       "hasDomain" : [ {
         "identifier" : "hasDomain",
         "language" : "undefined",
         "value" : "builtenv",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Abstract root class for all entities described in the PV-Collada schema.",
         "type" : "label"
       } ],
       "hasSubDomain" : [ {
@@ -2179,7 +2179,7 @@
     "label" : {
       "IRI-based" : "Racking"
     },
-    "subClasses" : [ "6" ],
+    "subClasses" : [ "14" ],
     "attributes" : [ "external" ],
     "id" : "167"
   }, {
@@ -2213,7 +2213,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#float",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "96",
+    "id" : "94",
     "label" : {
       "IRI-based" : "float"
     }
@@ -2251,7 +2251,7 @@
       "IRI-based" : "PhysicalAsset",
       "en" : "Physical Asset"
     },
-    "subClasses" : [ "29", "98", "77", "70", "35", "6" ],
+    "subClasses" : [ "29", "98", "77", "70", "35", "14" ],
     "id" : "140",
     "superClasses" : [ "2" ]
   }, {
@@ -2276,12 +2276,12 @@
       "closeMatch" : [ {
         "identifier" : "closeMatch",
         "language" : "undefined",
-        "value" : "https://cwrusdle.bitbucket.io/mds/CellTechnology",
+        "value" : "https://cwrusdle.bitbucket.io/mds/CellTechnologyType",
         "type" : "iri"
       }, {
         "identifier" : "closeMatch",
         "language" : "undefined",
-        "value" : "https://cwrusdle.bitbucket.io/mds/CellTechnologyType",
+        "value" : "https://cwrusdle.bitbucket.io/mds/CellTechnology",
         "type" : "iri"
       } ],
       "definition" : [ {
@@ -2513,7 +2513,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#integer",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "177",
+    "id" : "179",
     "label" : {
       "IRI-based" : "integer"
     }
@@ -2529,16 +2529,16 @@
     "baseIri" : "https://w3id.org/pvcollada",
     "instances" : 0,
     "annotations" : {
-      "hasDomain" : [ {
-        "identifier" : "hasDomain",
-        "language" : "undefined",
-        "value" : "builtenv",
-        "type" : "label"
-      } ],
       "definition" : [ {
         "identifier" : "definition",
         "language" : "en",
         "value" : "A single MPPT channel instance within an inverter circuit instance, containing one or more strings or DC combiners.",
+        "type" : "label"
+      } ],
+      "hasDomain" : [ {
+        "identifier" : "hasDomain",
+        "language" : "undefined",
+        "value" : "builtenv",
         "type" : "label"
       } ],
       "hasStudyStage" : [ {
@@ -2637,16 +2637,16 @@
     "baseIri" : "https://w3id.org/pvcollada",
     "instances" : 0,
     "annotations" : {
-      "definition" : [ {
-        "identifier" : "definition",
-        "language" : "en",
-        "value" : "An ordered collection of modules within a string, each described by a ModuleLayout that maps a circuit position to a physical rack cell.",
-        "type" : "label"
-      } ],
       "hasDomain" : [ {
         "identifier" : "hasDomain",
         "language" : "undefined",
         "value" : "builtenv",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "An ordered collection of modules within a string, each described by a ModuleLayout that maps a circuit position to a physical rack cell.",
         "type" : "label"
       } ],
       "hasStudyStage" : [ {
@@ -2846,14 +2846,14 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#float",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "7",
+    "id" : "15",
     "label" : {
       "IRI-based" : "float"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "155",
+    "id" : "153",
     "label" : {
       "IRI-based" : "string"
     }
@@ -2955,16 +2955,16 @@
     "baseIri" : "https://w3id.org/pvcollada",
     "instances" : 0,
     "annotations" : {
-      "definition" : [ {
-        "identifier" : "definition",
-        "language" : "en",
-        "value" : "Product-level specification for a PV module, capturing its physical dimensions, electrical parameters at STC, and cell technology.",
-        "type" : "label"
-      } ],
       "hasDomain" : [ {
         "identifier" : "hasDomain",
         "language" : "undefined",
         "value" : "builtenv",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Product-level specification for a PV module, capturing its physical dimensions, electrical parameters at STC, and cell technology.",
         "type" : "label"
       } ],
       "hasStudyStage" : [ {
@@ -2973,16 +2973,16 @@
         "value" : "Characterization",
         "type" : "label"
       } ],
-      "scopeNote" : [ {
-        "identifier" : "scopeNote",
-        "language" : "en",
-        "value" : "Corresponds to module_type_object in pvcollada_schema_2.0.xsd. Declared as a subclass of mds:PhotovoltaicModule to align with the MDS-Onto builtenv PV-module hierarchy.",
-        "type" : "label"
-      } ],
       "hasSubDomain" : [ {
         "identifier" : "hasSubDomain",
         "language" : "undefined",
         "value" : "pvcollada",
+        "type" : "label"
+      } ],
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "Corresponds to module_type_object in pvcollada_schema_2.0.xsd. Declared as a subclass of mds:PhotovoltaicModule to align with the MDS-Onto builtenv PV-module hierarchy.",
         "type" : "label"
       } ]
     },
@@ -2990,7 +2990,7 @@
       "IRI-based" : "Module",
       "en" : "PV Module Product"
     },
-    "id" : "13",
+    "id" : "10",
     "superClasses" : [ "1", "145" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#float",
@@ -3067,16 +3067,16 @@
     "baseIri" : "https://w3id.org/pvcollada",
     "instances" : 0,
     "annotations" : {
-      "hasDomain" : [ {
-        "identifier" : "hasDomain",
-        "language" : "undefined",
-        "value" : "builtenv",
-        "type" : "label"
-      } ],
       "definition" : [ {
         "identifier" : "definition",
         "language" : "en",
         "value" : "Product-level specification for a PV inverter, capturing its AC/DC power ratings, MPPT voltage window, efficiency, and parasitic consumption.",
+        "type" : "label"
+      } ],
+      "hasDomain" : [ {
+        "identifier" : "hasDomain",
+        "language" : "undefined",
+        "value" : "builtenv",
         "type" : "label"
       } ],
       "hasStudyStage" : [ {
@@ -3102,7 +3102,7 @@
       "IRI-based" : "Inverter",
       "en" : "PV Inverter Product"
     },
-    "id" : "10",
+    "id" : "7",
     "superClasses" : [ "1", "130" ]
   }, {
     "iri" : "https://w3id.org/pvcollada/Optimizer",
@@ -3127,16 +3127,16 @@
         "value" : "Characterization",
         "type" : "label"
       } ],
-      "scopeNote" : [ {
-        "identifier" : "scopeNote",
-        "language" : "en",
-        "value" : "Corresponds to optimizer_type_object.",
-        "type" : "label"
-      } ],
       "hasSubDomain" : [ {
         "identifier" : "hasSubDomain",
         "language" : "undefined",
         "value" : "pvcollada",
+        "type" : "label"
+      } ],
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "Corresponds to optimizer_type_object.",
         "type" : "label"
       } ]
     },
@@ -3144,23 +3144,23 @@
       "IRI-based" : "Optimizer",
       "en" : "Power Optimizer Product"
     },
-    "id" : "12",
+    "id" : "9",
     "superClasses" : [ "1" ]
   }, {
     "iri" : "https://w3id.org/pvcollada/FixedTiltRack",
     "baseIri" : "https://w3id.org/pvcollada",
     "instances" : 0,
     "annotations" : {
-      "definition" : [ {
-        "identifier" : "definition",
-        "language" : "en",
-        "value" : "A rack mounted at a fixed tilt angle; requires azimuth and tilt, and must not carry tracker geometry fields.",
-        "type" : "label"
-      } ],
       "hasDomain" : [ {
         "identifier" : "hasDomain",
         "language" : "undefined",
         "value" : "builtenv",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A rack mounted at a fixed tilt angle; requires azimuth and tilt, and must not carry tracker geometry fields.",
         "type" : "label"
       } ],
       "hasSubDomain" : [ {
@@ -3175,7 +3175,7 @@
       "en" : "Fixed Tilt Rack"
     },
     "id" : "199",
-    "superClasses" : [ "6" ]
+    "superClasses" : [ "14" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#positiveInteger",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
@@ -3232,7 +3232,7 @@
     "label" : {
       "IRI-based" : "PhotovoltaicModule"
     },
-    "subClasses" : [ "13" ],
+    "subClasses" : [ "10" ],
     "attributes" : [ "external" ],
     "id" : "145"
   }, {
@@ -3259,7 +3259,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#float",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "94",
+    "id" : "96",
     "label" : {
       "IRI-based" : "float"
     }
@@ -3273,7 +3273,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "179",
+    "id" : "177",
     "label" : {
       "IRI-based" : "string"
     }
@@ -3296,16 +3296,16 @@
     "baseIri" : "https://w3id.org/pvcollada",
     "instances" : 0,
     "annotations" : {
-      "hasDomain" : [ {
-        "identifier" : "hasDomain",
-        "language" : "undefined",
-        "value" : "builtenv",
-        "type" : "label"
-      } ],
       "definition" : [ {
         "identifier" : "definition",
         "language" : "en",
         "value" : "An instance of a DC combiner box in the electrical circuit.",
+        "type" : "label"
+      } ],
+      "hasDomain" : [ {
+        "identifier" : "hasDomain",
+        "language" : "undefined",
+        "value" : "builtenv",
         "type" : "label"
       } ],
       "hasStudyStage" : [ {
@@ -3332,16 +3332,16 @@
     "baseIri" : "https://w3id.org/pvcollada",
     "instances" : 0,
     "annotations" : {
-      "hasDomain" : [ {
-        "identifier" : "hasDomain",
-        "language" : "undefined",
-        "value" : "builtenv",
-        "type" : "label"
-      } ],
       "definition" : [ {
         "identifier" : "definition",
         "language" : "en",
         "value" : "Product-level specification for a PV cable, including cross-sectional area, conductor count, material, and electrical resistance.",
+        "type" : "label"
+      } ],
+      "hasDomain" : [ {
+        "identifier" : "hasDomain",
+        "language" : "undefined",
+        "value" : "builtenv",
         "type" : "label"
       } ],
       "hasStudyStage" : [ {
@@ -3350,16 +3350,16 @@
         "value" : "Characterization",
         "type" : "label"
       } ],
-      "scopeNote" : [ {
-        "identifier" : "scopeNote",
-        "language" : "en",
-        "value" : "Corresponds to cable_type_object.",
-        "type" : "label"
-      } ],
       "hasSubDomain" : [ {
         "identifier" : "hasSubDomain",
         "language" : "undefined",
         "value" : "pvcollada",
+        "type" : "label"
+      } ],
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "Corresponds to cable_type_object.",
         "type" : "label"
       } ]
     },
@@ -3367,7 +3367,7 @@
       "IRI-based" : "Cable",
       "en" : "Cable Product"
     },
-    "id" : "9",
+    "id" : "6",
     "superClasses" : [ "1" ]
   }, {
     "iri" : "https://w3id.org/pvcollada/TransformerInstance",
@@ -3410,16 +3410,16 @@
     "baseIri" : "https://w3id.org/pvcollada",
     "instances" : 0,
     "annotations" : {
-      "hasDomain" : [ {
-        "identifier" : "hasDomain",
-        "language" : "undefined",
-        "value" : "builtenv",
-        "type" : "label"
-      } ],
       "definition" : [ {
         "identifier" : "definition",
         "language" : "en",
         "value" : "An instance of an AC combiner panel in the electrical circuit.",
+        "type" : "label"
+      } ],
+      "hasDomain" : [ {
+        "identifier" : "hasDomain",
+        "language" : "undefined",
+        "value" : "builtenv",
         "type" : "label"
       } ],
       "hasStudyStage" : [ {
@@ -3479,7 +3479,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#float",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "153",
+    "id" : "155",
     "label" : {
       "IRI-based" : "float"
     }
@@ -3533,7 +3533,7 @@
     "id" : "3",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "5",
+    "id" : "13",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "16",
@@ -4050,7 +4050,7 @@
   }, {
     "iri" : "https://w3id.org/pvcollada/trackerSlope",
     "baseIri" : "https://w3id.org/pvcollada",
-    "range" : "7",
+    "range" : "15",
     "annotations" : {
       "definition" : [ {
         "identifier" : "definition",
@@ -4069,9 +4069,9 @@
       "IRI-based" : "trackerSlope",
       "en" : "tracker slope"
     },
-    "domain" : "6",
+    "domain" : "14",
     "attributes" : [ "datatype" ],
-    "id" : "5"
+    "id" : "13"
   }, {
     "range" : "2",
     "domain" : "17",
@@ -4175,7 +4175,7 @@
       "IRI-based" : "hasInverterType",
       "en" : "has inverter type"
     },
-    "domain" : "10",
+    "domain" : "7",
     "attributes" : [ "object" ],
     "id" : "38"
   }, {
@@ -4194,7 +4194,7 @@
       "IRI-based" : "bifacialFactor",
       "en" : "bifaciality factor"
     },
-    "domain" : "13",
+    "domain" : "10",
     "attributes" : [ "datatype" ],
     "id" : "41"
   }, {
@@ -4225,7 +4225,7 @@
       "IRI-based" : "moduleLength",
       "en" : "module length"
     },
-    "domain" : "13",
+    "domain" : "10",
     "attributes" : [ "datatype" ],
     "id" : "43"
   }, {
@@ -4270,7 +4270,7 @@
       "IRI-based" : "crossSection",
       "en" : "cross-section area"
     },
-    "domain" : "9",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "52"
   }, {
@@ -4310,7 +4310,7 @@
       "IRI-based" : "numCells",
       "en" : "number of cells"
     },
-    "domain" : "13",
+    "domain" : "10",
     "attributes" : [ "datatype" ],
     "id" : "59"
   }, {
@@ -4374,7 +4374,7 @@
       "IRI-based" : "impedance",
       "en" : "impedance per unit length"
     },
-    "domain" : "9",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "71"
   }, {
@@ -4448,12 +4448,12 @@
       "seeAlso" : [ {
         "identifier" : "seeAlso",
         "language" : "undefined",
-        "value" : "https://cwrusdle.bitbucket.io/mds/NumberStrings",
+        "value" : "https://cwrusdle.bitbucket.io/mds/ModuleParallelStringsNumber",
         "type" : "iri"
       }, {
         "identifier" : "seeAlso",
         "language" : "undefined",
-        "value" : "https://cwrusdle.bitbucket.io/mds/ModuleParallelStringsNumber",
+        "value" : "https://cwrusdle.bitbucket.io/mds/NumberStrings",
         "type" : "iri"
       } ]
     },
@@ -4461,7 +4461,7 @@
       "IRI-based" : "numStrings",
       "en" : "number of internal strings"
     },
-    "domain" : "13",
+    "domain" : "10",
     "attributes" : [ "datatype" ],
     "id" : "78"
   }, {
@@ -4470,7 +4470,7 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "80"
   }, {
-    "range" : "6",
+    "range" : "14",
     "domain" : "68",
     "attributes" : [ "anonymous", "object" ],
     "id" : "82"
@@ -4502,7 +4502,7 @@
       "IRI-based" : "capacityAC",
       "en" : "maximum AC capacity"
     },
-    "domain" : "10",
+    "domain" : "7",
     "attributes" : [ "datatype" ],
     "id" : "83"
   }, {
@@ -4562,13 +4562,38 @@
       "IRI-based" : "selfConsumption",
       "en" : "self consumption"
     },
-    "domain" : "10",
+    "domain" : "7",
     "attributes" : [ "datatype" ],
     "id" : "91"
   }, {
-    "iri" : "https://w3id.org/pvcollada/capacityDC",
+    "iri" : "https://w3id.org/pvcollada/efficiencyStandardValue",
     "baseIri" : "https://w3id.org/pvcollada",
     "range" : "94",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Weighted efficiency computed per the standard specified by efficiencyStandardType.",
+        "type" : "label"
+      } ],
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "Unit: %; range 0–100",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "efficiencyStandardValue",
+      "en" : "efficiency standard value"
+    },
+    "domain" : "7",
+    "attributes" : [ "datatype" ],
+    "id" : "93"
+  }, {
+    "iri" : "https://w3id.org/pvcollada/capacityDC",
+    "baseIri" : "https://w3id.org/pvcollada",
+    "range" : "96",
     "annotations" : {
       "definition" : [ {
         "identifier" : "definition",
@@ -4593,32 +4618,7 @@
       "IRI-based" : "capacityDC",
       "en" : "maximum DC capacity"
     },
-    "domain" : "10",
-    "attributes" : [ "datatype" ],
-    "id" : "93"
-  }, {
-    "iri" : "https://w3id.org/pvcollada/efficiencyStandardValue",
-    "baseIri" : "https://w3id.org/pvcollada",
-    "range" : "96",
-    "annotations" : {
-      "definition" : [ {
-        "identifier" : "definition",
-        "language" : "en",
-        "value" : "Weighted efficiency computed per the standard specified by efficiencyStandardType.",
-        "type" : "label"
-      } ],
-      "scopeNote" : [ {
-        "identifier" : "scopeNote",
-        "language" : "en",
-        "value" : "Unit: %; range 0–100",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "efficiencyStandardValue",
-      "en" : "efficiency standard value"
-    },
-    "domain" : "10",
+    "domain" : "7",
     "attributes" : [ "datatype" ],
     "id" : "95"
   }, {
@@ -4675,7 +4675,7 @@
       "IRI-based" : "numCellsWidth",
       "en" : "number of cells in width"
     },
-    "domain" : "13",
+    "domain" : "10",
     "attributes" : [ "datatype" ],
     "id" : "101"
   }, {
@@ -4719,7 +4719,7 @@
       "IRI-based" : "heightAboveGround",
       "en" : "height above ground"
     },
-    "domain" : "6",
+    "domain" : "14",
     "attributes" : [ "datatype" ],
     "id" : "106"
   }, {
@@ -4813,7 +4813,7 @@
       "IRI-based" : "nomPowerAC",
       "en" : "nominal AC power"
     },
-    "domain" : "10",
+    "domain" : "7",
     "attributes" : [ "datatype" ],
     "id" : "114"
   }, {
@@ -4851,7 +4851,7 @@
       "IRI-based" : "trackerHeight",
       "en" : "tracker height"
     },
-    "domain" : "6",
+    "domain" : "14",
     "attributes" : [ "datatype" ],
     "id" : "118"
   }, {
@@ -4870,7 +4870,7 @@
       "IRI-based" : "hasConductorMaterial",
       "en" : "has conductor material"
     },
-    "domain" : "9",
+    "domain" : "6",
     "attributes" : [ "object" ],
     "id" : "120"
   }, {
@@ -4922,21 +4922,21 @@
         "value" : "Module open-circuit voltage at Standard Test Conditions.",
         "type" : "label"
       } ],
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "https://cwrusdle.bitbucket.io/mds/NameplateOpenCircuitVoltage",
-        "type" : "iri"
-      }, {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "https://cwrusdle.bitbucket.io/mds/OpenCircuitVoltage",
-        "type" : "iri"
-      } ],
       "applicableUnit" : [ {
         "identifier" : "applicableUnit",
         "language" : "undefined",
         "value" : "http://qudt.org/vocab/unit/V",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://cwrusdle.bitbucket.io/mds/OpenCircuitVoltage",
+        "type" : "iri"
+      }, {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://cwrusdle.bitbucket.io/mds/NameplateOpenCircuitVoltage",
         "type" : "iri"
       } ],
       "scopeNote" : [ {
@@ -4950,7 +4950,7 @@
       "IRI-based" : "vOc",
       "en" : "open-circuit voltage at STC"
     },
-    "domain" : "13",
+    "domain" : "10",
     "attributes" : [ "datatype" ],
     "id" : "125"
   }, {
@@ -4976,7 +4976,7 @@
       "en" : "tracker azimuth"
     },
     "minCardinality" : "1",
-    "domain" : "6",
+    "domain" : "14",
     "attributes" : [ "datatype" ],
     "id" : "128"
   }, {
@@ -5001,7 +5001,7 @@
       "IRI-based" : "resistance",
       "en" : "resistance per unit length"
     },
-    "domain" : "9",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "131"
   }, {
@@ -5052,7 +5052,7 @@
       "en" : "rack azimuth"
     },
     "minCardinality" : "1",
-    "domain" : "6",
+    "domain" : "14",
     "attributes" : [ "datatype" ],
     "id" : "135"
   }, {
@@ -5082,7 +5082,7 @@
   }, {
     "iri" : "https://w3id.org/pvcollada/referencesRack",
     "baseIri" : "https://w3id.org/pvcollada",
-    "range" : "6",
+    "range" : "14",
     "annotations" : {
       "definition" : [ {
         "identifier" : "definition",
@@ -5111,18 +5111,18 @@
     "id" : "142"
   }, {
     "range" : "140",
-    "domain" : "6",
+    "domain" : "14",
     "attributes" : [ "anonymous", "object" ],
     "id" : "143"
   }, {
     "range" : "145",
-    "domain" : "13",
+    "domain" : "10",
     "attributes" : [ "anonymous", "object" ],
     "id" : "144"
   }, {
     "iri" : "https://w3id.org/pvcollada/hasMPPTUnit",
     "baseIri" : "https://w3id.org/pvcollada",
-    "range" : "8",
+    "range" : "5",
     "annotations" : {
       "definition" : [ {
         "identifier" : "definition",
@@ -5135,7 +5135,7 @@
       "IRI-based" : "hasMPPTUnit",
       "en" : "has MPPT unit"
     },
-    "domain" : "10",
+    "domain" : "7",
     "attributes" : [ "object" ],
     "id" : "147"
   }, {
@@ -5166,7 +5166,7 @@
       "IRI-based" : "vOutAC",
       "en" : "nominal AC output voltage"
     },
-    "domain" : "10",
+    "domain" : "7",
     "attributes" : [ "datatype" ],
     "id" : "148"
   }, {
@@ -5191,7 +5191,7 @@
   }, {
     "iri" : "https://w3id.org/pvcollada/referencesTransformerProduct",
     "baseIri" : "https://w3id.org/pvcollada",
-    "range" : "15",
+    "range" : "12",
     "annotations" : {
       "definition" : [ {
         "identifier" : "definition",
@@ -5208,9 +5208,34 @@
     "attributes" : [ "object" ],
     "id" : "151"
   }, {
-    "iri" : "https://w3id.org/pvcollada/vOut",
+    "iri" : "https://w3id.org/pvcollada/trackerMaxRotation",
     "baseIri" : "https://w3id.org/pvcollada",
     "range" : "153",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Pair of values (negative, positive) giving the nominal maximum rotation angles from horizontal for a single-axis tracker, e.g., '-45 45'.",
+        "type" : "label"
+      } ],
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "Unit: °; encoded as two space-separated floats.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "trackerMaxRotation",
+      "en" : "tracker maximum rotation"
+    },
+    "domain" : "98",
+    "attributes" : [ "datatype" ],
+    "id" : "152"
+  }, {
+    "iri" : "https://w3id.org/pvcollada/vOut",
+    "baseIri" : "https://w3id.org/pvcollada",
+    "range" : "155",
     "annotations" : {
       "definition" : [ {
         "identifier" : "definition",
@@ -5235,32 +5260,7 @@
       "IRI-based" : "vOut",
       "en" : "nominal output voltage"
     },
-    "domain" : "15",
-    "attributes" : [ "datatype" ],
-    "id" : "152"
-  }, {
-    "iri" : "https://w3id.org/pvcollada/trackerMaxRotation",
-    "baseIri" : "https://w3id.org/pvcollada",
-    "range" : "155",
-    "annotations" : {
-      "definition" : [ {
-        "identifier" : "definition",
-        "language" : "en",
-        "value" : "Pair of values (negative, positive) giving the nominal maximum rotation angles from horizontal for a single-axis tracker, e.g., '-45 45'.",
-        "type" : "label"
-      } ],
-      "scopeNote" : [ {
-        "identifier" : "scopeNote",
-        "language" : "en",
-        "value" : "Unit: °; encoded as two space-separated floats.",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "trackerMaxRotation",
-      "en" : "tracker maximum rotation"
-    },
-    "domain" : "98",
+    "domain" : "12",
     "attributes" : [ "datatype" ],
     "id" : "154"
   }, {
@@ -5335,7 +5335,7 @@
       "IRI-based" : "hasModuleType",
       "en" : "has module type"
     },
-    "domain" : "13",
+    "domain" : "10",
     "attributes" : [ "object" ],
     "id" : "160"
   }, {
@@ -5378,7 +5378,7 @@
     "id" : "164"
   }, {
     "range" : "167",
-    "domain" : "6",
+    "domain" : "14",
     "attributes" : [ "anonymous", "object" ],
     "id" : "166"
   }, {
@@ -5397,7 +5397,7 @@
       "IRI-based" : "hasRackType",
       "en" : "has rack type"
     },
-    "domain" : "6",
+    "domain" : "14",
     "attributes" : [ "object" ],
     "id" : "168"
   }, {
@@ -5438,7 +5438,7 @@
       "IRI-based" : "nightTare",
       "en" : "night tare power"
     },
-    "domain" : "10",
+    "domain" : "7",
     "attributes" : [ "datatype" ],
     "id" : "171"
   }, {
@@ -5457,28 +5457,9 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "175"
   }, {
-    "iri" : "https://w3id.org/pvcollada/rackRow",
-    "baseIri" : "https://w3id.org/pvcollada",
-    "range" : "177",
-    "annotations" : {
-      "definition" : [ {
-        "identifier" : "definition",
-        "language" : "en",
-        "value" : "Row index of the module slot on the physical rack.",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "rackRow",
-      "en" : "rack row"
-    },
-    "domain" : "86",
-    "attributes" : [ "datatype" ],
-    "id" : "176"
-  }, {
     "iri" : "https://w3id.org/pvcollada/company",
     "baseIri" : "https://w3id.org/pvcollada",
-    "range" : "179",
+    "range" : "177",
     "annotations" : {
       "definition" : [ {
         "identifier" : "definition",
@@ -5492,6 +5473,25 @@
       "en" : "company"
     },
     "domain" : "35",
+    "attributes" : [ "datatype" ],
+    "id" : "176"
+  }, {
+    "iri" : "https://w3id.org/pvcollada/rackRow",
+    "baseIri" : "https://w3id.org/pvcollada",
+    "range" : "179",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Row index of the module slot on the physical rack.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "rackRow",
+      "en" : "rack row"
+    },
+    "domain" : "86",
     "attributes" : [ "datatype" ],
     "id" : "178"
   }, {
@@ -5535,7 +5535,7 @@
       "IRI-based" : "hasEfficiencyStandardType",
       "en" : "has efficiency standard type"
     },
-    "domain" : "10",
+    "domain" : "7",
     "attributes" : [ "object" ],
     "id" : "187"
   }, {
@@ -5554,7 +5554,7 @@
       "IRI-based" : "moduleColumns",
       "en" : "module columns"
     },
-    "domain" : "6",
+    "domain" : "14",
     "attributes" : [ "datatype" ],
     "id" : "188"
   }, {
@@ -5591,7 +5591,7 @@
       "IRI-based" : "vMpp",
       "en" : "voltage at maximum power point at STC"
     },
-    "domain" : "13",
+    "domain" : "10",
     "attributes" : [ "datatype" ],
     "id" : "190"
   }, {
@@ -5678,7 +5678,7 @@
       "IRI-based" : "numCellsSeries",
       "en" : "cells in series per string"
     },
-    "domain" : "13",
+    "domain" : "10",
     "attributes" : [ "datatype" ],
     "id" : "197"
   }, {
@@ -5724,13 +5724,13 @@
       "IRI-based" : "moduleDepth",
       "en" : "module depth"
     },
-    "domain" : "13",
+    "domain" : "10",
     "attributes" : [ "datatype" ],
     "id" : "203"
   }, {
     "iri" : "https://w3id.org/pvcollada/referencesInverterProduct",
     "baseIri" : "https://w3id.org/pvcollada",
-    "range" : "10",
+    "range" : "7",
     "annotations" : {
       "definition" : [ {
         "identifier" : "definition",
@@ -5774,7 +5774,7 @@
       "IRI-based" : "moduleWidth",
       "en" : "module width"
     },
-    "domain" : "13",
+    "domain" : "10",
     "attributes" : [ "datatype" ],
     "id" : "207"
   }, {
@@ -5850,7 +5850,7 @@
       "en" : "rack tilt"
     },
     "minCardinality" : "1",
-    "domain" : "6",
+    "domain" : "14",
     "attributes" : [ "datatype" ],
     "id" : "213"
   }, {
@@ -5887,7 +5887,7 @@
       "IRI-based" : "nomPower",
       "en" : "nominal power"
     },
-    "domain" : "13",
+    "domain" : "10",
     "attributes" : [ "datatype" ],
     "id" : "215"
   }, {
@@ -5925,7 +5925,7 @@
       "IRI-based" : "hasCellArchitecture",
       "en" : "has cell architecture"
     },
-    "domain" : "13",
+    "domain" : "10",
     "attributes" : [ "object" ],
     "id" : "222"
   }, {
@@ -5962,7 +5962,7 @@
   }, {
     "iri" : "https://w3id.org/pvcollada/referencesCableProduct",
     "baseIri" : "https://w3id.org/pvcollada",
-    "range" : "9",
+    "range" : "6",
     "annotations" : {
       "definition" : [ {
         "identifier" : "definition",
@@ -6000,7 +6000,7 @@
   }, {
     "iri" : "https://w3id.org/pvcollada/referencesOptimizerProduct",
     "baseIri" : "https://w3id.org/pvcollada",
-    "range" : "12",
+    "range" : "9",
     "annotations" : {
       "definition" : [ {
         "identifier" : "definition",
@@ -6063,7 +6063,7 @@
       "IRI-based" : "moduleRows",
       "en" : "module rows"
     },
-    "domain" : "6",
+    "domain" : "14",
     "attributes" : [ "datatype" ],
     "id" : "235"
   }, {
@@ -6094,7 +6094,7 @@
       "IRI-based" : "tCoefIsc",
       "en" : "temperature coefficient of short-circuit current"
     },
-    "domain" : "13",
+    "domain" : "10",
     "attributes" : [ "datatype" ],
     "id" : "236"
   }, {
@@ -6157,7 +6157,7 @@
       "IRI-based" : "hasModuleOrientation",
       "en" : "has module orientation"
     },
-    "domain" : "6",
+    "domain" : "14",
     "attributes" : [ "object" ],
     "id" : "244"
   }, {
@@ -6171,6 +6171,12 @@
         "value" : "Module short-circuit current at Standard Test Conditions.",
         "type" : "label"
       } ],
+      "applicableUnit" : [ {
+        "identifier" : "applicableUnit",
+        "language" : "undefined",
+        "value" : "http://qudt.org/vocab/unit/A",
+        "type" : "iri"
+      } ],
       "seeAlso" : [ {
         "identifier" : "seeAlso",
         "language" : "undefined",
@@ -6180,12 +6186,6 @@
         "identifier" : "seeAlso",
         "language" : "undefined",
         "value" : "https://cwrusdle.bitbucket.io/mds/ShortCircuitCurrent",
-        "type" : "iri"
-      } ],
-      "applicableUnit" : [ {
-        "identifier" : "applicableUnit",
-        "language" : "undefined",
-        "value" : "http://qudt.org/vocab/unit/A",
         "type" : "iri"
       } ],
       "scopeNote" : [ {
@@ -6199,7 +6199,7 @@
       "IRI-based" : "iSc",
       "en" : "short-circuit current at STC"
     },
-    "domain" : "13",
+    "domain" : "10",
     "attributes" : [ "datatype" ],
     "id" : "245"
   }, {
@@ -6230,7 +6230,7 @@
       "IRI-based" : "ironLoss",
       "en" : "iron core loss"
     },
-    "domain" : "15",
+    "domain" : "12",
     "attributes" : [ "datatype" ],
     "id" : "246"
   }, {
@@ -6249,7 +6249,7 @@
       "IRI-based" : "hasCellMaterial",
       "en" : "has cell material"
     },
-    "domain" : "13",
+    "domain" : "10",
     "attributes" : [ "object" ],
     "id" : "247"
   }, {
@@ -6268,7 +6268,7 @@
       "IRI-based" : "numCellsLength",
       "en" : "number of cells in length"
     },
-    "domain" : "13",
+    "domain" : "10",
     "attributes" : [ "datatype" ],
     "id" : "248"
   }, {
@@ -6299,7 +6299,7 @@
       "IRI-based" : "iMaxDC",
       "en" : "maximum DC current"
     },
-    "domain" : "10",
+    "domain" : "7",
     "attributes" : [ "datatype" ],
     "id" : "250"
   }, {
@@ -6318,7 +6318,7 @@
       "IRI-based" : "mpptCount",
       "en" : "MPPT count"
     },
-    "domain" : "10",
+    "domain" : "7",
     "attributes" : [ "datatype" ],
     "id" : "253"
   }, {
@@ -6374,7 +6374,7 @@
       "IRI-based" : "tCoefVoc",
       "en" : "temperature coefficient of open-circuit voltage"
     },
-    "domain" : "13",
+    "domain" : "10",
     "attributes" : [ "datatype" ],
     "id" : "257"
   }, {
@@ -6443,7 +6443,7 @@
       "IRI-based" : "copperLoss",
       "en" : "winding resistance (copper loss)"
     },
-    "domain" : "15",
+    "domain" : "12",
     "attributes" : [ "datatype" ],
     "id" : "265"
   }, {
@@ -6512,7 +6512,7 @@
       "IRI-based" : "rackOffset",
       "en" : "rack offset"
     },
-    "domain" : "6",
+    "domain" : "14",
     "attributes" : [ "datatype" ],
     "id" : "269"
   }, {
@@ -6562,21 +6562,21 @@
       "IRI-based" : "rowSpacing",
       "en" : "row spacing"
     },
-    "domain" : "6",
+    "domain" : "14",
     "attributes" : [ "datatype" ],
     "id" : "274"
   }, {
     "range" : "130",
-    "domain" : "10",
+    "domain" : "7",
     "attributes" : [ "anonymous", "object" ],
     "id" : "275"
   }, {
     "range" : "1",
-    "domain" : "15",
+    "domain" : "12",
     "attributes" : [ "anonymous", "object" ],
     "id" : "276"
   }, {
-    "range" : "6",
+    "range" : "14",
     "domain" : "199",
     "attributes" : [ "anonymous", "object" ],
     "id" : "277"
@@ -6587,13 +6587,13 @@
     "id" : "278"
   }, {
     "range" : "1",
-    "domain" : "12",
+    "domain" : "9",
     "attributes" : [ "anonymous", "object" ],
     "id" : "279"
   }, {
     "iri" : "https://w3id.org/pvcollada/referencesModule",
     "baseIri" : "https://w3id.org/pvcollada",
-    "range" : "13",
+    "range" : "10",
     "annotations" : {
       "definition" : [ {
         "identifier" : "definition",
@@ -6606,7 +6606,7 @@
       "IRI-based" : "referencesModule",
       "en" : "references module"
     },
-    "domain" : "6",
+    "domain" : "14",
     "attributes" : [ "object" ],
     "id" : "280"
   }, {
@@ -6630,12 +6630,12 @@
     "id" : "281"
   }, {
     "range" : "1",
-    "domain" : "14",
+    "domain" : "11",
     "attributes" : [ "anonymous", "object" ],
     "id" : "282"
   }, {
     "range" : "1",
-    "domain" : "13",
+    "domain" : "10",
     "attributes" : [ "anonymous", "object" ],
     "id" : "283"
   }, {
@@ -6698,7 +6698,7 @@
       "IRI-based" : "slope",
       "en" : "rack slope"
     },
-    "domain" : "6",
+    "domain" : "14",
     "attributes" : [ "datatype" ],
     "id" : "287"
   }, {
@@ -6729,7 +6729,7 @@
       "IRI-based" : "nomPowerDC",
       "en" : "nominal DC power"
     },
-    "domain" : "10",
+    "domain" : "7",
     "attributes" : [ "datatype" ],
     "id" : "288"
   }, {
@@ -6748,7 +6748,7 @@
       "IRI-based" : "columnSpacing",
       "en" : "column spacing"
     },
-    "domain" : "6",
+    "domain" : "14",
     "attributes" : [ "datatype" ],
     "id" : "289"
   }, {
@@ -6767,13 +6767,13 @@
       "IRI-based" : "hasPowerType",
       "en" : "has power type"
     },
-    "domain" : "9",
+    "domain" : "6",
     "attributes" : [ "object" ],
     "id" : "290"
   }, {
     "iri" : "https://w3id.org/pvcollada/referencesDCCombinerProduct",
     "baseIri" : "https://w3id.org/pvcollada",
-    "range" : "11",
+    "range" : "8",
     "annotations" : {
       "definition" : [ {
         "identifier" : "definition",
@@ -6805,7 +6805,7 @@
       "IRI-based" : "nightDisconnect",
       "en" : "night disconnect"
     },
-    "domain" : "15",
+    "domain" : "12",
     "attributes" : [ "datatype" ],
     "id" : "292"
   }, {
@@ -6816,7 +6816,7 @@
   }, {
     "iri" : "https://w3id.org/pvcollada/referencesACCombinerProduct",
     "baseIri" : "https://w3id.org/pvcollada",
-    "range" : "14",
+    "range" : "11",
     "annotations" : {
       "definition" : [ {
         "identifier" : "definition",
@@ -6860,27 +6860,27 @@
       "IRI-based" : "vIn",
       "en" : "nominal input voltage"
     },
-    "domain" : "15",
+    "domain" : "12",
     "attributes" : [ "datatype" ],
     "id" : "295"
   }, {
     "range" : "1",
-    "domain" : "9",
+    "domain" : "6",
     "attributes" : [ "anonymous", "object" ],
     "id" : "297"
   }, {
     "range" : "1",
-    "domain" : "8",
+    "domain" : "5",
     "attributes" : [ "anonymous", "object" ],
     "id" : "298"
   }, {
     "range" : "1",
-    "domain" : "11",
+    "domain" : "8",
     "attributes" : [ "anonymous", "object" ],
     "id" : "299"
   }, {
     "range" : "1",
-    "domain" : "10",
+    "domain" : "7",
     "attributes" : [ "anonymous", "object" ],
     "id" : "300"
   }, {
@@ -6894,21 +6894,21 @@
         "value" : "Module current at the maximum power point under STC.",
         "type" : "label"
       } ],
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "https://cwrusdle.bitbucket.io/mds/CurrentAtMaximumPower",
-        "type" : "iri"
-      }, {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "https://cwrusdle.bitbucket.io/mds/NameplateCurrentAtMaximumPower",
-        "type" : "iri"
-      } ],
       "applicableUnit" : [ {
         "identifier" : "applicableUnit",
         "language" : "undefined",
         "value" : "http://qudt.org/vocab/unit/A",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://cwrusdle.bitbucket.io/mds/NameplateCurrentAtMaximumPower",
+        "type" : "iri"
+      }, {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://cwrusdle.bitbucket.io/mds/CurrentAtMaximumPower",
         "type" : "iri"
       } ],
       "scopeNote" : [ {
@@ -6922,7 +6922,7 @@
       "IRI-based" : "iMpp",
       "en" : "current at maximum power point at STC"
     },
-    "domain" : "13",
+    "domain" : "10",
     "attributes" : [ "datatype" ],
     "id" : "301"
   }, {
@@ -6960,7 +6960,7 @@
       "IRI-based" : "numConductors",
       "en" : "number of conductors"
     },
-    "domain" : "9",
+    "domain" : "6",
     "attributes" : [ "datatype" ],
     "id" : "303"
   }, {
@@ -6991,7 +6991,7 @@
       "IRI-based" : "tCoefPower",
       "en" : "temperature coefficient of power"
     },
-    "domain" : "13",
+    "domain" : "10",
     "attributes" : [ "datatype" ],
     "id" : "304"
   }, {
